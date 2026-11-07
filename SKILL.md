@@ -1,19 +1,18 @@
 ---
 name: god-tier-mini-prompts
-description: One-line "god-tier" prompt vectors for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent — for architecture, debugging, review, planning, learning, or verification — instead of a full skill. Invoke by matching the task to a prompt below, or run the meta-prompt to auto-pick.
+description: One-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent — for architecture, debugging, review, planning, learning, or verification — instead of a full skill. Invoke by matching the task to a prompt below, or run the meta-prompt to auto-pick.
 ---
 
 # God-Tier Mini Prompts
 
-Single sentences so dense each verb, noun, and adjective does work.
+A wide collection of single-sentence power prompts for coding agents —
+each one dense enough that every verb, noun, and adjective does work.
 Philosophy: **density beats length** — one loaded sentence outperforms a page
-of skill lists. Short prompts also get a fresh context window's full
+of instructions. Short prompts also get a fresh context window's full
 attention ("attention budget" — delegate real hunting to subagents).
 
-Sourced from [Bootoshi's thread](https://x.com/KingBootoshi/status/2118803776387928228)
-(Nov 2026), [Prompt Snacks](https://promptsnacks.com), and
-[Notchbird's Banger Prompts](https://notchbird.com/prompts).
-Every prompt keeps its author's credit.
+Collected from across X/Twitter, Prompt Snacks, Notchbird's Banger Prompts,
+and engineering blogs. Author handles kept as credit.
 
 ## Meta-prompt: let the agent pick
 
@@ -21,7 +20,7 @@ Paste this plus your task/idea/code, and let the model choose:
 
 ```
 Consider all the mini-prompts in this skill, pick the ones that would
-improve my idea/input/software the most, and apply them. (h/t @PyrosAI)
+improve my idea/input/software the most, and apply them.
 ```
 
 Narrow it per phase: "...pick the 3 best for *planning* / *review* /
@@ -29,10 +28,10 @@ Narrow it per phase: "...pick the 3 best for *planning* / *review* /
 
 ## Architecture & design
 
-- "Find all of the implicit state machines in my app." — @steveruizok (the
-  prompt that started the thread; full expanded version below)
+- "Find all of the implicit state machines in my app." — @steveruizok (full
+  expanded audit version below)
 - "What higher-level abstraction would make this entire problem disappear?" —
-  @Wyrmfalls (Bootoshi: "last one is a banger")
+  @Wyrmfalls
 - "Find the recurring problems, duplicated logic and hidden complexity across
   my codebase. Then identify the smallest, most powerful higher-level
   abstraction that would make entire classes of these problems disappear by
@@ -148,7 +147,7 @@ Narrow it per phase: "...pick the 3 best for *planning* / *review* /
 
 ## Expanded: implicit state machines (the full version)
 
-@AThinkingMind's expansion of @steveruizok's prompt — paste as-is for a deep
+@AThinkingMind's expansion of the one-liner — paste as-is for a deep
 audit: "You are analyzing this codebase to find all **implicit state
 machines** (behavior controlled by distinct modes/states that are NOT declared
 as an explicit state machine, statechart, reducer, or similar — instead
@@ -166,11 +165,6 @@ worth making explicit). Be precise; don't flag trivial booleans."
 
 - One-liners have a shelf life (~until the next model tier), but their
   impact grows with model power — language is core to LLM design. Recheck
-  quarterly; keep what still bites. (debate: @Mockapapella vs @KingBootoshi)
-- A "skill" is technically a saved prompt — call these whatever you want:
-  vectors, spells (@dkubb: "we need to call these one line god prompts
-  spells"), incantations (@pragmaxxer), power phrases. The collection is the
-  point, not the word.
-- `shortcut: coverage is X-thread + Prompt Snacks/Notchbird only; Bootoshi's
-  follow-up "GOD TIER ENGINEERING PROMPTS" thread and Grok-curated lists not
-  yet mined — upgrade by appending them here.`
+  quarterly; keep what still bites.
+- Call these whatever you want: vectors, spells, incantations, power phrases.
+  The collection is the point, not the word.
