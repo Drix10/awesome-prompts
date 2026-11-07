@@ -20,6 +20,8 @@ Then either browse the collection or run the meta-prompt:
 
 ## Contents
 
-`SKILL.md` holds everything: the meta-prompt, ~50 credited one-liners grouped
+`SKILL.md` holds everything: the meta-prompt, ~90 credited one-liners grouped
 by Architecture, Debugging, Planning, Learning, Verification, and Steering,
-plus the full expanded implicit-state-machine audit prompt.
+plus the full expanded implicit-state-machine audit prompt and the
+~35-prompt state-machine kit harvested reply-by-reply from the @steveruizok
+thread (replies, quotes, and the replies on the quotes).

@@ -161,6 +161,100 @@ key files). Part 2 — detailed report for the high-risk ones (effective
 states, transition logic, illegal combinations, code snippets, whether it's
 worth making explicit). Be precise; don't flag trivial booleans."
 
+## The implicit-state-machine kit (harvested from the @steveruizok thread)
+
+Origin: Steve Ruiz's ["find all of the implicit state machines in my
+app"](https://x.com/steveruizok/status/2116552016218710389) (Oct 2026) —
+136 replies, 193 quotes, mined reply-by-reply, quote-by-quote, including
+the replies on the quotes that invited them.
+
+### Core
+
+- "Find all of the implicit state machines in my app." — @steveruizok (the
+  seed; 1.4M views)
+- "Then ask it to write the transition table for each one and mark the
+  transitions that are impossible but still reachable in the code." —
+  @asmirkn
+- "Ask where two of those machines touch the same data. That's almost
+  always where the race lives." — @aloobhujiyan
+- "Which of these explain the bugs I've been calling flaky." — @Outgathr
+- "Produce a concrete event sequence for each state it finds — distinguish
+  states the code permits from states a user can actually reach." —
+  @liuzhao_666 (paraphrased)
+- "Cite the handlers and conditions behind each transition, and mark
+  proposed changes separately." — @eclarkhalid
+- "Ask the agent to visualize the state flow." — @kr4chinin
+- "Ask for their correctness to be verified in Quint." — @sjmurdoch
+- "Find all of the implicit state machines in the build and assess whether
+  they are worth fixing. Use subagents. If this search is valuable, propose
+  the best way to build it into future reviews and workflows." — @garbnzgh
+- "Ask it explicitly to frame out any element of the feature that uses state
+  and have it thoroughly document and plan in advance. Keeps the bugs from
+  ever happening in the first place." — @badbirb (prevent, don't hunt)
+- "Hand that file to a model checker. It tries every order of transitions
+  and gives you the shortest path to each invalid state." — @aloobhujiyan
+- "A failing regression test is the useful boundary between a suspected
+  bug and a fix." — @EternitiesAI (principle: verify before you fix)
+- "Put it in global rules: never create implicit state machines, make
+  state explicit when you write code." — @Pps831 (paraphrased)
+
+### Expanded audits (paste-ready)
+
+- Trevin Chow's expansion (@trevin): "Find the app's explicit and implicit
+  state machines and document their states, invariants, and transition
+  tables in one file. Identify invalid states or transitions the code can
+  actually reach, with evidence, including through retries and concurrency.
+  Prioritize confirmed bugs by impact, group related fixes into issues, then
+  fix them with regression tests and keep the document updated."
+- The full phased version (@flowforth_76's agent-built audit — discovery →
+  verification with concrete code refs and repro scenarios → remediation
+  plan, no code changes until approved → implement with regression tests and
+  update the doc; evidence over speculation throughout). Full text:
+  https://pastebin.com/dznHsaQR
+- The refactor-directive version (@carpenterdroid): "Find all implicit
+  state machines in both repositories and address every one relevant and
+  feasible at the project's current stage by eliminating unnecessary state,
+  deriving values instead of synchronizing duplicate flags, and refactoring
+  necessary stateful behaviour into discrete, explicit state machines with
+  clearly defined states, permitted transitions, and enforced invariants;
+  update affected callers and verify intended behaviour with regression
+  tests and integration checks."
+
+### Nikzad's 9 (@Nikzaaaaad) — run the base prompt, then run these
+
+- "Find every place where the screen can show something false."
+- "Find every bit of business logic sitting in UI components that belongs
+  in the domain layer."
+- "Find every place a value is stored twice and can drift apart."
+- "Find every database rule the code assumes but Postgres doesn't enforce."
+  (then add check, unique, or foreign-key constraints)
+- "Find every async action that can run twice or race."
+- "Find every error that gets swallowed silently."
+- "Find every magic number and hard-coded copy that should be a token or
+  live in config."
+- "Find every place where a type is looser than the data."
+- "Find every effect that could be an event handler or derived value."
+
+### Variants (same family, different lens)
+
+- "Find every invariant my application relies on but does not enforce." —
+  @feddiwhip
+- "Find all the implicit invariants in my app." — @bonsaielectric
+- "Find all non terminal states in my state machine as a service." —
+  @peytoncasper
+- "In [turso], 'find all of the explicit state machines' yields more
+  results." — @jussisaur (try the explicit inversion)
+- "Find all tautologies." — @twid
+- "Find all the implicit obligations in this contract." — @wahome_thuku
+  (the legal port)
+- "Find the dumb requirements." — @jimlux (from the MCAS debate: most
+  expensive bugs are requirements bugs, not code bugs)
+- "Red Team Engineer my code adversarially." — @cocobiskit
+- "Pushing determinism down." — @joshest3p (directive: push side effects
+  and nondeterminism to the edges)
+- Principle, @OldToolMan: never ask "is there any problem with X" — it
+  returns 20 meaningless edge cases. Ask narrow questions.
+
 ## Notes
 
 - One-liners have a shelf life (~until the next model tier), but their
