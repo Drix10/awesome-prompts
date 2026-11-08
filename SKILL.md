@@ -470,6 +470,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Stop hiring more interns and start writing better recipes."
 - "I trust agents a lot more on boring work where you can check the answer and on anything creative I'm still the one deciding if it goes out."
 - "So I count what I can review, not agents."
+- "Rejected angles only work if someone prunes them."
+- "Map every screen, measure how the app works, and write the spec to rebuild it as your own."
 - "Set up a system in which you do not need to read the code."
 - "Do 10 iterations of code review before you make the PR."
 - "Some code isn't meant to be read, it's meant to be verified."
