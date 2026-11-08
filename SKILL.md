@@ -221,6 +221,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Before you build, is this the best and most futureproof solution without taking any easy ways out?"
 - "What do I need to supply to you, what are you not sure about, or need to confirm, for you to proceed? List them here."
 - "Before the agent writes anything, ask it to explain its plan in 5 bullets."
+- "A useful ticket needs observable behavior, constraints, and a way to check the result."
+- "Give two agents the same ticket. If they disagree on what counts as done, edit the ticket first."
 - "Come up with a few archetypes of decisionmakers, and what would they do in this situation. I will pick which archetype I am."
 - "What is the current state vs the ideal state?"
 - "What is a better version of what I'm trying to say?"
@@ -329,6 +331,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Report the scan as: how many found, how many need a decision, how many have specific bugs, how many are sound."
 - "Order findings Confirmed, then Likely, then Smell; report how many candidates you dropped."
 - "Turn each one into an explicit status enum with an allowed-transitions table, and add a test that fails on any transition not in the table."
+- "For bug fixes, ask for one extra artifact: the new regression test failing on the old code, then passing on the fix."
 
 ### The unicorn PROVE set (run after any DISCOVER)
 
@@ -363,6 +366,13 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Simplify file to essence for me to check."
 - "Give me mock before/after for frontend changes."
 - "What is this title/body we are reviewing for? Where is it going to be used?"
+- "Rate each bug from 1 to 10 on how often it would happen and how bad it would be. If the two scores multiplied are below 5, just file it as an issue and leave the code alone."
+- "Do not design for rare or future cases nobody asked about."
+- "Narrow beats smart."
+- "Hints make it worse."
+- "Give the reviewer the original acceptance criteria before the author's summary."
+- "Add a small test for when each workaround can be removed."
+- "The check has to be an interaction, not a picture."
 
 ## Agent hygiene
 
@@ -409,6 +419,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "See the same error twice? Suggest a rule or a check that would catch it next time."
 - "Run Sonnet, Haiku and Opus at once, each one doing only the job it's best at."
 - "Before you say done, show the diff, real test output and whatever still needs my sign-off."
+- "Leave a checkable result at handoff: test output and the actual diff."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
 - "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
@@ -426,6 +437,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Every flag added to fix one bug quietly becomes a state.
 - Rename and merge are where it always breaks: the scary bugs only surface after either.
 - State machines you never designed are design debt, not a tooling win.
+- Adding a risk score makes the reviewer stop chasing ghosts.
+- You can't motivate an agent, only constrain it.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
 - The assumptions that only exist in your head are easy to miss in review.
