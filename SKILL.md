@@ -403,6 +403,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If I say no, that route is closed."
 - "3 failed fixes on the same problem means BLOCKED."
 - "See the same error twice? Suggest a rule or a check that would catch it next time."
+- "Run Sonnet, Haiku and Opus at once, each one doing only the job it's best at."
 - "Before you say done, show the diff, real test output and whatever still needs my sign-off."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
