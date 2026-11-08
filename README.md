@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**361 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**362 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-361-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-362-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 361 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 362 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -191,6 +191,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@illulachy_](https://x.com/illulachy_) | Enum or reducer? |
 | [@RAHULKESHR31818](https://x.com/RAHULKESHR31818) | React booleans pretending; the underrated ask |
 | [@lionkormich](https://x.com/lionkormich) | Count what you can review |
+| [@kentcdodds](https://x.com/kentcdodds) | System where you don't read code |
 | [@unclejoe_666](https://x.com/unclejoe_666) | Looks-done; context-not-control; compound; delegate |
 | [@0xwhrrari](https://x.com/0xwhrrari) | Loop owns retries, harness caps |
 | [@bighead_datou](https://x.com/bighead_datou) | Prompt isn't the bug |
