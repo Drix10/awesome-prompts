@@ -101,6 +101,7 @@ skip the prohibitions.
 - "Don't put the rule where compaction will summarize it away; use a type that rejects the fourth flag."
 - "Model implicit state machines with typestate."
 - "Make every long-running thing an explicit state machine."
+- "Pivot to explicit state machines with explicit translation logging."
 - "Convert them to actors. Then add a rules-file line: no new implicit ones."
 - "Make all implicit state machines explicit, tested, and documented."
 - "Find all tautologies."
