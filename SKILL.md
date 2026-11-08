@@ -403,6 +403,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Narrow beats smart."
 - "Hints make it worse."
 - "Give the reviewer the original acceptance criteria before the author's summary."
+- "Make it show you the file."
 - "IMO having structure (like a state machine) really helps because you have places to point to for observing & improving the workflow rather than hand-waving prompt paragraphs."
 - "Add a small test for when each workaround can be removed."
 - "Prompts, skills and project instructions are requests; hard boundaries need hooks, deny rules or managed settings."
