@@ -475,6 +475,10 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Keep CLAUDE.md under 200 lines."
 - "Turn CLAUDE.md into a short map and move everything else into files Claude opens only when it needs them."
 - "If it isn't written down, say so."
+- "A ring of plain text files looping around one map."
+- "Lessons and decisions get written back to the middle, so the next session knows more."
+- "One topic per file, named after what's inside."
+- "Rules written in chat are lost after compact; important rules must be saved to files."
 - "Rejected angles only work if someone prunes them."
 - "Map every screen, measure how the app works, and write the spec to rebuild it as your own."
 - "Set up a system in which you do not need to read the code."
@@ -507,6 +511,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
+- Plain text files outliving every fancy memory app ever made.
 - Valid JSON doesn't mean the idea was any good.
 - The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
 - The playbook is just what you write down once you decide the 3am version is not the goal.
