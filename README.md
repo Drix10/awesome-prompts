@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**306 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**309 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-306-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-309-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 306 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 309 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -100,6 +100,9 @@ Every prompt in the skill came from a human. Full credit table:
 | [@akashc777](https://x.com/akashc777) | Hiding spots: flags the UI never designed for |
 | [@jj_kovacs](https://x.com/jj_kovacs) | 16 states on paper, 5 real; bugs in the other 11 |
 | [@kabelsalat_info](https://x.com/kabelsalat_info) | List combos that can't happen but code allows |
+| [@Talljackcv](https://x.com/Talljackcv) | Cancelled must never return to success |
+| [@BongJupite43260](https://x.com/BongJupite43260) | Cross-component inconsistent paths |
+| [@sathya_partha](https://x.com/sathya_partha) | Screen rules no component enforces |
 | [@kr4chinin](https://x.com/kr4chinin) | Visualize the state flow |
 | [@sjmurdoch](https://x.com/sjmurdoch) | Verify correctness in Quint |
 | [@garbnzgh](https://x.com/garbnzgh) | Subagents + propose building it into reviews/workflows |

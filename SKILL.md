@@ -187,6 +187,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "The usual hiding spots are separate isLoading, isError and hasData flags, which allow combinations the UI was never designed to show."
 - "Four booleans is 16 states on paper and maybe 5 real ones; the bugs live in the other 11."
 - "Did it also list the combinations that can't happen but the code still allows?"
+- "A cancelled task must never be written back to success."
+- "List every path where two components could get into an inconsistent state."
+- "Find every rule the screens follow that no component actually enforces."
 - "Generate specs of them, then generate tests using those specs."
 - "Scope the first refactor and test transitions before changing the whole model."
 - "Find every object in this codebase that's referenced without a stable, canonical ID."
@@ -405,5 +408,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Rename and merge are where it always breaks: the scary bugs only surface after either.
 - State machines you never designed are design debt, not a tooling win.
 - Migrating machines are the real release note; the PR count is just the receipt.
+- This prompt finds the bug that human review normalizes.
+- The assumptions that only exist in your head are easy to miss in review.
 - A passing test is only meaningful if it tests the right contract.
 - Discover what the code implies. Prove where those implications fail. Repair the underlying system.
