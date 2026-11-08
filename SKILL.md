@@ -445,6 +445,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Delegate fully where being wrong is cheap, and keep the reasoning where others live with the result."
 - "Before adding more agents, write down what counts as high risk for your project."
 - "The gap between what your agents make and what you'd actually put your name on."
+- "Stop hiring more interns and start writing better recipes."
 - "I trust agents a lot more on boring work where you can check the answer and on anything creative I'm still the one deciding if it goes out."
 - "So I count what I can review, not agents."
 - "Set up a system in which you do not need to read the code."
@@ -476,6 +477,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
+- The playbook is just what you write down once you decide the 3am version is not the goal.
+- A focused bot kitchen beats a noisy swarm every time.
 - With agents, over-process is the new micromanagement.
 - Agents don't have experience, just a notebook.
 - Starting work got cheap. Review and verification didn't.
