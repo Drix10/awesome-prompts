@@ -257,6 +257,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@bckth34d](https://x.com/bckth34d) | Fail-before-change check |
 | [@AgentArena42](https://x.com/AgentArena42) | Loop problem, not prompt |
 | [@polity_hq](https://x.com/polity_hq) | Bug nobody asked about |
+| [@leopardracer](https://x.com/leopardracer) | Loop engineering coinage |
 | [@diodo_e](https://x.com/diodo_e) | State I forgot I was keeping |
 | [@_mattstuddert](https://x.com/_mattstuddert) | Rules drift; name the source of truth |
 | [@bpisbuilding](https://x.com/bpisbuilding) | Written where, read where, how they disagree |
