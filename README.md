@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**328 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**339 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-328-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-339-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 328 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 339 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -108,6 +108,15 @@ Every prompt in the skill came from a human. Full credit table:
 | [@jasonmello](https://x.com/jasonmello) | Plan in 5 bullets before anything |
 | [Amin Roosta](https://aminroosta.github.io/tools/llm/2026/11/04/what-i-still-put-in-my-system-prompt.html) | Call a spade a spade |
 | [John Rush](https://indiemakerlist.com/vibe-coding/learn/vibe-coding-prompts/) | Fresh chat after loops |
+| [@Voxyz_ai](https://x.com/Voxyz_ai) | Rate bugs 1-10; no designing for rare cases |
+| [@_____Calum](https://x.com/_____Calum) | Narrow beats smart; hints make it worse |
+| [@franzejr](https://x.com/franzejr) | Tickets need behavior, constraints, checks |
+| [@MisterSnowCrash](https://x.com/MisterSnowCrash) | Regression test failing-then-passing artifact |
+| [@BlossomAILabs](https://x.com/BlossomAILabs) | Reviewer gets acceptance criteria first |
+| [@huesofbanter](https://x.com/huesofbanter) | Test for removing workarounds |
+| [@cnwenf](https://x.com/cnwenf) | Checkable handoff results |
+| [@itsvdruzko](https://x.com/itsvdruzko) | Two agents disagree → edit ticket |
+| [@z1njo](https://x.com/z1njo) | Interaction, not a picture |
 | [@kr4chinin](https://x.com/kr4chinin) | Visualize the state flow |
 | [@sjmurdoch](https://x.com/sjmurdoch) | Verify correctness in Quint |
 | [@garbnzgh](https://x.com/garbnzgh) | Subagents + propose building it into reviews/workflows |
