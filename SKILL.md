@@ -407,6 +407,10 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Add a small test for when each workaround can be removed."
 - "Prompts, skills and project instructions are requests; hard boundaries need hooks, deny rules or managed settings."
 - "The check has to be an interaction, not a picture."
+- "The useful question is whether the system demonstrably does what the business needs, under realistic and stress conditions."
+- "Spend the tokens making it run the code, write tests, probe edge cases and prove the failure instead of debating style and hypothetical bugs."
+- "Assume that 99% of automated comments are defensive slop, and tell me the one or two actually worth handling."
+- "Time and tokens are better spent making builder agents better."
 - "Review every diff as if you'll get paged for it."
 
 ## Agent hygiene
@@ -496,6 +500,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
 - Valid JSON doesn't mean the idea was any good.
+- The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
 - The playbook is just what you write down once you decide the 3am version is not the goal.
 - A focused bot kitchen beats a noisy swarm every time.
 - With agents, over-process is the new micromanagement.
