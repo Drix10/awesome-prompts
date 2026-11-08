@@ -143,6 +143,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Just find the bugs."
 - "Use the rocket-science-level approach: find everywhere we are dumb and fix it."
 - "List the failure modes of each component."
+- "Re-create the unit instead of resetting its fields when its identity changes."
+- "A single loading flag, or framework-managed state with nothing layered on top, is not a finding."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
 - "Red Team Engineer my code adversarially."
@@ -193,6 +195,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Teach me [concept] using this repo as the workspace."
 - "After the scan, interview me about each decision and report back in Simplified Technical English."
 - "If you do something more than once a day, turn it into a skill."
+- "Treat subagent results as leads, not findings."
 - "Think about each change in the context of the greater goal: what's the blast radius?"
 - "Specify the edge cases; everything you didn't mention will be assumed."
 - "Use subagents: throw more compute at this and keep the main context clean."
@@ -230,6 +233,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Run the checks and report pass/fail with the key output lines."
 - "Check every acceptance criterion: PASS / FAIL / UNTESTED, with evidence."
 - "Report the scan as: how many found, how many need a decision, how many have specific bugs, how many are sound."
+- "Order findings Confirmed, then Likely, then Smell; report how many candidates you dropped."
+- "Read the so-called bugs before letting it fix anything; half of them are not real bugs."
 - "Ship decision: Ready, or Needs fixes with an ordered fix list."
 - "Don't modify any code. List the states, allowed transitions, and conflicting combinations, with line numbers."
 - "Please provide the complete working and updated program by making your suggested modifications."
@@ -290,3 +295,4 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Call these whatever you want: vectors, spells, incantations, power phrases. The collection is the point, not the word.
 - Context rules everything: the model guesses whatever the prompt doesn't specify.
 - Demand concrete evidence and deduplicate overlapping findings before authorizing any repair.
+- Walk the unhappy paths: retries and concurrency are where invalid states hide; a happy-path walkthrough never shows them.
