@@ -283,6 +283,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Autosimplify."
 - "Call a spade a spade: name the actual thing or action, not an abstraction that makes it sound more complicated."
 - "Comments should describe the current state and future direction of the repository."
+- "Comments effectively serve as another form of state, where agents read them and trust what it says without reading the code."
+- "Models will actually use comments as a crutch for writing bad and unexplainable code."
 - "Study where agents repeatedly fail and make those mistakes harder to reproduce."
 - "When fixing mistakes or bugs, redesign the system to prevent that class of issue from recurring or ensure it is automatically detected by existing systems."
 - "Every rule added to CLAUDE.md competes with the forty already there."
