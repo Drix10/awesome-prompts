@@ -179,6 +179,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Label inferred transitions separately from observed ones, then propose tests for missing or invalid transitions."
 - "Define it, use max subagents to spider through all the scripts massively in parallel, then evaluate their findings and decide what requires further thought."
 - "Find useEffect calls and evaluate their place by following the 'You Might Not Need an Effect' article."
+- "What moves it on if nothing happens: a timeout, a sweeper, a retry?"
+- "Find money out of step with the stage."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
 - "Red Team Engineer my code adversarially."
