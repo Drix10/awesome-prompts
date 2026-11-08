@@ -223,6 +223,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Before the agent writes anything, ask it to explain its plan in 5 bullets."
 - "A useful ticket needs observable behavior, constraints, and a way to check the result."
 - "Give two agents the same ticket. If they disagree on what counts as done, edit the ticket first."
+- "Write only the context the repo can't give it."
+- "Don't restate what the agent can read in the code."
 - "Come up with a few archetypes of decisionmakers, and what would they do in this situation. I will pick which archetype I am."
 - "What is the current state vs the ideal state?"
 - "What is a better version of what I'm trying to say?"
@@ -332,6 +334,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Order findings Confirmed, then Likely, then Smell; report how many candidates you dropped."
 - "Turn each one into an explicit status enum with an allowed-transitions table, and add a test that fails on any transition not in the table."
 - "For bug fixes, ask for one extra artifact: the new regression test failing on the old code, then passing on the fix."
+- "'Looks done' is not done."
 
 ### The unicorn PROVE set (run after any DISCOVER)
 
@@ -374,6 +377,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Add a small test for when each workaround can be removed."
 - "Prompts, skills and project instructions are requests; hard boundaries need hooks, deny rules or managed settings."
 - "The check has to be an interaction, not a picture."
+- "Review every diff as if you'll get paged for it."
 
 ## Agent hygiene
 
@@ -423,6 +427,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Run Sonnet, Haiku and Opus at once, each one doing only the job it's best at."
 - "Before you say done, show the diff, real test output and whatever still needs my sign-off."
 - "Leave a checkable result at handoff: test output and the actual diff."
+- "Make corrections compound."
+- "Repeated workflows become skills."
+- "Delegate the task, never the judgment."
 - "So I count what I can review, not agents."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
@@ -446,6 +453,10 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Approving code you don't understand isn't code review. It's code ratification.
 - Scaling agents creates an orchestration tax: past the first few, each extra agent demands more attention than the last.
 - Capital letters aren't access control.
+- With agents, over-process is the new micromanagement.
+- Agents don't have experience, just a notebook.
+- Starting work got cheap. Review and verification didn't.
+- You scale agents by needing to monitor less, not by monitoring more.
 - The engineers who get the most out of agents aren't necessarily the best at prompting.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
