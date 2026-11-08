@@ -417,6 +417,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If I say no, that route is closed."
 - "3 failed fixes on the same problem means BLOCKED."
 - "After two or three failed fixes, start a new chat with a summary instead of pushing on."
+- "If two corrections fail, clear the session and rewrite the prompt instead of making it re-read a third failed attempt."
+- "The underrated middle option is 'ask'."
 - "See the same error twice? Suggest a rule or a check that would catch it next time."
 - "Run Sonnet, Haiku and Opus at once, each one doing only the job it's best at."
 - "Before you say done, show the diff, real test output and whatever still needs my sign-off."
@@ -440,6 +442,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - State machines you never designed are design debt, not a tooling win.
 - Adding a risk score makes the reviewer stop chasing ghosts.
 - You can't motivate an agent, only constrain it.
+- Approving code you don't understand isn't code review. It's code ratification.
+- Scaling agents creates an orchestration tax: past the first few, each extra agent demands more attention than the last.
+- Capital letters aren't access control.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
 - The assumptions that only exist in your head are easy to miss in review.
