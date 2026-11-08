@@ -531,6 +531,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Notes alone go stale fast.
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Plain text files outliving every fancy memory app ever made.
+- The number that matters isn't price per million tokens, it's cost per solved task.
 - The teams that scale next year will not add headcount. They will wire up the feedback loop.
 - Taste on the last mile, file-based machinery on everything before it.
 - Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
