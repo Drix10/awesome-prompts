@@ -110,6 +110,7 @@ skip the prohibitions.
 - "Let's pretend it's not OOP."
 - "Be thorough in your analysis and bold in your recommendations."
 - "Convert them to actors. Then add a rules-file line: no new implicit ones."
+- "Find all of the implicit state machines in my database and convert them to actors."
 - "Make all implicit state machines explicit, tested, and documented."
 - "Find all tautologies."
 - "Find all the implicit obligations in this contract."
