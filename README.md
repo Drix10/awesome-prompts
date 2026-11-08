@@ -2,7 +2,7 @@
 
 # ⚡ god-tier-mini-prompts
 
-**170 one-line power prompts for coding agents — each sentence so dense every word does work.**
+**170 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
 [![prompts](https://img.shields.io/badge/prompts-170-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
@@ -21,11 +21,11 @@
 
 ## Why this exists
 
-A single sentence of vectors so juicy each verb, noun, and adjective acts like a flavor bomb — a simple prompt that ends up being VERY impactful. Short prompts also get a fresh context window's full attention, so delegate the real hunting to subagents and keep the main thread narrow.
+A single sentence of vectors so juicy each verb, noun, and adjective acts like a flavor bomb. A simple prompt that ends up being VERY impactful. Short prompts also get a fresh context window's full attention, so delegate the real hunting to subagents and keep the main thread narrow.
 
 This repo is a living collection of those sentences: harvested reply-by-reply from the [state-machine thread](https://x.com/steveruizok/status/2116552016218710389) (136 replies, 193 quotes, plus the replies on the quotes that invited them), the threads it spawned, Prompt Snacks, Notchbird's Banger Prompts, Anthropic's official patterns, and the best engineering threads on X.
 
-**The skill stays lean on purpose** — [`SKILL.md`](SKILL.md) is prompts only, no credits, so agent context isn't bloated. Every author credit lives in this README.
+**The skill stays lean on purpose**: [`SKILL.md`](SKILL.md) is prompts only, no credits, so agent context isn't bloated. Every author credit lives in this README.
 
 ## 🗂 The collection
 
@@ -47,7 +47,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 
 ## 🪄 The meta-prompt
 
-Don't browse — delegate. Paste this with your task, idea, or code:
+Don't browse, delegate. Paste this with your task, idea, or code:
 
 ```
 Consider all the mini-prompts in this skill, pick the ones that would
@@ -60,7 +60,7 @@ Narrow it per phase: *"…pick the 3 best for planning / review / debugging this
 
 Drop [`SKILL.md`](SKILL.md) into your agent's skills folder. That's the whole install.
 
-**Claude Code** — `~/.claude/skills/god-tier-mini-prompts/SKILL.md`
+**Claude Code**: `~/.claude/skills/god-tier-mini-prompts/SKILL.md`
 
 ```bash
 mkdir -p ~/.claude/skills/god-tier-mini-prompts
@@ -68,7 +68,7 @@ curl -sL https://raw.githubusercontent.com/Drix10/god-tier-mini-prompts/main/SKI
   -o ~/.claude/skills/god-tier-mini-prompts/SKILL.md
 ```
 
-**OpenAI Codex** — `~/.codex/skills/god-tier-mini-prompts/SKILL.md`
+**OpenAI Codex**: `~/.codex/skills/god-tier-mini-prompts/SKILL.md`
 
 ```bash
 mkdir -p ~/.codex/skills/god-tier-mini-prompts
@@ -76,15 +76,15 @@ curl -sL https://raw.githubusercontent.com/Drix10/god-tier-mini-prompts/main/SKI
   -o ~/.codex/skills/god-tier-mini-prompts/SKILL.md
 ```
 
-**Cursor** — reference it from `.cursor/rules/` or paste prompts straight into Agent mode.
+**Cursor:** reference it from `.cursor/rules/` or paste prompts straight into Agent mode.
 
-Then invoke by matching a task to a prompt — or run the meta-prompt and let the agent pick.
+Then invoke by matching a task to a prompt, or run the meta-prompt and let the agent pick.
 
 ## 🙏 Sources & credits
 
 Every prompt in the skill came from a human. Full credit table:
 
-**The state-machine thread** ([@steveruizok](https://x.com/steveruizok/status/2116552016218710389), Oct 2026 — seed: *"find all of the implicit state machines in my app"*)
+**The state-machine thread** ([@steveruizok](https://x.com/steveruizok/status/2116552016218710389), Oct 2026; seed: *"find all of the implicit state machines in my app"*)
 
 | Author | Contribution |
 |---|---|
@@ -126,7 +126,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@impervium888](https://x.com/impervium888) | Explain it as a story |
 | [@codeby_ABI](https://x.com/codeby_ABI) | Recursive prompt booster |
 
-**The god-tier thread** ([@KingBootoshi](https://x.com/KingBootoshi/status/2118803776387928228), Nov 2026 — the collection call)
+**The god-tier thread** ([@KingBootoshi](https://x.com/KingBootoshi/status/2118803776387928228), Nov 2026; the collection call)
 
 | Author | Contribution |
 |---|---|
@@ -175,7 +175,7 @@ Every prompt in the skill came from a human. Full credit table:
 
 | Source | Contribution |
 |---|---|
-| [Prompt Snacks](https://promptsnacks.com) | 26 power phrases (poka-yoke, holdout, Tufte, half-the-code, tradeoffs, …) — [@nateberkopec](https://x.com/nateberkopec), [@poteto](https://x.com/poteto), [@simonw](https://x.com/simonw), [@thorstenball](https://x.com/thorstenball), [@danluu](https://x.com/danluu), [@juliknl](https://x.com/juliknl), [@petekp](https://x.com/petekp), [@dimitribosch](https://x.com/dimitribosch), [@bhumi1102](https://x.com/bhumi1102), [@puntpoints](https://x.com/puntpoints), [@netnostalgic](https://x.com/netnostalgic), [@_quinnwins](https://x.com/_quinnwins), [@___Atin___](https://x.com/___Atin___), [@JoshDefilippi](https://x.com/JoshDefilippi), [@ade_oshineye](https://x.com/ade_oshineye), [@decruz](https://x.com/decruz), [@UmamiByTheSea](https://x.com/UmamiByTheSea), [@markahesketh](https://x.com/markahesketh), [@VesterDe](https://x.com/VesterDe), [@SteveGBanton](https://x.com/SteveGBanton), [@schwad_rb](https://x.com/schwad_rb), [@skatkov](https://x.com/skatkov) |
+| [Prompt Snacks](https://promptsnacks.com) | 26 power phrases (poka-yoke, holdout, Tufte, half-the-code, tradeoffs, …): [@nateberkopec](https://x.com/nateberkopec), [@poteto](https://x.com/poteto), [@simonw](https://x.com/simonw), [@thorstenball](https://x.com/thorstenball), [@danluu](https://x.com/danluu), [@juliknl](https://x.com/juliknl), [@petekp](https://x.com/petekp), [@dimitribosch](https://x.com/dimitribosch), [@bhumi1102](https://x.com/bhumi1102), [@puntpoints](https://x.com/puntpoints), [@netnostalgic](https://x.com/netnostalgic), [@_quinnwins](https://x.com/_quinnwins), [@___Atin___](https://x.com/___Atin___), [@JoshDefilippi](https://x.com/JoshDefilippi), [@ade_oshineye](https://x.com/ade_oshineye), [@decruz](https://x.com/decruz), [@UmamiByTheSea](https://x.com/UmamiByTheSea), [@markahesketh](https://x.com/markahesketh), [@VesterDe](https://x.com/VesterDe), [@SteveGBanton](https://x.com/SteveGBanton), [@schwad_rb](https://x.com/schwad_rb), [@skatkov](https://x.com/skatkov) |
 | [Notchbird Banger Prompts](https://notchbird.com/prompts) | Codebase map (read-only), transcripts prune, AGENTS.md restructure, usage-habit audit |
 | [Anthropic prompt patterns](https://code.claude.com/docs/en/prompt-library) | Outcome-only tasks, self-checking tasks, reference-file matching, measurable targets, artifact-giving, format-specifying |
 | [BestPromptFinder guide](https://bestpromptfinder.com/guides/best-cursor-claude-code-prompts) | Smallest-diff discipline, fix-cause-not-test, one-behavior-per-test, evidence rules, repeated-correction-to-rule |
@@ -187,13 +187,13 @@ Every prompt in the skill came from a human. Full credit table:
 
 One line per prompt. Keep every verb, noun, and adjective working.
 
-1. Add the prompt under the right heading in `SKILL.md` — **no credits in the skill**, context stays lean.
+1. Add the prompt under the right heading in `SKILL.md`. **No credits in the skill.** Context stays lean.
 2. Add your credit row to the matching table in this README.
 3. Open a PR. If it doesn't bite on a frontier model, it doesn't merge.
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE). Steal these prompts; they're meant to be pasted everywhere.
+MIT: see [LICENSE](LICENSE). Steal these prompts; they're meant to be pasted everywhere.
 
 <div align="center">
 

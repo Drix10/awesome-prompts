@@ -1,12 +1,12 @@
 ---
 name: god-tier-mini-prompts
-description: 170+ one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent — architecture, state-machine audits, debugging, planning, review, verification, learning, or steering — instead of a full skill. Match the task to a prompt below, or run the meta-prompt to auto-pick.
+description: 170+ one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent: architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick.
 ---
 
 # God-Tier Mini Prompts
 
 Single sentences so dense every word does work. Philosophy: **density beats
-length** — one loaded sentence outperforms a page of instructions. Short
+length**. One loaded sentence outperforms a page of instructions. Short
 prompts also get a fresh context window's full attention, so delegate real
 hunting to subagents and keep the main thread narrow.
 
@@ -72,7 +72,7 @@ skip the prohibitions.
 - Full phased audit (discovery → verification with concrete code refs and repro scenarios → remediation plan with no code changes until approved → implement with regression tests and update the doc; evidence over speculation throughout): https://pastebin.com/dznHsaQR
 - Full deep-audit expansion: "You are analyzing this codebase to find all **implicit state machines** — behavior controlled by distinct modes/states that are NOT declared as an explicit state machine, statechart, reducer, or similar, instead emerging from booleans, enums, nullable values, flags, and conditional logic. 1. Thoroughly search the entire codebase (use parallel subagents). 2. Identify every meaningful implicit state machine. 3. For each: the real states, how transitions happen, which state combinations are possible but shouldn't be, where the state lives, ranked by risk/complexity/likelihood of bugs. Output: Part 1 — summary list (title, one-sentence description, risk High/Med/Low, 2–5 key files). Part 2 — detailed report for the high-risk ones (effective states, transition logic, illegal combinations, code snippets, whether it's worth making explicit). Be precise; don't flag trivial booleans."
 
-### The 9 follow-ups — run the base prompt, then run these
+### The 9 follow-ups: run the base prompt, then run these
 
 - "Find every place where the screen can show something false."
 - "Find every bit of business logic sitting in UI components that belongs in the domain layer."
