@@ -400,5 +400,6 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - The agent's laundry list is usually issues it created itself.
 - Every flag added to fix one bug quietly becomes a state.
 - Rename and merge are where it always breaks: the scary bugs only surface after either.
+- State machines you never designed are design debt, not a tooling win.
 - A passing test is only meaningful if it tests the right contract.
 - Discover what the code implies. Prove where those implications fail. Repair the underlying system.
