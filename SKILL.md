@@ -310,6 +310,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Flag hardcoded secrets and weak crypto."
 - "Check dependency vulns and dead code."
 - "Verify resource cleanup and timeout handling."
+- "Keep .claude/settings.local.json git-ignored and out of public repos."
+- "Rotate exposed keys first; git rm --cached leaves them in earlier commits."
+- "Give agent tool arguments plain names before you swap models."
 
 ### Hidden gems
 
