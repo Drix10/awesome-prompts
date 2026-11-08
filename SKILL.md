@@ -390,6 +390,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Demonstrate behavioral divergence or duplicated policy that can independently change."
 - "Demonstrate the coupling through a concrete, representative change."
 - "Derive the intended observable contract from actual code and established requirements."
+- "Then prove that every state transition preserves the global invariant."
 - "Read the so-called bugs before letting it fix anything; half of them are not real bugs."
 - "Ship decision: Ready, or Needs fixes with an ordered fix list."
 - "Don't modify any code. List the states, allowed transitions, and conflicting combinations, with line numbers."
