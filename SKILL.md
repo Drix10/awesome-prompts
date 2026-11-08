@@ -372,6 +372,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Hints make it worse."
 - "Give the reviewer the original acceptance criteria before the author's summary."
 - "Add a small test for when each workaround can be removed."
+- "Prompts, skills and project instructions are requests; hard boundaries need hooks, deny rules or managed settings."
 - "The check has to be an interaction, not a picture."
 
 ## Agent hygiene
