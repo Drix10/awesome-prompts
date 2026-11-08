@@ -470,6 +470,11 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Stop hiring more interns and start writing better recipes."
 - "I trust agents a lot more on boring work where you can check the answer and on anything creative I'm still the one deciding if it goes out."
 - "So I count what I can review, not agents."
+- "Ask Claude why you killed a feature. Make it show the file."
+- "If a field is missing, say it wasn't recorded."
+- "Keep CLAUDE.md under 200 lines."
+- "Turn CLAUDE.md into a short map and move everything else into files Claude opens only when it needs them."
+- "If it isn't written down, say so."
 - "Rejected angles only work if someone prunes them."
 - "Map every screen, measure how the app works, and write the spec to rebuild it as your own."
 - "Set up a system in which you do not need to read the code."
@@ -501,6 +506,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
+- A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Valid JSON doesn't mean the idea was any good.
 - The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
 - The playbook is just what you write down once you decide the 3am version is not the goal.
