@@ -2,9 +2,9 @@
 
 # ⚡ god-tier-mini-prompts
 
-**207 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**209 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-207-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-209-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 207 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 209 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -142,6 +142,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@maxxrubin_](https://x.com/maxxrubin_) | Blast-radius thinking per change |
 | [@psychic_jammer](https://x.com/psychic_jammer) | Ban comments except the exceptional |
 | [@Lion_GameDev](https://x.com/Lion_GameDev) | Unmentioned edge cases get assumed |
+| [@charleshxpe](https://x.com/charleshxpe) | Structured scan: states, moves, conflicts, risk rank |
+| [@0xUltraInstinct](https://x.com/0xUltraInstinct) | Make it permanent in AGENTS.md |
 | [@iSp4rklux_](https://x.com/iSp4rklux_) | Context-rules-everything principle |
 
 **Quotes of quotes** (second-degree harvest: quotes of the viral Trevin quote)

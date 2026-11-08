@@ -93,6 +93,8 @@ skip the prohibitions.
 - "Find all the implicit invariants in my app."
 - "Find all non terminal states in my state machine as a service."
 - "Try the explicit inversion: find all of the *explicit* state machines."
+- "For each one, list: the states, how it moves between them, any impossible or conflicting combinations, and the risk level. Rank by risk. Don't change any code yet."
+- "Make this permanent in AGENTS.md."
 - "Convert them to actors. Then add a rules-file line: no new implicit ones."
 - "Make all implicit state machines explicit, tested, and documented."
 - "Find all tautologies."
