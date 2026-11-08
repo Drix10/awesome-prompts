@@ -289,6 +289,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "When fixing mistakes or bugs, redesign the system to prevent that class of issue from recurring or ensure it is automatically detected by existing systems."
 - "Every rule added to CLAUDE.md competes with the forty already there."
 - "A failing test or a lint check catches the same mistake every single time."
+- "AGENTS.md and CLAUDE.md aren't configuration; they're text the agent follows as orders."
 - "Markdown as an output format is banned for this session."
 - "It's easily verifiable and you can define the expectations beforehand."
 - "Start with separating citations and inference."
