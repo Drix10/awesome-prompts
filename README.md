@@ -2,9 +2,9 @@
 
 # ⚡ god-tier-mini-prompts
 
-**214 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**234 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-214-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-234-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 214 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 234 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -147,6 +147,26 @@ Every prompt in the skill came from a human. Full credit table:
 | [@literallyhimmmm](https://x.com/literallyhimmmm) | Read the bugs first; half aren't real |
 | [@alexlee20122022](https://x.com/alexlee20122022) | Walk the unhappy paths principle |
 | [@kr4chinin](https://x.com/kr4chinin) | Leads-not-findings; Confirmed/Likely/Smell; recreate-not-reset |
+| [@KelvinW_info](https://x.com/KelvinW_info) | One named principle per run |
+| [@deepman_1](https://x.com/deepman_1) | Long-running things become explicit machines |
+| [@ddyods](https://x.com/ddyods) | Rules in the harness, practices in the prompt |
+| [@jbaruch](https://x.com/jbaruch) | Right 300 tokens beat 100k noisy ones |
+| [@yanggao97566](https://x.com/yanggao97566) | Machines disagreeing about done |
+| [@boringdev77](https://x.com/boringdev77) | Flags or status strings? |
+| [@CarbonMatchAI](https://x.com/CarbonMatchAI) | Vocabulary is a senior skill |
+| [@IamYashKapoor](https://x.com/IamYashKapoor) | Booleans secretly meaning step 3 |
+| [@arpittalksstuff](https://x.com/arpittalksstuff) | isReallyLoading and isDoneForReal |
+| [@asmirkn](https://x.com/asmirkn) | Enum + transition table + failing test |
+| [@fishjar](https://x.com/fishjar) | Unnamed state bits |
+| [@PowerduckLabs](https://x.com/PowerduckLabs) | Retries plus flags; name and reject |
+| [@jeffbruchado](https://x.com/jeffbruchado) | Handler order is the only spec |
+| [@OdysseyStack](https://x.com/OdysseyStack) | The unnamed isLoading conjunction |
+| [@johnroodepic](https://x.com/johnroodepic) | A type that rejects the fourth flag |
+| [@looking5452](https://x.com/looking5452) | Model with typestate |
+| [@hboon](https://x.com/hboon) | Study-and-find phrasing |
+| [@illulachy_](https://x.com/illulachy_) | Enum or reducer? |
+| [@RAHULKESHR31818](https://x.com/RAHULKESHR31818) | React booleans pretending |
+| [@diodo_e](https://x.com/diodo_e) | State I forgot I was keeping |
 | [@iSp4rklux_](https://x.com/iSp4rklux_) | Context-rules-everything principle |
 
 **Quotes of quotes** (second-degree harvest: quotes of the viral Trevin quote)
