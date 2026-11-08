@@ -486,6 +486,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Agent memory = transcripts + notes + dreaming + wikis + retrieval."
 - "Keep MEMORY.md an index and put detail in topic files."
 - "Lessons and decisions get written back to the middle, so the next session knows more."
+- "Every time Claude does something wrong, it goes in the file so it never happens twice."
+- "Never invent a stat, always cite the source."
+- "Give Claude a way to verify its work."
 - "One topic per file, named after what's inside."
 - "Keep direct quotes separate from the agent's summary in each note."
 - "Rules written in chat are lost after compact; important rules must be saved to files."
@@ -523,6 +526,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Notes alone go stale fast.
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Plain text files outliving every fancy memory app ever made.
+- The teams that scale next year will not add headcount. They will wire up the feedback loop.
+- Taste on the last mile, file-based machinery on everything before it.
 - Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
 - Valid JSON doesn't mean the idea was any good.
 - The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
