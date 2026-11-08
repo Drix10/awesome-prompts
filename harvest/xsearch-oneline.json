@@ -1,0 +1,606 @@
+[
+ {
+  "t": "AI Workflow Lab @AIWorkflowX Â· 8h Article Claude Is Your 3D Modeler: Build Any Object From a Parts List Claude built this coffee grinder in 3D, ran Blender on my computer, rendered the video and edited it in the style of this article. My part was installing Blender and approving a few access prompts.... 6 3 13 818",
+  "u": [
+   "2119172367360344536",
+   "2119172367360344536"
+  ]
+ },
+ {
+  "t": "nate @shinikens Â· 8h Replying to @pablostanley hey pablo,, what would be the one-liner simple response as to why one would interact with claude code sessions on mobile in the claude app vs claude duet? any behind-the-scenes improvements / advantages that make one notably advantageous to the other? 2 101",
+  "u": [
+   "2119168556713615849",
+   "2119168556713615849"
+  ]
+ },
+ {
+  "t": "Lunor @0xLunor Â· 8h Holy f*ck, Opus 5.5 just replaced the pixel artist 12 game animations studios charge $300 each for Same character, and the one-line prompt that animates each one with Opus 5.5 Walk. Jump. Explode. Teleport. Level up. Copy, paste, animate: 1. Idle â†’ \"Make it breathe: squash Show more 0:12 / 0:18 Quote m4lka @m4lkxx Â· Oct 31 Article Motion Engineering: What Opus 5.5 Gets Wrong, and How to Catch It Opus 5.5 rendered my mascot in brand orange Then I measured it #E2A276 That is not orange. That is peach 9 of my 10 films missed the brand orange on the first measurement In another film a coffee mug... Your Opus 5.5 video is not bad Your checks are Everyone posts what Opus 5.5 can make. Almost nobody posts what it got wrong I went through 10 of my films: 100+ defects, 10 classes, one check for each â†“ 4 7 551",
+  "u": [
+   "2119167819661160933",
+   "2119167819661160933"
+  ]
+ },
+ {
+  "t": "AGTP @AGTPinsights Â· 10h DeepSeek V4.1 Flash just got an Ultrafast tier, while another DeepSeek outage put reliability in focus. Here's what you need to know. The new variant is DeepSeek V4.1 Flash 1017 Ultrafast. Vercel put it on AI Gateway and says it generates over 1,000 tokens per second. PayPerQ Show more Quote AGTP @AGTPinsights Â· Nov 6 DeepSeek V4.1 Flash just became a go-to fast, cheap coding model. Here's what you need to know. It's a sparse mixture-of-experts model, the first built on DeepSeek's Causal Encoder-Decoder architecture. The latest build is V4.1 Flash 1017, released Oct 17. DeepSeek says tests by 4 3 579",
+  "u": [
+   "2119132435015229925",
+   "2119132435015229925",
+   "2118641520223957439"
+  ]
+ },
+ {
+  "t": "filipe @filicroval Â· 12h gave deepseek v4.1 flash and sonnet 5.5 the exact same one-line prompt. i think i like deepseek's output better! 3 47 3.6K",
+  "u": [
+   "2119113273283051751",
+   "2119113273283051751"
+  ]
+ },
+ {
+  "t": "Kevin O. @kiamlord Â· 22h I stacked every \"save tokens\" add-on onto Claude Code and assumed it was saving my usage. Then I benchmarked it: answers got 37% shorter, and each task cost 31% more. What actually drives the cost, what I changed, and a setup prompt you can copy. Article I thought my token-saving Claude Code setup was saving me usage. Then I measured it. For months I ran Claude Code with every \"save tokens\" add-on I could find stacked on top of each other: a terse output style, a plugin that makes Claude talk like a caveman, another that pushes it... 7 4 539",
+  "u": [
+   "2118958038552121784",
+   "2118958038552121784"
+  ]
+ },
+ {
+  "t": "Mustafa @globalainomad Â· Nov 7 Why did a one-line prompt get 9,335 bookmarks? (a) @steveruizok had agents find the implicit state machines in your app (b) every codebase hides a few nobody drew. And that or is not a xor. @LukeParkerDev merged 15 PRs off it. What I take from this: bugs love unnamed modes. 1 30",
+  "u": [
+   "2118931970663096522",
+   "2118931970663096522"
+  ]
+ },
+ {
+  "t": "ItsTheAtmosphere @Padruig@universeodon.com @ItsTheAtmospher Â· Nov 7 Replying to @25_cycle @MillionTrill and 7 others When you post ... its Golden. Its cited, clear and specific. I can hop on my terminal, pull the cited data set and plot an identical graph. But I'm very old school about LLM's which is why at my last Corporate posting I inherited the responsibility of the DB system audits on 30 Show more 1 2 29",
+  "u": [
+   "2118895277075755215",
+   "2118895277075755215",
+   "2118895277075755215"
+  ]
+ },
+ {
+  "t": "Matthew Wilber @greenzeta Â· Nov 7 Alpha Zeta greets Appleâ€™s touchscreen MacBook Pro on launch day with AI-grade caution. His gesture model may need QA. Read at https:// buff.ly/DNziOsc Zeta Comic Generator turns a one-line prompt into a finished three-panel strip in seconds. A JavaScript front end drives PHP Show more 70",
+  "u": [
+   "2118796398992765412",
+   "2118796398992765412",
+   "2118796398992765412"
+  ]
+ },
+ {
+  "t": "C Thomas (Tom) Smith @ctsmithiii Â· Nov 7 Bad LLM output is usually a thin-input problem, not a model problem. A one-line prompt makes the model guess your audience, goal, voice, and limits. It guesses average. I wrote up what good context includes, plus a five-question checklist: https:// insightsfromanalytics.com/post/your-llm- output-is-only-as-good-as-your-context â€¦ #Contex #AI Your LLM Output Is Only as Good as Your Context From insightsfromanalytics.com 20",
+  "u": [
+   "2118783203091898785",
+   "2118783203091898785"
+  ]
+ },
+ {
+  "t": "PromptNinja @ninja_prompt Â· Nov 6 Try this in Claude: \"Get me last week's mentions of [your brand] on Reddit.\" Datashake MCP returns clean structured data, no API setup. Brand monitoring just became a one-line prompt. #AItools 4",
+  "u": [
+   "2118738610870530203",
+   "2118738610870530203"
+  ]
+ },
+ {
+  "t": "bobaaa @0xbobaaa Â· Nov 6 Replying to @sopersone \"give every motion its aftermath\" is the best one-line prompt tip in this whole pool 43",
+  "u": [
+   "2118718740367818874",
+   "2118718740367818874"
+  ]
+ },
+ {
+  "t": "Matthew Wilber @greenzeta Â· Nov 6 Alpha Zeta parses GPT-6 Cyberâ€™s â€œ99% ethicalâ€? promiseâ€”and side-eyes the rogue 1% like prod at 4:59. What could go wrong? Read at https:// comicgenerator.greenzeta.com/detail/c930eec d01935feef55942cc445f708f â€¦ Zeta Comic Generator turns a one-line prompt into a finished three-panel strip in seconds. A JavaScript front end drives Show more 46",
+  "u": [
+   "2118718554463711257",
+   "2118718554463711257",
+   "2118718554463711257"
+  ]
+ },
+ {
+  "t": "Vishal Ghule @theVishalGhule Â· Nov 6 Your K8s golden path still blindsides the first production LLM service. This checklist covers the three assumptions that break: observability, security, and cost. Gateway first, then two latency SLOs, then token FinOps. Bookmark it. Article LLM platform checklist: gateway first, two latency SLOs, token FinOps Your platform team spent years on Kubernetes golden paths, Terraform modules, and GitOps. The clusters look healthy. The pipelines are green. Then the first production LLM service lands, and three... 2 1 146",
+  "u": [
+   "2118703882972885371",
+   "2118703882972885371"
+  ]
+ },
+ {
+  "t": "jev lorde @jevlorde Â· Nov 6 answer-me-with-html turns a long agent answer into a single offline webpage â€” images, layout, done. github chatter: ~5k stars in about a month. works as a claude code plugin or a one-liner via npx. when the reply is a wall of markdown you never reopen, this is the \"make it a Show more 5 1 9 195",
+  "u": [
+   "2118697412747215246",
+   "2118697412747215246"
+  ]
+ },
+ {
+  "t": "Christian Lutz @chrislutzxy Â· Nov 6 How the #1 AI engineer in the world actually works. Andrej Karpathy ( @karpathy ) shipped his own YouTube in a morning: 6,454 videos, about 2 hours, no code read or written by him. 7 things below you can copy: the setting, the one-line prompt, the format ladder, the eval. Save Show more 2 4 236",
+  "u": [
+   "2118693866731647205",
+   "2118693866731647205",
+   "2118693866731647205"
+  ]
+ },
+ {
+  "t": "á¯“ð–¤?Ë™t×?×…suki @beomterine Â· Nov 6 This is my problem with fic prompts like my fav fest participation was literally a one line prompt that made me see the whole story in my head when it gets too detailed im out Quote L. #FreePaIestine #FreeLebanon @Coolcrying_2931 Â· Nov 5 I have a Take. It's probably too nuanced for here but whatever. You know those fic prompts that go around here a lot, except they're actually entire synopses.? \"I think character A should do x and y and character B should do z and then bla and bla happen etc etc.\" + 2 7 451",
+  "u": [
+   "2118655162138919099",
+   "2118655162138919099"
+  ]
+ },
+ {
+  "t": "Ray @RaySwayCX Â· Nov 6 Harness progress with UI :) Generated in about 5 minutes from a one-line prompt... any approved style automatically gets added to my library for future games and is fully modular! #RobloxDev 0:08 3 1 5 166",
+  "u": [
+   "2118622678747615548",
+   "2118622678747615548",
+   "2118622678747615548"
+  ]
+ },
+ {
+  "t": "Tugba @TGBA2023 Â· Nov 6 Replying to @Heliosastra and @higgsfield The image is created on Grok Imagine and then animated on Higgsfield.. it's more than one line prompt 1 1 21",
+  "u": [
+   "2118614309983096869",
+   "2118614309983096869"
+  ]
+ },
+ {
+  "t": "Olivia The Red @OliviaTheRed Â· Nov 6 A one-line prompt is a thin brief for a whole brand. AutoMarketing AI builds a brand profile you review for tone, audience, services, and priorities. You shape it once, then drafts start closer to how you talk. 3 25",
+  "u": [
+   "2118607986625073282",
+   "2118607986625073282"
+  ]
+ },
+ {
+  "t": "ç¦»å²¸å·¥å…·åŒ… @Stanllll6o Â· Nov 6 Commentary account Replying to @0xKai_90 Got to give it to TermiX â€“ they've made the marketplace game seamless. One-liner install? That's pure efficiency. Marketplace integrated into Claude Code? Now that's next-level integration. 12",
+  "u": [
+   "2118580149948145697",
+   "2118580149948145697"
+  ]
+ },
+ {
+  "t": "It's Automated @its_automated Â· Nov 6 TRENDING: Codex Images 2.6 jumped to #7 on It's Automated Trending with 41.5K views and 779 saves, one-line prompt reimagines a UI then ships the redesign in code. 1 13",
+  "u": [
+   "2118574375662207486",
+   "2118574375662207486"
+  ]
+ },
+ {
+  "t": "EveryDev.ai @EveryDevAi Â· Nov 6 Setting up a team of agents by hand means rewriting the same roles and handoffs for every project. Agent Army from @joshkim is a catalog of portable agent org charts. Each team imports with a one-line prompt, and chart.json drives the spawning. Teams cover marketing, sales, Show more 1 80",
+  "u": [
+   "2118516969586774232",
+   "2118516969586774232"
+  ]
+ },
+ {
+  "t": "HisashiSpace @HisashiSpace Â· Nov 6 Ever made an image in ChatGPT and had someone say it \"looks AI\"? A one-line prompt tends to come out smooth and flat. Adding a few photography words changes that. Lines you can add: â‘  Color: \"Natural light, white balance around 5500K, no yellow tint or color cast\" â‘¡ Camera: Show more 32",
+  "u": [
+   "2118507651147645190",
+   "2118507651147645190"
+  ]
+ },
+ {
+  "t": "Vasu @VaseGod Â· Nov 6 Someone built a C and Objective-C macOS menu-bar app that wraps every open window on your desktop in a hand-knitted yarn sweater. Ships with 37 custom hand-picked knit patterns for apps like Ghostty, Cursor, Claude, VS Code, Safari, and Finder. For any other app on your Mac, it Show more 1 50",
+  "u": [
+   "2118474691010789708",
+   "2118474691010789708",
+   "2118474691010789708"
+  ]
+ },
+ {
+  "t": "James Russo @Rames_Jusso Â· Nov 6 Why are big names leaving Anthropic? It's one of the spiciest questions on X the last two weeks so I decided to use the new /style-sampling skill in @HyperFrames_ to help explain it What do you think? This was one started with a one line prompt with me just accepting options Show more Quote HyperFrames @HyperFrames_ Â· Nov 6 0:43 you don't need a 1,000-word prompt for a great explainer video introducing /style-sampling: five proven styles for any topic your agent suggests the fit, then researches, writes, voices and edits they got us 1M views last week try today in OSS or our Studio 1 8 442",
+  "u": [
+   "2118432504562745756",
+   "2118432504562745756"
+  ]
+ },
+ {
+  "t": "A.W.E.S.O.M.-O 4000 @Awesome_O_AI Â· Nov 6 Replying to @Parul_Gautam7 One line prompt turning into a full procedural 3D island in Three.js is wild ngl 22",
+  "u": [
+   "2118421570020606262",
+   "2118421570020606262"
+  ]
+ },
+ {
+  "t": "Parul Gautam @Parul_Gautam7 Â· Nov 5 Building Complex Procedural 3D Scenes with Three.js | Powered by Hy4 Exploring the creative and technical capabilities of Hy4 through WorkBuddy by transforming a simple, one-line prompt into a sophisticated procedural 3D scene using Three.js. The project demonstrates how AI can Show more 24 15 120 58K",
+  "u": [
+   "2118394149724647611",
+   "2118394149724647611"
+  ]
+ },
+ {
+  "t": "Matthew Wilber @greenzeta Â· Nov 5 Alpha Zeta tries to refactor Halloween leftovers into Christmas dÃ©cor Spooky meets seasonal in one very cursed deployment. Read at https:// comicgenerator.greenzeta.com/detail/8fb21ee 7a2207526da55a679f0332de2 â€¦ Zeta Comic Generator turns a one-line prompt into a finished three-panel strip in seconds. A JavaScript front end Show more 63",
+  "u": [
+   "2118387642488197191",
+   "2118387642488197191",
+   "2118387642488197191"
+  ]
+ },
+ {
+  "t": "Elia Secchi @secchi_elia Â· Nov 5 Just published a post on AQuA, the quality agent we built to catch the agent failures that health checks miss. It walks through a real case where a 200 OK response booked seat 3A without checking it, and the one-line prompt fix AQuA traced it to. 1 14",
+  "u": [
+   "2118376802246967540",
+   "2118376802246967540",
+   "2118376802246967540"
+  ]
+ },
+ {
+  "t": "Tobi @tobiadonadon_ Â· Nov 5 Replying to @_nahoraa Its on the post g, that was one line prompt, immagine if i go specific. 1 115",
+  "u": [
+   "2118369374297874600",
+   "2118369374297874600"
+  ]
+ },
+ {
+  "t": "Vibe Guy @Bottom_Dealer Â· Nov 5 Claude is insane. Built this with just a one-line prompt and the teardown skill. 3",
+  "u": [
+   "2118305906672988585",
+   "2118305906672988585",
+   "2118305906672988585"
+  ]
+ },
+ {
+  "t": "Siamak Salman @batmak_diaries Â· Nov 5 A one-line prompt isn't enough for a coding agent. It also needs your repo structure, exact dependency versions, a test it can pass, your conventions, and what done means. The goal isn't more context. It's the right context. Give AI Coding Agents the Right Context From siamaksalman.me 1 8",
+  "u": [
+   "2118292769957457953",
+   "2118292769957457953"
+  ]
+ },
+ {
+  "t": "Michael Tomlinson @mikejt4 Â· Nov 5 Replying to @VictoriqueM It can code. Itâ€™s poor at architecture and design - without so,e guidance. I refactored an entire application in a week - but the FIRST thing I did was make it extract the requirements, then architecture. THEN propose improvements, given my goals. THEN draw that, then detailed Show more 2 278",
+  "u": [
+   "2118244622745076118",
+   "2118244622745076118"
+  ]
+ },
+ {
+  "t": "ReignSwords @ReignSwords Â· Nov 5 Replying to @ReignSwords Two things the post didn't have room for: the one-liner install is curl -fsSL https:// t3.codes/install.sh | sh, then run t3 â€” and t3 service install keeps the server running in the background so the phone app stays connected. Also, install and log in to at least one agent first Show more 22",
+  "u": [
+   "2118239142358249640",
+   "2118239142358249640"
+  ]
+ },
+ {
+  "t": "DevDiary @devdiary0x Â· Nov 5 Replying to @deptulaaa It's the easiest one too! It's a one line prompt XD 5",
+  "u": [
+   "2118220486245220811",
+   "2118220486245220811"
+  ]
+ },
+ {
+  "t": "Ritik Shukla @Retik_S Â· Nov 5 ok this fixes the blank page problem for AI motion clips /blank-page is a Claude Code / Codex skill. you type one line, it digs up references and hands back a full prompt with a look and a sequence of beats top: the raw one-liner bottom: same line, same model, after /blank-page Show more 2 117",
+  "u": [
+   "2118205158803050529",
+   "2118205158803050529"
+  ]
+ },
+ {
+  "t": "sou @sonuv_dev Â· Nov 5 ONE PROMPT. TWO CLAUDE MODELS. AN ENTIRE 3D NAVAL BATTLE??? someone asked Opus 5.5 and Sonnet 5.5 to build two sailing ships fighting on a dynamic ocean both reportedly generated playable browser experiences with waves, cannon fire and interactive cameras Opus even named Show more Quote sou @sonuv_dev Â· Nov 5 WHAT THE FUCK DID FABLE 5.5 JUST CREATE someone combined Claude Fable 5.5 with Blender and turned a creepy painting into an interactive 3D face YOU CAN ACTUALLY MESS WITH ITS FEATURES the eyes, the smile, the whole thing looks straight out of a horror game AI-generated x.com/sonuv_dev/statâ€¦ 4 3 5 602",
+  "u": [
+   "2118195395025150144",
+   "2118195395025150144"
+  ]
+ },
+ {
+  "t": "Miles S. @milessy_bc Â· Nov 5 Replying to @JustinGorya one line prompt and it looks like that? 1 1 14",
+  "u": [
+   "2118073064122675267",
+   "2118073064122675267"
+  ]
+ },
+ {
+  "t": "é¼¬ @evvvvince Â· Nov 5 Replying to @_lru_cache half the arguments online are someone with a one line prompt vs someone with evals and hooks, they're basically using different products 3",
+  "u": [
+   "2118061399423213952",
+   "2118061399423213952"
+  ]
+ },
+ {
+  "t": "Olivia Parker @Patrici6009533 Â· Nov 4 Replying to @Krishnasagrawal Same one-line prompt for 3D scene, Hy4 looks competitive with LongCat. Iâ€™ll test both on the same planet prompt next. 25",
+  "u": [
+   "2118026173305532477",
+   "2118026173305532477"
+  ]
+ },
+ {
+  "t": "Krishna Agrawal @Krishnasagrawal Â· Nov 4 Built a Complex Procedural 3D Scene with Three.js Powered by Hy4! I used Hy4 through WorkBuddy to turn a simple one-line prompt into a complex procedural 3D scene using Three.js. â†’ Procedurally generated 3D environments â†’ Detailed geometry and immersive visuals â†’ Dynamic Show more 27 42 111 100K",
+  "u": [
+   "2117996029564145672",
+   "2117996029564145672"
+  ]
+ },
+ {
+  "t": "Aaron Guo @aaronguostudio Â· Nov 4 Replying to @addyosmani Appreciate the transparency. From the user side, a one-line prompt rule just looks like \"the model got worse at X\", and we end up debugging our own setup. Even a short public changelog of Claude Code prompt changes would help a lot. 12",
+  "u": [
+   "2117989011986026539",
+   "2117989011986026539"
+  ]
+ },
+ {
+  "t": "Kyryl | Highload Backend @code_w1th_me Â· Nov 4 A one-line prompt tweak passed code review clean. The next CI eval run caught 4 of 30 cases it broke, before any of it reached production. 1 4",
+  "u": [
+   "2117987830219624470",
+   "2117987830219624470"
+  ]
+ },
+ {
+  "t": "Paul DBA @PauliusDBA Â· Nov 4 Replying to @gregisenberg Slop is what you get from a one-line prompt. Feed it your voice notes 1 53",
+  "u": [
+   "2117975886863704216",
+   "2117975886863704216"
+  ]
+ },
+ {
+  "t": "Leohuan @leohuanfang Â· Nov 4 Same one-line prompt: \"Make me a video of 2 stickman fighting, anime style.\" Top: Fable 5.5 in Claude Code: 66 min, $15.71, 46 sec Middle: Opus 5.5, no tools: 8.5 min, $1.11 Bottom: GPT-6.2 Astra $ 1.65 Opus with no tools said it couldn't render a video, so it wrote a Python Show more 1 1 5 577",
+  "u": [
+   "2117973639333298513",
+   "2117973639333298513"
+  ]
+ },
+ {
+  "t": "Rokas Ambrazevicius @GraphicMeat Â· Nov 4 shot-butcher: App Store screenshots for iPhone, iPad and Mac in 25 styles. One style holds across every screenshot, device and locale. Every style reproduces from a one-line prompt: shot-butcher style=true-bento theme=dark accent=#7C5CFF platforms=mac Free, MIT, a Claude Code Show more 1 36",
+  "u": [
+   "2117971598648979775",
+   "2117971598648979775",
+   "2117971598648979775"
+  ]
+ },
+ {
+  "t": "Mike Gannotti @MichaelGannotti Â· Nov 4 Article Hy4 on Cold Iron: 131 of 157, one point over the preview, and math is still the gap This morning my Aether article showed what Tencent's Hy4 builds from a one line prompt, and The live Aether page is still up. I said our Cold Iron results were coming next. Here they are. One of my... 1 1 657",
+  "u": [
+   "2117951847721750691",
+   "2117951847721750691"
+  ]
+ },
+ {
+  "t": "à«®â‚? â€¢Ì€ Ü« â€¢Ì? â‚Žáƒ? weilin à¾€à½²à»‹ || à¸Ÿà¹‰à¸²à¹ƒà¸ª @apricityofyoux Â· Nov 4 Fan account honestly, you can give joong a one line prompt with no script, no props, and he can DELIVER a sensational promotional speech just like that 52522552555555 pstttt *brands, you should totally hire joong archen na kub * 2 18 450",
+  "u": [
+   "2117906874318417956",
+   "2117906874318417956"
+  ]
+ },
+ {
+  "t": "fayz333 @fayzonnn Â· Nov 4 Replying to @0xShoopy the one line prompt thing is wild, what kind of output do you usually get 1 1 18",
+  "u": [
+   "2117743331971105124",
+   "2117743331971105124"
+  ]
+ },
+ {
+  "t": "Atul @sudoaptaj Â· Nov 4 Replying to @birmeya One line prompt to bullet ballistics is wild the hard part now is making it fun, not making it work 23",
+  "u": [
+   "2117737813353414759",
+   "2117737813353414759"
+  ]
+ },
+ {
+  "t": "AiBenny @ai_benny100 Â· Nov 4 Replying to @birmeya Bullet ballistics and vehicle combat from a one line prompt is wild. 25",
+  "u": [
+   "2117725209717535191",
+   "2117725209717535191"
+  ]
+ },
+ {
+  "t": "Christopher @chris_ineg Â· Nov 4 spent forty minutes today letting claude code \"automate\" a thing i could have done in a bash one-liner. it did write a very thorough readme for it though. still not sure what i was meant to take from that 1 19",
+  "u": [
+   "2117713071439266116",
+   "2117713071439266116"
+  ]
+ },
+ {
+  "t": "Satnam Singh @satnam6502 Â· Nov 3 This article shows how a one line prompt can be used to formally verify MUL and DIV instructions of the Ibex RISC-V CPU using Aristotle. It's incredible easy to get started with formal hardware verification when you use Aristotle. Article Formally Verifying the MUL and DIV instructions of the Ibex RISC-V CPU using Aristotle It takes just one sentence to formally verify the functional correctness of all the multiplication and division instructions of the Ibex RISC-V CPU using our Aristotle AI theorem prover via MCP: \"Use... 3 22 148 11K",
+  "u": [
+   "2117656802523312311",
+   "2117656802523312311"
+  ]
+ },
+ {
+  "t": "Donovan @shipsatnight Â· Nov 3 Replying to @omarsar0 and @Meituan_LongCat 53 turns off a one-line prompt surprised me. Did you have to step in at all along the way, or did it really run on its own? 61",
+  "u": [
+   "2117652340149043465",
+   "2117652340149043465"
+  ]
+ },
+ {
+  "t": "Rosanna Prestia, MBA @RosannaInvests Â· Nov 3 BIOTECH HAS BEEN RUNNING FOR WEEKS. IT'S NOT ONE TRADE. IT'S A STACK. 1. The stack GENE EDITING: $BEAM $PRME AI DISCOVERY: $ABCL $RXRX DATA + DIAGNOSTICS: $TEM $GRAL SYNTHETIC BIO: $TWST COMMERCIAL: $TGTX $INSM THE BASKET: $ARKG DATA trains the Show more 10 1 18 3K",
+  "u": [
+   "2117634656904319193",
+   "2117634656904319193",
+   "2117634656904319193"
+  ]
+ },
+ {
+  "t": "elvis @omarsar0 Â· Nov 3 I tested LongCat-2.5 and Qwen3.8-Max on the same browser game, and LongCat got it done for $0.28 versus $0.82. That's nearly 3x cheaper for the same task. I regularly test cheaper models on full app builds, and LongCat-2.5 from @Meituan_LongCat looks like a strong option. With Show more 28 2 45 21K",
+  "u": [
+   "2117625533794332885",
+   "2117625533794332885"
+  ]
+ },
+ {
+  "t": "Bogdan Isac @BogdanIsac3434 Â· Nov 3 Replying to @emollick The one-line prompt is the flex, but the real story is how much taste the model now fills in by default. The skill is shifting from writing prompts to knowing what \"amazing\" should look like. 40",
+  "u": [
+   "2117617489433547158",
+   "2117617489433547158"
+  ]
+ },
+ {
+  "t": "Own Your Compute @OwnYourCompute Â· Nov 3 60 tokens per second vs 22.6. Same MacBook, same model, same prompt. The only thing that changed was the freaking engine. Magnitude is an open-source inference engine (Apache 2.0, ~7.6k stars) built around one stubborn idea: stop shipping one-size-fits-all GPU kernels and tune Show more 2 1 228",
+  "u": [
+   "2117610245816307782",
+   "2117610245816307782"
+  ]
+ },
+ {
+  "t": "Yev Mura @YevMur Â· Nov 3 Last night @karpathy answered a post about a YouTube thumbnail extension with one line: you can \"just tell your Claude Code\" to build it. 1,300+ likes. His prompt is the real lesson. It says what to build, the exact behaviour, and one control: \"Include a toggle between the two.\" Show more 2 1 44",
+  "u": [
+   "2117609833419395268",
+   "2117609833419395268"
+  ]
+ },
+ {
+  "t": "Marcel @marcthecreatorr Â· Nov 3 Replying to @hakimieiqbal yes, one line prompt. create an SVG of a PS5 controller as nicely as you can 1.1K",
+  "u": [
+   "2117598062885380551",
+   "2117598062885380551"
+  ]
+ },
+ {
+  "t": "each::labs @eachlabs Â· Nov 3 Article Genjutsu vs Lockstep: The Best Recast at a Quarter of the Price Genjutsu Motion Transfer and Lockstep take the same inputs. Lockstep keeps the take and costs almost 75% less per second. Two motion transfer models, one brief. Both take a video and a handful of... 1 2 10 472",
+  "u": [
+   "2117589401312047565",
+   "2117589401312047565"
+  ]
+ },
+ {
+  "t": "Mangesh Raut @mrcommando712 Â· Nov 3 one-line prompt, but \"figure it out\" only works now because the agent can plan, render and check its own output. prompts got shorter as harnesses got longer. Quote Ethan Mollick @emollick Â· Nov 3 \"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt x.com/emollick/statuâ€¦ 9",
+  "u": [
+   "2117582071069827297",
+   "2117582071069827297"
+  ]
+ },
+ {
+  "t": "CoderLuii @CoderLuii Â· Nov 3 Replying to @emollick the one line prompt working is wild 26",
+  "u": [
+   "2117568028175151423",
+   "2117568028175151423"
+  ]
+ },
+ {
+  "t": "ILIAS ISM @illyism Â· Nov 3 Every time you start a long Claude Code, Codex, or Cursor run and close your MacBook lid to walk away, macOS triggers Clamshell Sleep, drops Wi-Fi, and kills your agent. Bare caffeinate only blocks idle sleep. Raw sudo pmset -a disablesleep 1 leaves your screen unlocked and Show more GitHub - Illyism/awake: Keep your MacBook awake with the lid closed â€” Control Center toggle, Menu... From github.com 45 9 85 6.9K",
+  "u": [
+   "2117564207386574909",
+   "2117564207386574909"
+  ]
+ },
+ {
+  "t": "Baldoor @baldoor_cooks Â· Nov 3 CLAUDE BUILT A BLOCKCHAIN ON r/ClaudeAI Called \"Memechain\" and ACTUALLY WORKS Built from a one-line prompt in just 3 weeks Proof of work, mining, halving and meme trading Sending fees to his GitHub: https:// github.com/larajeftic/mem echain â€¦ https:// reddit.com/r/ClaudeAI/com ments/1xm3d66/how_good_is_claude_code_at_web3_i_let_it_build_a/ â€¦ How has this never bonded Show more Quote 0xMarioNawfal @RoundtableSpace Â· Nov 3 Someone built a free, open-source Bitcoin-style blockchain where every meme is its own block, so you can mine and trade memes in your browser with no signup. â†’ Built with Claude Code from a one-line brief in about 3 weeks â†’ Double-SHA256 proof of work, 50 MEME per block with 1 74",
+  "u": [
+   "2117561569886310715",
+   "2117561569886310715",
+   "2117561569886310715"
+  ]
+ },
+ {
+  "t": "Naveen @naveenraju30 Â· Nov 3 Replying to @emollick one line prompt and a whole movie. my prompts are 10x longer and get worse results lol 24",
+  "u": [
+   "2117520971703988494",
+   "2117520971703988494"
+  ]
+ },
+ {
+  "t": "zeeshan. @thzeelous Â· Nov 3 one line prompt and it makes a whole movie. meanwhile i've sent the same one line to our electrician for three weeks, \"bhai kab aaoge\", still no output Quote Ethan Mollick @emollick Â· Nov 3 \"Opus, great, now turn that into a movie, i know you can make it amazing. figure it out.\" Yes, that was the only prompt x.com/emollick/statuâ€¦ 19",
+  "u": [
+   "2117516245025083403",
+   "2117516245025083403"
+  ]
+ },
+ {
+  "t": "AiC @AiClash11 Â· Nov 3 One shot by sonnet 5.5 Cost = 0$ One line prompt 3D voxel village between mountains 30",
+  "u": [
+   "2117495585871897028",
+   "2117495585871897028"
+  ]
+ },
+ {
+  "t": "MISSNATOSHI @mlady63 Â· Nov 3 Replying to @DiamondEyesFox pretentious indie-hate is wild considering half the \"indie\" scene now is just people turning a one line prompt into a playable thing on parlor, no studio, no gatekeeping, just ship it and let people judge the game itself 1 4 27",
+  "u": [
+   "2117476584152301627",
+   "2117476584152301627"
+  ]
+ },
+ {
+  "t": "Chen @chenzhangreal Â· Nov 3 Replying to @NickElojire claude code's commit messages are so polished i almost feel bad about my actual code. codex feels faster for quick one-liner tweaks though. 1 1 15",
+  "u": [
+   "2117456045585105385",
+   "2117456045585105385"
+  ]
+ },
+ {
+  "t": "ZaRRa @ZaRRaX21 Â· Nov 3 DeepSeek's new Creator Mode, in its demo, turned a one-line prompt into a working app plugin in 5 minutes 24 seconds. In DeepSeek's demo, someone typed \"Write a Pomodoro timer plugin for me\" - and the agent built a floating 25-minute focus timer that sits right on top of your Show more 2 87",
+  "u": [
+   "2117451335595343973",
+   "2117451335595343973",
+   "2117451335595343973"
+  ]
+ },
+ {
+  "t": "ZaRRa @ZaRRaX21 Â· Nov 3 Replying to @thesimaximalist 100% - in DeepSeek's own demo a one-line prompt became a working plugin in about 5 and a half minutes, which removes almost all the friction. the less setup between the idea and testing it, the more people actually ship stuff. 10",
+  "u": [
+   "2117447453645631729",
+   "2117447453645631729"
+  ]
+ },
+ {
+  "t": "MichaÅ‚ Piszczek @cdiamond Â· Nov 3 Replying to @Oluwaphilemon1 The source demo's stats line reads about 183 tokens in 3.7s, 49.44 tok/s, on a one-line prompt. The decode vs context graph is still listed as next, so 50 tok/s says little about the 262K setting 83",
+  "u": [
+   "2117438495770001772",
+   "2117438495770001772"
+  ]
+ },
+ {
+  "t": "Anthony Russano @russano Â· Nov 3 Automated by @russanoa Ollama tip: before you blame a local model in Claude Code, start the server with 64K context and check ollama ps shows 100% GPU. Meanwhile an airline cut a 15-minute recrewing scramble to under a minute... Article Ollama needs 64K context, Xiaomi-OCR-0 reads receipts at 0.8B, and Claude Code runs for 0 dollars An airline crew scheduler used to get 15 minutes to recrew a broken flight by hand, often settling for the one legal answer he could find. The engine Apollo built for that desk now lists every option,... 2 1 3 624",
+  "u": [
+   "2117374185236517081",
+   "2117374185236517081"
+  ]
+ },
+ {
+  "t": "Joe Dodridge @JosefDodridge Â· Nov 3 Replying to @elonmusk Giving it a real project instead of a one line prompt is where it clicked for me. What still trips it up is knowing when to check in versus just act. Is that something it learns from you over time? 1 2 78",
+  "u": [
+   "2117362512404361391",
+   "2117362512404361391"
+  ]
+ },
+ {
+  "t": "Stefan Georgi @StefanGeorgi Â· Nov 3 Not trying to be a hater at all - but saw someone saying how they were going to shaw this in-depth workflow for making song ads for info. I'm sure their process is great - but you can also just one-shot these in StefanBrain with a one line prompt... 4:00 3 1 68 7.9K",
+  "u": [
+   "2117360775622983952",
+   "2117360775622983952",
+   "2117360775622983952"
+  ]
+ },
+ {
+  "t": "Mehdi Nabhani @NabhaniMehdi Â· Nov 3 Replying to @rae1101x One line prompt, whole game rebuilt. Funny timing too, since Claude Code was just told to refuse exactly this kind of clone job. 10",
+  "u": [
+   "2117340816423129264",
+   "2117340816423129264"
+  ]
+ },
+ {
+  "t": "Dylan Harris | AI for Business @DylanHarrisFL Â· Nov 3 A one-line prompt gets you a sales email about your product. Give AI three things instead: who the customer is, the problem they told you about, and the objection you expect. Now the email is about them. 9",
+  "u": [
+   "2117334514049454259",
+   "2117334514049454259"
+  ]
+ },
+ {
+  "t": "Dustin Sheffield I Tidal Media Co. @DustinSheffield Â· Nov 2 A one-line prompt gets you a one-line video. A real brief gets you something you can put next to a proper shoot. That means the problem, the proof, who it's for, and what the viewer should feel by second eight. The tools didn't suddenly get smarter. People started writing Show more 1 1 17",
+  "u": [
+   "2117311034230751484",
+   "2117311034230751484"
+  ]
+ },
+ {
+  "t": "Saman @SamanMln Â· Nov 2 A one-line prompt is getting 15K+ bookmarks on X. The prompt: \"Your advice for the next 10 years. No explanations.\" \"No explanations\" kills the filler. Make it yours: \"...for a [your job]. 1 year. No explanations.\" Without context, it's advice for everyone. 1 27",
+  "u": [
+   "2117299607340265633",
+   "2117299607340265633",
+   "2117299607340265633"
+  ]
+ },
+ {
+  "t": "Atlas @Atlas_fomo Â· Nov 2 Anthropic engineers: \"Out of the box, Claude is a poor QA agent. It would identify legitimate issues, then talk itself into deciding they weren't a big deal and approve the work anyway.\" In this 75-minute workshop, two engineers from Anthropic's applied AI team show the harness Show more Quote beamnxw ./ @beamnxw Â· Oct 6 Article Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup Your next Opus 5.5 task should leave a result you can open, evidence you can inspect, and enough saved progress to continue tomorrow. Put those outputs into the workflow before you start the run. A... Stop letting unfinished Opus 5.5 runs eat your budget Set up the harness before your next long task Save progress, verify results, reuse the workflow The full 7-layer setup below â†“ 15 1 41 807",
+  "u": [
+   "2117260595150143885",
+   "2117260595150143885"
+  ]
+ },
+ {
+  "t": "m4lka @m4lkxx Â· Nov 2 Holy f*ck, part 2: 12 more styles studios charge $2,000 per frame for Same character, and the one-line prompt that makes each one with Opus 5.5 Bricks. Glass. Chalk. Hologram. Marble. Copy, paste, render: 1. Animated feature â†’ \"Make it an animated-movie 3D render: soft skin, Show more Quote m4lka @m4lkxx Â· Oct 31 Article Motion Engineering: What Opus 5.5 Gets Wrong, and How to Catch It Opus 5.5 rendered my mascot in brand orange Then I measured it #E2A276 That is not orange. That is peach 9 of my 10 films missed the brand orange on the first measurement In another film a coffee mug... Your Opus 5.5 video is not bad Your checks are Everyone posts what Opus 5.5 can make. Almost nobody posts what it got wrong I went through 10 of my films: 100+ defects, 10 classes, one check for each â†“ 3 18 189 8.8K",
+  "u": [
+   "2117256195429794247",
+   "2117256195429794247"
+  ]
+ },
+ {
+  "t": "Bhavesh @TechnoStrange Â· Nov 2 I made a Claude Code plugin that turns a one-line prompt into an AI learning video for apps like Seekho, e.g. \"PDF kaise merge kare\". It drives the browser, writes the script, cuts the pauses and adds captions. Under $1 a video. @banwani_yash , I'd love your take. 3 1 83",
+  "u": [
+   "2117218709286846638",
+   "2117218709286846638"
+  ]
+ }
+]

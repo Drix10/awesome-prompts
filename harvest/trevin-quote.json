@@ -1,0 +1,10 @@
+[
+ {
+  "t": "Trevin Chow @trevin Follow This is an amazing prompt that helps find a ton of bugs for me. â€œFind the appâ€™s explicit and implicit state machines and document their states, invariants, and transition tables in one file. Identify invalid states or transitions the code can actually reach, with evidence, including through retries and concurrency. Prioritize confirmed bugs by impact, group related fixes into issues, then fix them with regression tests and keep the document updated.â€? Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 6:34 PM Â· Nov 6, 2026 Â· 103.6K Views 28 108 2.5K 4.3K Relevant View quotes",
+  "u": [
+   "2118690987153186845",
+   "2118690987153186845",
+   "2118690987153186845"
+  ]
+ }
+]

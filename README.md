@@ -2,9 +2,9 @@
 
 # ⚡ god-tier-mini-prompts
 
-**178 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**200 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-178-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-200-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 178 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 200 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -129,6 +129,14 @@ Every prompt in the skill came from a human. Full credit table:
 | [@ZazenCodes](https://x.com/ZazenCodes) | Doing things wrong vs doing the wrong things |
 | [@teodorio](https://x.com/teodorio) | Master-agent routing; vector-path steering |
 | [@PawelPSzczesny](https://x.com/PawelPSzczesny) | Mine operators, combine into new prompts |
+| [@BadGatewayCo](https://x.com/BadGatewayCo) | The combo: machines + invariants + deepen modules |
+| [@webtkdev](https://x.com/webtkdev) | Convert to actors; rules-file ban |
+| [@mrcommando712](https://x.com/mrcommando712) | Map states before fixing; late-response check |
+| [@PaavoKarlin](https://x.com/PaavoKarlin) | Report shape: found / decide / bugs / sound |
+| [@imahmood](https://x.com/imahmood) | Interview-me + Simplified Technical English |
+| [@cryptoquick](https://x.com/cryptoquick) / [@GarrettPetersen](https://x.com/GarrettPetersen) | Explicit, tested, documented |
+| [@feddiwhip](https://x.com/feddiwhip) | The 16 unicorn hunts + evidence prompt |
+| [@iSp4rklux_](https://x.com/iSp4rklux_) | Context-rules-everything principle |
 
 **Quotes of quotes** (second-degree harvest: quotes of the viral Trevin quote)
 
