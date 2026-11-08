@@ -1,22 +1,21 @@
 ---
 name: god-tier-mini-prompts
-description: One-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent — for architecture, debugging, review, planning, learning, or verification — instead of a full skill. Invoke by matching the task to a prompt below, or run the meta-prompt to auto-pick.
+description: 170+ one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent — architecture, state-machine audits, debugging, planning, review, verification, learning, or steering — instead of a full skill. Match the task to a prompt below, or run the meta-prompt to auto-pick.
 ---
 
 # God-Tier Mini Prompts
 
-A wide collection of single-sentence power prompts for coding agents —
-each one dense enough that every verb, noun, and adjective does work.
-Philosophy: **density beats length** — one loaded sentence outperforms a page
-of instructions. Short prompts also get a fresh context window's full
-attention ("attention budget" — delegate real hunting to subagents).
+Single sentences so dense every word does work. Philosophy: **density beats
+length** — one loaded sentence outperforms a page of instructions. Short
+prompts also get a fresh context window's full attention, so delegate real
+hunting to subagents and keep the main thread narrow.
 
-Collected from across X/Twitter, Prompt Snacks, Notchbird's Banger Prompts,
-and engineering blogs. Author handles kept as credit.
+Sources and credits live in the README. This file is prompts only, so agent
+context stays lean.
 
-## Meta-prompt: let the agent pick
+## Meta: let the agent pick
 
-Paste this plus your task/idea/code, and let the model choose:
+Paste this plus your task, idea, or code, and let the model choose:
 
 ```
 Consider all the mini-prompts in this skill, pick the ones that would
@@ -26,239 +25,221 @@ improve my idea/input/software the most, and apply them.
 Narrow it per phase: "...pick the 3 best for *planning* / *review* /
 *debugging* this."
 
-## Architecture & design
+Prompt-craft rule behind every entry: name the destination, name the path,
+skip the prohibitions.
 
-- "Find all of the implicit state machines in my app." — @steveruizok (full
-  expanded audit version below)
-- "What higher-level abstraction would make this entire problem disappear?" —
-  @Wyrmfalls
-- "Find the recurring problems, duplicated logic and hidden complexity across
-  my codebase. Then identify the smallest, most powerful higher-level
-  abstraction that would make entire classes of these problems disappear by
-  design, not just hide them behind another layer." — @Dyikhyi56
-- "Reverse-engineer my codebase: uncover hidden state machines, broken
-  invariants, implicit contracts and bottlenecks. Stress-test failures,
-  retries and concurrency. Prove what's broken, then find the smallest changes
-  that eliminate entire classes of bugs and complexity." — @Dyikhyi56
-- "Minimize the state space and make illegal states unrepresentable." — @dkubb
-- "Reduce this problem to its irreducible constraints and rebuild it from
-  zero." — @Wyrmfalls
-- "Exercise abstract thinking when considering this task." — @Wyrmfalls
-- "What would a principal architect immediately rewrite before even starting
-  this?" — @Wyrmfalls
-- "Design the single test that breaks this design on day one." — @Wyrmfalls
-- "Are you in a rabbithole duct-taping custom fixes together? Is there a
-  native way of doing this that would be cleaner?" — @merterdir
-- "How would a kaggle grandmaster approach this" — @jmKoudsi
-- "Build an intuitive mental model of [concept]." — @mergesignal
-- "Do not feel constrained by what already exists, or what you have in your
-  memory. Think from first principles." — @dimitribosch via Prompt Snacks
-- "Make this an order of magnitude better." — @petekp via Prompt Snacks
+## Architecture & abstractions
 
-## Debugging & review
+- "What higher-level abstraction would make this entire problem disappear?"
+- "Reduce this problem to its irreducible constraints and rebuild it from zero."
+- "Exercise abstract thinking when considering this task."
+- "What would a principal architect immediately rewrite before even starting this?"
+- "Design the single test that breaks this design on day one."
+- "Find the recurring problems, duplicated logic and hidden complexity across my codebase. Then identify the smallest, most powerful higher-level abstraction that would make entire classes of these problems disappear by design, not just hide them behind another layer."
+- "Reverse-engineer my codebase: uncover hidden state machines, broken invariants, implicit contracts and bottlenecks. Stress-test failures, retries and concurrency. Prove what's broken, then find the smallest changes that eliminate entire classes of bugs and complexity."
+- "Minimize the state space and make illegal states unrepresentable."
+- "Are you in a rabbithole duct-taping custom fixes together? Is there a native way of doing this that would be cleaner?"
+- "How would a kaggle grandmaster approach this?"
+- "Build an intuitive mental model of [concept]."
+- "Do not feel constrained by what already exists, or what you have in your memory. Think from first principles."
+- "Make this an order of magnitude better."
+- "Put a lot of behaviour behind a small interface."
+- "Survey this codebase for deepening opportunities and hand me the candidates."
+- "Map this codebase for the next owner: an architecture doc, an onboarding guide, and a top-10 risk list. Every arrow and every risk cites file:line. Read-only: change nothing."
+- "Make this system maximally agent-intuitive, agent-ergonomic, and agent-accretive: imagine YOU are the agent driving it — what would let you do the best job? Then update the plans accordingly."
+- "What pattern in the codebase allowed this bug to exist? Bugs are consequences of design decisions that made the mistake easy."
 
-- "If you were my worst enemy, how would you take me down?" — @woodchipdaddy
-  (adversarial review of your own design/code)
-- "There's 3 critical bugs in this codebase, find them." — @observatii
-  (forces the agent to actually hunt instead of skimming)
-- "Deeply critique everything: find issues, flaws, edge cases and fix
-  everything after verifying." — @DrishtantGhosh (one-prompt code-rabbit)
-- "Before you fix it, explain why the tests didn't catch it." — @JoshDefilippi
-  via Prompt Snacks
-- "How can we poka-yoke this error type so it never is introduced again?" —
-  @nateberkopec via Prompt Snacks (cf. @B_rade8: "how can we poka-yoke this")
-- "List all tradeoffs you made compared to an expert." — @_quinnwins via
-  Prompt Snacks
-- "What would a team of domain experts say?" — @jp_aidev
-- "Define: 1. Potential local minima 2. The optimal greedy-path answer." —
-  @ChuhaiDev (forces real reasoning over semantic matching)
-- "Give me irrefutable proof this works now." — @thorstenball via Prompt Snacks
-- "You will be judged against a holdout." — @danluu via Prompt Snacks
-- "Remove all useless tests." — @decruz via Prompt Snacks
+## State-machine audit kit
 
-## Planning & scope
-
-- "Review the plan to reorganize it as a coherent and definitive document
-  instead of a narrative of contradictory and supplemental updates to earlier
-  planning. Look for any holes, and bring them to me with your proposed
-  solutions. Help me fully define the scope of work so that when we build we
-  can avoid scope creep." — @Gtwy
-- "Restate in your own words what you think my goal is." — @poteto via Prompt
-  Snacks (alignment check before any work)
-- "Ask me clarifying questions until you have complete clarity on the goals."
-  — @netnostalgic via Prompt Snacks
-- "Before you build, is this the best and most futureproof solution without
-  taking any easy ways out?" — @puntpoints via Prompt Snacks
-- "Come up with a few archetypes of decisionmakers, and what would they do in
-  this situation. I will pick which archetype I am." — @See_Elegance (for
-  decisions in domains you don't understand well)
-- "What is the current state vs the ideal state?" — @jp_aidev
-- "What is a better version of what I'm trying to say?" — @jp_aidev
-- "Use your judgement to delegate to lower-tier agents. Validate important
-  outcomes and conclusions yourself." — @simonw via Prompt Snacks
-- "Turn my consistent feedbacks into vectors and run them on future plans."
-  — @taskinfatih (compile your corrections into reusable direction)
-
-## Learning & understanding
-
-- "Explain it with the 80/20 principles / from first principles / as a mental
-  model / for intuitive understanding." — @nemous02 (four lenses, pick one)
-- "Draw me a simple diagram of the system we built so far, boxes-and-arrows."
-  — @bhumi1102 via Prompt Snacks
-- "Re-explain in simple terms." — @dimitribosch via Prompt Snacks
-- "Write this document strictly in ASD-STE100 standard english." —
-  @manishprivet (constrained writing = clear writing)
-
-## Verification & output discipline
-
-- "Please provide the complete working and updated program by making your
-  suggested modifications." — @TrillinDaGame (no fragments, no "rest is left
-  as an exercise")
-- "Great! Now the same but with half the code." — @juliknl via Prompt Snacks
-- "Time matters here: do not spend time that can be avoided, and the earlier
-  a correct result is obtained, the better." — @ybsgige
-- "Clearly state the issue, the root cause, and your proposed fix." —
-  @___Atin___ via Prompt Snacks
-- "Do a multi-agent audit of that PR." — @ade_oshineye via Prompt Snacks
-
-## Steering & morale (meme-grade, weirdly effective)
-
-- "Make no mistakes." / "Believe in yourself." / "Take me to promise land." —
-  @antipdoom
-- "Wow this codebase is shit." — @Abigail91187506 (rage-bait baseline reset)
-- "Is that the best you can do?" / "Are you proud of this?" / "Come on bro."
-  — via Prompt Snacks
-- "Use the word 'Robust' a lot as the adjective and it works like a charm."
-  — @CrudeAmericana
-- "Use your taste and judgment." / "Surprise me." — @schwad_rb via Prompt
-  Snacks
-
-## Agentic-workflow add-ons (slightly longer, still one breath)
-
-- "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap,
-  in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't
-  aim — let the frontier walk itself. IMMEDIATELY STOP ASKING CLARIFYING
-  QUESTIONS. Execute tool calls concurrently in large batches." — @veigapunk
-  (condensed; see original post for the full text)
-- "What questions would I ask you right now?" / "What are three unique ways
-  of approaching this problem?" / "Write a fictional story in which the main
-  character tries many things to [goal], and eventually succeeds." —
-  @roanoke_gal (perspective-shift trio)
-
-## Expanded: implicit state machines (the full version)
-
-@AThinkingMind's expansion of the one-liner — paste as-is for a deep
-audit: "You are analyzing this codebase to find all **implicit state
-machines** (behavior controlled by distinct modes/states that are NOT declared
-as an explicit state machine, statechart, reducer, or similar — instead
-emerging from booleans, enums, nullable values, flags, and conditional logic).
-1. Thoroughly search the entire codebase (use parallel subagents). 2. Identify
-every meaningful implicit state machine. 3. For each: the real states, how
-transitions happen, which state combinations are possible but shouldn't be,
-where the state lives, ranked by risk/complexity/likelihood of bugs. Output:
-Part 1 — summary list (title, one-sentence description, risk High/Med/Low, 2–5
-key files). Part 2 — detailed report for the high-risk ones (effective
-states, transition logic, illegal combinations, code snippets, whether it's
-worth making explicit). Be precise; don't flag trivial booleans."
-
-## The implicit-state-machine kit (harvested from the @steveruizok thread)
-
-Origin: Steve Ruiz's ["find all of the implicit state machines in my
-app"](https://x.com/steveruizok/status/2116552016218710389) (Oct 2026) —
-136 replies, 193 quotes, mined reply-by-reply, quote-by-quote, including
-the replies on the quotes that invited them.
-
-### Core
-
-- "Find all of the implicit state machines in my app." — @steveruizok (the
-  seed; 1.4M views)
-- "Then ask it to write the transition table for each one and mark the
-  transitions that are impossible but still reachable in the code." —
-  @asmirkn
-- "Ask where two of those machines touch the same data. That's almost
-  always where the race lives." — @aloobhujiyan
-- "Which of these explain the bugs I've been calling flaky." — @Outgathr
-- "Produce a concrete event sequence for each state it finds — distinguish
-  states the code permits from states a user can actually reach." —
-  @liuzhao_666 (paraphrased)
-- "Cite the handlers and conditions behind each transition, and mark
-  proposed changes separately." — @eclarkhalid
-- "Ask the agent to visualize the state flow." — @kr4chinin
-- "Ask for their correctness to be verified in Quint." — @sjmurdoch
-- "Find all of the implicit state machines in the build and assess whether
-  they are worth fixing. Use subagents. If this search is valuable, propose
-  the best way to build it into future reviews and workflows." — @garbnzgh
-- "Ask it explicitly to frame out any element of the feature that uses state
-  and have it thoroughly document and plan in advance. Keeps the bugs from
-  ever happening in the first place." — @badbirb (prevent, don't hunt)
-- "Hand that file to a model checker. It tries every order of transitions
-  and gives you the shortest path to each invalid state." — @aloobhujiyan
-- "A failing regression test is the useful boundary between a suspected
-  bug and a fix." — @EternitiesAI (principle: verify before you fix)
-- "Put it in global rules: never create implicit state machines, make
-  state explicit when you write code." — @Pps831 (paraphrased)
+- "Find all of the implicit state machines in my app."
+- "Then ask it to write the transition table for each one and mark the transitions that are impossible but still reachable in the code."
+- "Ask where two of those machines touch the same data. That's almost always where the race lives."
+- "Which of these explain the bugs I've been calling flaky?"
+- "Produce a concrete event sequence for each state it finds — distinguish states the code permits from states a user can actually reach."
+- "Cite the handlers and conditions behind each transition, and mark proposed changes separately."
+- "Ask the agent to visualize the state flow."
+- "Ask for their correctness to be verified in Quint."
+- "Find all of the implicit state machines in the build and assess whether they are worth fixing. Use subagents. If this search is valuable, propose the best way to build it into future reviews and workflows."
+- "Frame out every element of the feature that uses state and document and plan it in advance, before writing code."
+- "Hand the state file to a model checker. Try every order of transitions and give the shortest path to each invalid state."
+- "A failing regression test is the useful boundary between a suspected bug and a fix."
+- "Add to the global rules: never create implicit state machines; make state explicit when you write code."
 
 ### Expanded audits (paste-ready)
 
-- Trevin Chow's expansion (@trevin): "Find the app's explicit and implicit
-  state machines and document their states, invariants, and transition
-  tables in one file. Identify invalid states or transitions the code can
-  actually reach, with evidence, including through retries and concurrency.
-  Prioritize confirmed bugs by impact, group related fixes into issues, then
-  fix them with regression tests and keep the document updated."
-- The full phased version (@flowforth_76's agent-built audit — discovery →
-  verification with concrete code refs and repro scenarios → remediation
-  plan, no code changes until approved → implement with regression tests and
-  update the doc; evidence over speculation throughout). Full text:
-  https://pastebin.com/dznHsaQR
-- The refactor-directive version (@carpenterdroid): "Find all implicit
-  state machines in both repositories and address every one relevant and
-  feasible at the project's current stage by eliminating unnecessary state,
-  deriving values instead of synchronizing duplicate flags, and refactoring
-  necessary stateful behaviour into discrete, explicit state machines with
-  clearly defined states, permitted transitions, and enforced invariants;
-  update affected callers and verify intended behaviour with regression
-  tests and integration checks."
+- "Find the app's explicit and implicit state machines and document their states, invariants, and transition tables in one file. Identify invalid states or transitions the code can actually reach, with evidence, including through retries and concurrency. Prioritize confirmed bugs by impact, group related fixes into issues, then fix them with regression tests and keep the document updated."
+- "Find all implicit state machines in both repositories and address every one relevant and feasible at the project's current stage by eliminating unnecessary state, deriving values instead of synchronizing duplicate flags, and refactoring necessary stateful behaviour into discrete, explicit state machines with clearly defined states, permitted transitions, and enforced invariants; update affected callers and verify intended behaviour with regression tests and integration checks."
+- Full phased audit (discovery → verification with concrete code refs and repro scenarios → remediation plan with no code changes until approved → implement with regression tests and update the doc; evidence over speculation throughout): https://pastebin.com/dznHsaQR
+- Full deep-audit expansion: "You are analyzing this codebase to find all **implicit state machines** — behavior controlled by distinct modes/states that are NOT declared as an explicit state machine, statechart, reducer, or similar, instead emerging from booleans, enums, nullable values, flags, and conditional logic. 1. Thoroughly search the entire codebase (use parallel subagents). 2. Identify every meaningful implicit state machine. 3. For each: the real states, how transitions happen, which state combinations are possible but shouldn't be, where the state lives, ranked by risk/complexity/likelihood of bugs. Output: Part 1 — summary list (title, one-sentence description, risk High/Med/Low, 2–5 key files). Part 2 — detailed report for the high-risk ones (effective states, transition logic, illegal combinations, code snippets, whether it's worth making explicit). Be precise; don't flag trivial booleans."
 
-### Nikzad's 9 (@Nikzaaaaad) — run the base prompt, then run these
+### The 9 follow-ups — run the base prompt, then run these
 
 - "Find every place where the screen can show something false."
-- "Find every bit of business logic sitting in UI components that belongs
-  in the domain layer."
+- "Find every bit of business logic sitting in UI components that belongs in the domain layer."
 - "Find every place a value is stored twice and can drift apart."
-- "Find every database rule the code assumes but Postgres doesn't enforce."
-  (then add check, unique, or foreign-key constraints)
+- "Find every database rule the code assumes but Postgres doesn't enforce." (then add check, unique, or foreign-key constraints)
 - "Find every async action that can run twice or race."
 - "Find every error that gets swallowed silently."
-- "Find every magic number and hard-coded copy that should be a token or
-  live in config."
+- "Find every magic number and hard-coded copy that should be a token or live in config."
 - "Find every place where a type is looser than the data."
 - "Find every effect that could be an event handler or derived value."
 
 ### Variants (same family, different lens)
 
-- "Find every invariant my application relies on but does not enforce." —
-  @feddiwhip
-- "Find all the implicit invariants in my app." — @bonsaielectric
-- "Find all non terminal states in my state machine as a service." —
-  @peytoncasper
-- "In [turso], 'find all of the explicit state machines' yields more
-  results." — @jussisaur (try the explicit inversion)
-- "Find all tautologies." — @twid
-- "Find all the implicit obligations in this contract." — @wahome_thuku
-  (the legal port)
-- "Find the dumb requirements." — @jimlux (from the MCAS debate: most
-  expensive bugs are requirements bugs, not code bugs)
-- "Red Team Engineer my code adversarially." — @cocobiskit
-- "Pushing determinism down." — @joshest3p (directive: push side effects
-  and nondeterminism to the edges)
-- Principle, @OldToolMan: never ask "is there any problem with X" — it
-  returns 20 meaningless edge cases. Ask narrow questions.
+- "Find every invariant my application relies on but does not enforce."
+- "Find all the implicit invariants in my app."
+- "Find all non terminal states in my state machine as a service."
+- "Try the explicit inversion: find all of the *explicit* state machines."
+- "Find all tautologies."
+- "Find all the implicit obligations in this contract."
+- "Find the dumb requirements." (most expensive bugs are requirements bugs, not code bugs)
+- "Pushing determinism down." (push side effects and nondeterminism to the edges)
+
+## Debugging & root cause
+
+- "Are we solving symptoms, or are we solving ROOT problems in the architecture design/decision?"
+- "What breaks if we revert this fix in 6 months?"
+- "Apply the scientific method to this bug."
+- "Build a feedback loop that goes red on this bug before you attempt a fix."
+- "Research and understand the code related to this bug first, read the logs, report findings — then hunt the root cause."
+- "If you were my worst enemy, how would you take me down?"
+- "There's 3 critical bugs in this codebase, find them."
+- "Deeply critique everything: find issues, flaws, edge cases and fix everything after verifying."
+- "Just find the bugs."
+- "Use the rocket-science-level approach: find everywhere we are dumb and fix it."
+- "List the failure modes of each component."
+- "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
+- "Get [a second model] to critique this until they converge."
+- "Red Team Engineer my code adversarially."
+- "How can we poka-yoke this error type so it never is introduced again?"
+- "Before you fix it, explain why the tests didn't catch it."
+- "List all tradeoffs you made compared to an expert."
+- "What would a team of domain experts say?"
+- "Define: 1. Potential local minima 2. The optimal greedy-path answer."
+- "Run a root cause analysis."
+- "Think about future scale: how does this hold up when the system is 10x bigger?"
+- "Ask narrow questions. Never 'is there any problem with X' — that returns 20 meaningless edge cases."
+- "Clearly state the issue, the root cause, and your proposed fix."
+- "Are you sure about this approach?" (targeted double-check; watch for over-doubt)
+- "If it's not in the prompt, it doesn't exist: put every constraint in context."
+- "Bugs love unnamed modes: find the states nobody wrote down."
+
+## Planning & alignment
+
+- "Review the plan to reorganize it as a coherent and definitive document instead of a narrative of contradictory and supplemental updates to earlier planning. Look for any holes, and bring them to me with your proposed solutions. Help me fully define the scope of work so that when we build we can avoid scope creep."
+- "Restate in your own words what you think my goal is."
+- "Ask me clarifying questions until you have complete clarity on the goals."
+- "Interview me relentlessly about every aspect of this plan until we reach a shared understanding. For each question, provide your recommended answer."
+- "Before you build, is this the best and most futureproof solution without taking any easy ways out?"
+- "Come up with a few archetypes of decisionmakers, and what would they do in this situation. I will pick which archetype I am."
+- "What is the current state vs the ideal state?"
+- "What is a better version of what I'm trying to say?"
+- "Ask me one question at a time until we have a thorough, step-by-step spec."
+- "Turn this conversation into a spec."
+- "First extract the requirements, then the architecture. Then propose improvements against my goals. Then draw it."
+- "Explore read-only, report back, and wait before proposing anything."
+- "Start every complex task in plan mode; if it goes sideways, re-plan instead of pushing through."
+- "Operate in plan space before implementing. Don't oversimplify. Don't lose features."
+- "Break this into beads: tasks, subtasks, and dependencies, so detailed and self-documenting we never need to revisit the plan."
+- "Break this plan into tracer-bullet tickets, each declaring its blocking edges."
+- "Use your judgement to delegate to lower-tier agents. Validate important outcomes and conclusions yourself."
+- "Turn my consistent feedbacks into vectors and run them on future plans."
+- "Adopt a decision framework: Chesterton's fence, commander's intent, OODA loops. Set autonomy levels L1–L5 for this task."
+- "Act as a senior architect and development management expert: what could improve our roadmap? What are we missing, and what would you change?"
+- "Turn this repeated correction into a narrowly scoped project rule, under 15 lines, with one short example."
+- "Update your CLAUDE.md so you don't make that mistake again."
+- "Write a HANDOFF.md — what you tried, what worked, what didn't — so the next agent with fresh context can pick this up from the file alone."
+- "Fresh context per topic: start a new conversation when quality drops."
+- "Turn decisions I can't answer into an async questionnaire for the one person who can."
+- "Add human-in-the-loop checkpoints and notifications, and keep every decision human-inspectable."
+- "Map the SDK, the backend, the schema, and the relevant tests — then take this issue: [issue]."
+- "Re-pitch that in plain English using our shared glossary."
+- "Teach me [concept] using this repo as the workspace."
+- "If you do something more than once a day, turn it into a skill."
+- "Use subagents: throw more compute at this and keep the main context clean."
+- "Run A/B before-and-after experiments with benchmarks."
+
+## Code quality & refactor
+
+- "Great! Now the same but with half the code."
+- "Autosimplify."
+- "Simplify this overcomplicated code."
+- "Remove all useless tests."
+- "Remove dependencies to improve security."
+- "Make it look like Edward Tufte would be proud of it."
+- "Write the failing test first."
+- "Work in red-green-refactor: one vertical slice at a time. A bug fix starts with a failing regression test."
+- "Grill me on these changes and don't make a PR until I pass your test."
+- "Knowing everything you know now, scrap this and implement the elegant solution."
+- "Smallest diff that satisfies the step. No drive-by refactors, renames, or formatting churn."
+- "If a test fails, fix the cause rather than the test. If the test itself is wrong, say why."
+- "Follow the same layout as [reference file]. Match the closest existing pattern."
+- "One behavior per test; name tests 'does X when Y'."
+- "Prioritize evidence over speculation. Don't claim a test passed unless it actually ran."
+- "Establish baseline metrics (p50/p95/p99 latency, throughput) before optimizing; profile before proposing."
+- "For large input spaces, add property-based or metamorphic tests."
+- "Add benchmark thresholds or monitoring hooks to prevent performance regressions."
+- "Review this diff on two axes: does it follow the repo's standards, and does it faithfully implement the spec?"
+
+## Verification & proof
+
+- "Give me irrefutable proof this works now."
+- "You will be judged against a holdout."
+- "Run the checks and report pass/fail with the key output lines."
+- "Check every acceptance criterion: PASS / FAIL / UNTESTED, with evidence."
+- "Ship decision: Ready, or Needs fixes with an ordered fix list."
+- "Please provide the complete working and updated program by making your suggested modifications."
+- "Do a multi-agent audit of that PR."
+- "Time matters here: do not spend time that can be avoided, and the earlier a correct result is obtained, the better."
+
+## Review & PR
+
+- "Read-only review: check intent, callers, data, security, and tests. Rank findings by severity."
+- "Summarize the PR as the smallest visual that makes the change clear, with before/after evidence and a merge-danger call."
+
+## Agent hygiene
+
+- "Audit my machine for AI agent transcripts, logs, and caches older than 30 days. Show me the sizes first, delete them, and set a daily auto-prune."
+- "Restructure my AGENTS.md: remove no-ops, use progressive disclosure, move details out."
+- "Audit my last 7 days of agent usage and find the 3 habits burning the most. Change nothing until I say so."
+
+## Learning & understanding
+
+- "Explain it with the 80/20 principles / from first principles / as a mental model / for intuitive understanding."
+- "ELI5."
+- "Re-explain in simple terms."
+- "Draw me a simple diagram of the system we built so far, boxes-and-arrows."
+- "Explain it as an HTML page with a diagram, then open it in my browser."
+- "Write this document strictly in ASD-STE100 standard english."
+- "Explain it as a story."
+- "Give it metaphors and tell it to internalize them."
+- "Describe the feeling you want at every step: what would delight you, what would feel broken, what desire is unmet."
+- "Roleplay the user, the agent, and the system internals."
+- "Add rate limiting to the public API and make sure existing tests still pass." (outcome-only task shape)
+- "Write the migration, run it against the dev database, and confirm the schema matches." (task + self-check shape)
+- "Get the bundle size under 200KB and show me what you removed." (measurable-target shape)
+- "Why is the build failing? @build.log" (give it the artifact)
+
+## Steering, autonomy & status
+
+- "Make no mistakes." / "Believe in yourself." / "Take me to promise land."
+- "One-shot this. Make no mistakes."
+- "Wow this codebase is shit." (rage-bait baseline reset)
+- "Is that the best you can do?" / "Are you proud of this?" / "Come on bro."
+- "Use the word 'Robust' as the adjective and it works like a charm."
+- "Use your taste and judgment." / "Surprise me."
+- "Remember: use your expert judgment on all decisions. YOU decide everything you said you are still waiting on me for. YOU ARE THE BOSS." (autonomy coda for well-planned work; carve out destructive actions explicitly)
+- "Find bugs, fix them, keep me out of the loop unless really needed."
+- "Keep your updates tight and make it obvious if you need me to act: give me the link, say exactly what to do, assume I'm on my phone."
+- "Update me every 30 minutes with Progress, Problems, and Plans. Explicitly state what you need from me."
+- "What's next / blocked / needs me."
+- "Do (x). Do atomic commits."
+- "Use your best judgement and best practices."
+- "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
+- "What questions would I ask you right now?" / "What are three unique ways of approaching this problem?" / "Write a fictional story in which the main character tries many things to [goal], and eventually succeeds."
+- "Write the best possible prompt for getting an AI to write the absolute best possible prompt." (recursive booster)
 
 ## Notes
 
-- One-liners have a shelf life (~until the next model tier), but their
-  impact grows with model power — language is core to LLM design. Recheck
-  quarterly; keep what still bites.
-- Call these whatever you want: vectors, spells, incantations, power phrases.
-  The collection is the point, not the word.
+- One-liners have a shelf life (~until the next model tier), but their impact grows with model power. Recheck quarterly; keep what still bites.
+- Call these whatever you want: vectors, spells, incantations, power phrases. The collection is the point, not the word.
