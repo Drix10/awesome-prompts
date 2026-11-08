@@ -93,6 +93,8 @@ skip the prohibitions.
 - "Find all the implicit invariants in my app."
 - "Find all non terminal states in my state machine as a service."
 - "Try the explicit inversion: find all of the *explicit* state machines."
+- "Convert them to actors. Then add a rules-file line: no new implicit ones."
+- "Make all implicit state machines explicit, tested, and documented."
 - "Find all tautologies."
 - "Find all the implicit obligations in this contract."
 - "Find the dumb requirements." (most expensive bugs are requirements bugs, not code bugs)
@@ -103,9 +105,32 @@ skip the prohibitions.
 - "Make sure every communications interface pair shares the same timeout contract on both sides."
 - "Check cross-interface settings: they go hyper-local, which is why state transitions get spread out."
 
+## Unicorn hunts (DISCOVER family)
+
+One-line discovery prompts in the seed's image: each finds a class of hidden wrongness. Pair any of them with PROVE ("demonstrate a reachable counterexample") and REPAIR ("fix at the authoritative boundary with regression tests") — and never authorize repairs until the breakage is demonstrated.
+
+- "Find all the implicit transactions in my app."
+- "Find every place my app can disagree with itself."
+- "Find every impossible state my data model permits."
+- "Find all the implicit protocols between components."
+- "Find everything whose correctness depends on timing or execution order."
+- "Find every operation that is unsafe to retry."
+- "Find every business rule implemented differently across entry points."
+- "Find every contract my code assumes but never verifies."
+- "Find every trust boundary crossed without revalidating authority."
+- "Find every workflow that can become permanently stuck."
+- "Find every successful operation that can leave the system inconsistent."
+- "Find every derived value that can outlive its source of truth."
+- "Find every business decision implemented in more than one place."
+- "Find every change that requires modifying unrelated parts of the app."
+- "Find every important behavior that lacks an executable specification."
+- "Prove findings against actual code paths before repairing them. Preserve intended behavior, prefer the smallest systemic fix, and reject unverified assumptions."
+
 ## Debugging & root cause
 
 - "Are we solving symptoms, or are we solving ROOT problems in the architecture design/decision?"
+- "Find all of the implicit state machines in my app. Find every invariant it relies on but doesn't explicitly enforce. Deepen modules and simplify interfaces."
+- "Before asking an agent to fix a bug, ask it to map the states."
 - "What breaks if we revert this fix in 6 months?"
 - "Apply the scientific method to this bug."
 - "Build a feedback loop that goes red on this bug before you attempt a fix."
@@ -163,6 +188,7 @@ skip the prohibitions.
 - "Map the SDK, the backend, the schema, and the relevant tests — then take this issue: [issue]."
 - "Re-pitch that in plain English using our shared glossary."
 - "Teach me [concept] using this repo as the workspace."
+- "After the scan, interview me about each decision and report back in Simplified Technical English."
 - "If you do something more than once a day, turn it into a skill."
 - "Use subagents: throw more compute at this and keep the main context clean."
 - "Route everything through a master agent."
@@ -196,6 +222,7 @@ skip the prohibitions.
 - "You will be judged against a holdout."
 - "Run the checks and report pass/fail with the key output lines."
 - "Check every acceptance criterion: PASS / FAIL / UNTESTED, with evidence."
+- "Report the scan as: how many found, how many need a decision, how many have specific bugs, how many are sound."
 - "Ship decision: Ready, or Needs fixes with an ordered fix list."
 - "Please provide the complete working and updated program by making your suggested modifications."
 - "Do a multi-agent audit of that PR."
@@ -252,3 +279,5 @@ skip the prohibitions.
 
 - One-liners have a shelf life (~until the next model tier), but their impact grows with model power. Recheck quarterly; keep what still bites.
 - Call these whatever you want: vectors, spells, incantations, power phrases. The collection is the point, not the word.
+- Context rules everything: the model guesses whatever the prompt doesn't specify.
+- Demand concrete evidence and deduplicate overlapping findings before authorizing any repair.

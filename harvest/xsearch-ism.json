@@ -1,0 +1,123 @@
+[
+ {
+  "t": "wilter @framebufferobj_ Â· 6h when someone said â€œput this prompt â€˜find all implicit state machinesâ€™â€? i got ptsd from it now LOL Quote thomas @brainage19 Â· 17h I can see why people say you still need to read the code 1 31",
+  "u": [
+   "2119241372565963010",
+   "2119071376665698416",
+   "2119071376665698416"
+  ]
+ },
+ {
+  "t": "ìµœìœ ì§„ @loficlimate Â· 9h did the implicit state machines prompt yesterday and wanted to cry that it pointed out so many different inconsistencies in our external codebase 45",
+  "u": [
+   "2119183793190011026",
+   "2119183793190011026"
+  ]
+ },
+ {
+  "t": "Donald Watts @_donaldwatts_ Â· 13h Replying to @KingBootoshi Context engineering is under-rated. \"Rewrite my paragraph so every adjective is doing the work of the verb it's currently modifying, and cut every verb that's doing the work of a comma.\" The paragraph: we need a collection of God tier prompts like this not skills I DON'T CARE Show more 112",
+  "u": [
+   "2119130793088008391",
+   "2119130793088008391"
+  ]
+ },
+ {
+  "t": "Vishveshwar Jatain @eclecticV Â· 14h Replying to @eclecticV One it the consequences of the new prompt-to-build-anything world is the fact that you can technically get things done without the educational benefits of doing anything even lightly graze you. This here is a good example. The majority of people who donâ€™t know what implicit Show more 17",
+  "u": [
+   "2119113201032020302",
+   "2119113201032020302"
+  ]
+ },
+ {
+  "t": "Bad Gateway Co @BadGatewayCo Â· 14h my new favourite prompt: \"find all of the implicit state machines in my app. find every invariant my app relies on but doesn't explicitly enforce. deepen modules and simplify interfaces.\" 1 116",
+  "u": [
+   "2119105819832959087",
+   "2119105819832959087"
+  ]
+ },
+ {
+  "t": "Aarav - 16 y/o founder @amronos Â· 15h You really need this prompt running often. My agent found 90+ implicit state machines and filed 30+ PRs (all merged). I have now integrated it into my /cleanup skill: https:// github.com/spikonado/spro cket/blob/main/crates/sprocket-workspace/skills/cleanup/SKILL.md â€¦ Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 2 34",
+  "u": [
+   "2119105022667747594",
+   "2119105022667747594"
+  ]
+ },
+ {
+  "t": "Sparklux @iSp4rklux_ Â· 15h Find all the implicit state machines in my appâ€™ is not a god-tier prompt. Your appâ€™s problems probably arenâ€™t state machines. Context rules everything around me. Dollar, dollar bill, yâ€™all 24",
+  "u": [
+   "2119099634174038261",
+   "2119099634174038261"
+  ]
+ },
+ {
+  "t": "Thilak @webtkdev Â· 16h A 10-word prompt with 929K views: \"find all of the implicit state machines in my app\" Your agent digs out state hidden in booleans, flags and if-chains. Backend follow-up: convert them to actors. Then add a rules file line: no new implicit ones. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 3 193",
+  "u": [
+   "2119087730038915406",
+   "2119087730038915406"
+  ]
+ },
+ {
+  "t": "Mangesh Raut @mrcommando712 Â· 20h Before asking an agent to fix a bug, ask it to map the states. @steveruizok 's prompt is worth saving: â€œfind all of the implicit state machines in my appâ€? Think login, checkout, uploads. Which transitions are allowed? What happens if a response arrives late? I work on OSS Show more 19",
+  "u": [
+   "2119026691183951995",
+   "2119026691183951995"
+  ]
+ },
+ {
+  "t": "snapback dog @feddiwhip Â· 22h Cool prompts inspired by the one-liner prompt from Steve Ruiz Article Unicorn prompts inspired by Steve Ruiz This article is a note to self more than anything, but if it can help one other person, then it's worth posting publicly. After seeing Steve Ruiz's terse viral prompt, part of my brain twitched. I... 3 23K",
+  "u": [
+   "2118994381382557946",
+   "2118994381382557946"
+  ]
+ },
+ {
+  "t": "Paavo Karlin @PaavoKarlin Â· 22h Replying to @jamonholmgren and @steveruizok Thank you. This was top tier prompt. \"The scan found 34 implicit state machines. Ten need a decision, fourteen have specific bugs worth fixing, and ten are sound\" 1 205",
+  "u": [
+   "2118990489215009206",
+   "2118990489215009206"
+  ]
+ },
+ {
+  "t": "Shaoze Chen @szchan111 Â· Nov 7 tobi just hit this coding-agent prompt with \"It works\": \"find all of the implicit state machines in my app\" ( @steveruizok ). one-liner you can drop straight into a coding agent 6 1 5 500",
+  "u": [
+   "2118969262794834426",
+   "2118969262794834426"
+  ]
+ },
+ {
+  "t": "gKev1n @GKev1n Â· Nov 7 Translated from Chinese Show original The file clearly uploaded successfully, but the red error popup on the screen is still stubbornly stuck there? When you hit a bizarre bug like this that sends your blood pressure through the roof, whatever you do, donâ€™t rush to ask an AI to â€œfix this for meâ€? or â€œrewrite the Show more Quote tobi lutke @tobi Â· Nov 7 It works Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 6 6 560",
+  "u": [
+   "2118954099840323949",
+   "2118954099840323949"
+  ]
+ },
+ {
+  "t": "mamoth @imahmood Â· Nov 7 Replying to @pggalaviz Run this to simplify the decision making process â€œFind all implicit state machinesâ€? and then ask the ai to ask you about the decisions using this communication prompt â€œgtldr / Simplified Technical English report formatâ€? thank me later 22",
+  "u": [
+   "2118940327658524724",
+   "2118940327658524724"
+  ]
+ },
+ {
+  "t": "Mustafa @globalainomad Â· Nov 7 Why did a one-line prompt get 9,335 bookmarks? (a) @steveruizok had agents find the implicit state machines in your app (b) every codebase hides a few nobody drew. And that or is not a xor. @LukeParkerDev merged 15 PRs off it. What I take from this: bugs love unnamed modes. 1 32",
+  "u": [
+   "2118931970663096522",
+   "2118931970663096522"
+  ]
+ },
+ {
+  "t": "AGTP @AGTPinsights Â· Nov 7 Steve Ruiz's one-line AI prompt is going viral with developers. Here's what you need to know. Steve Ruiz ( @steveruizok ) posted on Oct 31: \"good prompt: find all of the implicit state machines in my app\". The post has passed 890K views, with about 9K likes and 5.2K reposts. An Show more Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 1 1 875",
+  "u": [
+   "2118917380537450731",
+   "2118917380537450731",
+   "2118917380537450731"
+  ]
+ },
+ {
+  "t": "Hunter Beast @cryptoquick Â· Nov 7 The prompt to add is \"make all implicit state machines explicit, tested, and documented\" Quote Dr. Dad, PhD @GarrettPetersen Â· Nov 7 Major refactor as a result of this. Also adding \"no implicit state machines\" to my agent skills. Simply knowing the phrase \"implicit state machine\" is the kind of thing that pays off in the age of vibe coding. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 6 762",
+  "u": [
+   "2118907832317931786",
+   "2118907832317931786"
+  ]
+ }
+]
