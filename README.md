@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ god-tier-mini-prompts
+# ⚡ awesome-prompts
 
 **270 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
@@ -60,20 +60,20 @@ Narrow it per phase: *"…pick the 3 best for planning / review / debugging this
 
 Drop [`SKILL.md`](SKILL.md) into your agent's skills folder. That's the whole install.
 
-**Claude Code**: `~/.claude/skills/god-tier-mini-prompts/SKILL.md`
+**Claude Code**: `~/.claude/skills/awesome-prompts/SKILL.md`
 
 ```bash
-mkdir -p ~/.claude/skills/god-tier-mini-prompts
-curl -sL https://raw.githubusercontent.com/Drix10/god-tier-mini-prompts/main/SKILL.md \
-  -o ~/.claude/skills/god-tier-mini-prompts/SKILL.md
+mkdir -p ~/.claude/skills/awesome-prompts
+curl -sL https://raw.githubusercontent.com/Drix10/awesome-prompts/main/SKILL.md \
+  -o ~/.claude/skills/awesome-prompts/SKILL.md
 ```
 
-**OpenAI Codex**: `~/.codex/skills/god-tier-mini-prompts/SKILL.md`
+**OpenAI Codex**: `~/.codex/skills/awesome-prompts/SKILL.md`
 
 ```bash
-mkdir -p ~/.codex/skills/god-tier-mini-prompts
-curl -sL https://raw.githubusercontent.com/Drix10/god-tier-mini-prompts/main/SKILL.md \
-  -o ~/.codex/skills/god-tier-mini-prompts/SKILL.md
+mkdir -p ~/.codex/skills/awesome-prompts
+curl -sL https://raw.githubusercontent.com/Drix10/awesome-prompts/main/SKILL.md \
+  -o ~/.codex/skills/awesome-prompts/SKILL.md
 ```
 
 **Cursor:** reference it from `.cursor/rules/` or paste prompts straight into Agent mode.
@@ -180,7 +180,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@radical___chic](https://x.com/radical___chic) | Living HTML doc until all explicit |
 | [@TheDavidTai](https://x.com/TheDavidTai) | Sync state enums; shared timeout contracts; hyper-local cross-interface settings |
 
-**The god-tier thread** ([@KingBootoshi](https://x.com/KingBootoshi/status/2118803776387928228), Nov 2026; the collection call)
+**The collection-call thread** ([@KingBootoshi](https://x.com/KingBootoshi/status/2118803776387928228), Nov 2026; the collection call)
 
 | Author | Contribution |
 |---|---|
