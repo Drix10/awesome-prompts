@@ -289,6 +289,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "When fixing mistakes or bugs, redesign the system to prevent that class of issue from recurring or ensure it is automatically detected by existing systems."
 - "Every rule added to CLAUDE.md competes with the forty already there."
 - "A failing test or a lint check catches the same mistake every single time."
+- "Agents take whatever path needs the fewest human steps."
+- "Agents pick the tool whose name and description match the task in plain words and skip anything they'd have to puzzle out."
 - "AGENTS.md and CLAUDE.md aren't configuration; they're text the agent follows as orders."
 - "Markdown as an output format is banned for this session."
 - "It's easily verifiable and you can define the expectations beforehand."
@@ -533,6 +535,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Plain text files outliving every fancy memory app ever made.
 - The number that matters isn't price per million tokens, it's cost per solved task.
+- 56K input tokens billed before the question: MCP servers charge you before you ask.
 - The teams that scale next year will not add headcount. They will wire up the feedback loop.
 - Taste on the last mile, file-based machinery on everything before it.
 - Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
