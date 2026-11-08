@@ -72,6 +72,7 @@ skip the prohibitions.
 - "Green tests and an open issue means the agent followed the done rule it was given. Change that rule."
 - "If every test passed and the issue is still open, fix the harness or the loop first, not the prompt."
 - "Does the new test fail on the commit before the change?"
+- "What is the piece of text to copy-paste to your agent? That's the programming paradigm now."
 - "Rewriting the prompt for a loop problem is the classic mistake."
 - "Passing tests only means it did what you asked. The bug was something nobody asked about."
 - "Ask the agent to visualize the state flow."
