@@ -1,6 +1,6 @@
 ---
 name: awesome-prompts
-description: "270+ one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
+description: "309 one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
 ---
 
 # Awesome Prompts
