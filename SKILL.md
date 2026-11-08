@@ -390,5 +390,6 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Demand concrete evidence and deduplicate overlapping findings before authorizing any repair.
 - Walk the unhappy paths: retries and concurrency are where invalid states hide; a happy-path walkthrough never shows them.
 - The agent's laundry list is usually issues it created itself.
+- Every flag added to fix one bug quietly becomes a state.
 - A passing test is only meaningful if it tests the right contract.
 - Discover what the code implies. Prove where those implications fail. Repair the underlying system.
