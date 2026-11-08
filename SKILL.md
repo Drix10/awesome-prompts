@@ -29,6 +29,7 @@ Prompt-craft rule behind every entry: name the destination, name the path,
 skip the prohibitions.
 
 - "Prefer one-liners over elaborate skills."
+- "Mine text and code for operators, then combine them into prompts nobody could invent."
 
 ## Architecture & abstractions
 
@@ -164,6 +165,7 @@ skip the prohibitions.
 - "Teach me [concept] using this repo as the workspace."
 - "If you do something more than once a day, turn it into a skill."
 - "Use subagents: throw more compute at this and keep the main context clean."
+- "Route everything through a master agent."
 - "Run A/B before-and-after experiments with benchmarks."
 
 ## Code quality & refactor
