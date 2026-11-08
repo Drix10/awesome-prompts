@@ -487,6 +487,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If it isn't written down, say so."
 - "A ring of plain text files looping around one map."
 - "Good memory is a prediction of what the next session will need, not a dump of every log line."
+- "Write rules you tested, not raw state you can look up again."
+- "Run an offline pass that checks notes against original logs before the next session trusts them."
+- "Tell the agent what memory is for."
 - "Dreaming is the piece people will skip, and it's the one that fixes old mistakes."
 - "Storing everything is easy; knowing what's worth remembering is the hard part."
 - "Remember my corrections so I don't repeat myself."
@@ -541,6 +544,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Plain text files outliving every fancy memory app ever made.
 - The number that matters isn't price per million tokens, it's cost per solved task.
 - 56K input tokens billed before the question: MCP servers charge you before you ask.
+- A wrong note promoted into every new session can poison the next run.
+- A wiki can grow larger than the documents it describes, which helps nobody.
 - The teams that scale next year will not add headcount. They will wire up the feedback loop.
 - Taste on the last mile, file-based machinery on everything before it.
 - Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
