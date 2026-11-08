@@ -423,6 +423,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Run Sonnet, Haiku and Opus at once, each one doing only the job it's best at."
 - "Before you say done, show the diff, real test output and whatever still needs my sign-off."
 - "Leave a checkable result at handoff: test output and the actual diff."
+- "So I count what I can review, not agents."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
 - "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
@@ -445,6 +446,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Approving code you don't understand isn't code review. It's code ratification.
 - Scaling agents creates an orchestration tax: past the first few, each extra agent demands more attention than the last.
 - Capital letters aren't access control.
+- The engineers who get the most out of agents aren't necessarily the best at prompting.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
 - The assumptions that only exist in your head are easy to miss in review.
