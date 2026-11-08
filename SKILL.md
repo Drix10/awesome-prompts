@@ -156,6 +156,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Are you sure about this approach?" (targeted double-check; watch for over-doubt)
 - "If it's not in the prompt, it doesn't exist: put every constraint in context."
 - "Bugs love unnamed modes: find the states nobody wrote down."
+- "Check request IDs and cancellation logic together with the state."
 
 ## Planning & alignment
 
@@ -190,6 +191,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Teach me [concept] using this repo as the workspace."
 - "After the scan, interview me about each decision and report back in Simplified Technical English."
 - "If you do something more than once a day, turn it into a skill."
+- "Think about each change in the context of the greater goal: what's the blast radius?"
+- "Specify the edge cases; everything you didn't mention will be assumed."
 - "Use subagents: throw more compute at this and keep the main context clean."
 - "Route everything through a master agent."
 - "Run A/B before-and-after experiments with benchmarks."
@@ -207,6 +210,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Grill me on these changes and don't make a PR until I pass your test."
 - "Knowing everything you know now, scrap this and implement the elegant solution."
 - "Smallest diff that satisfies the step. No drive-by refactors, renames, or formatting churn."
+- "Hunt over-engineering, unnecessary text, unnecessary abstractions, implicit state machines, duplication, and tests with no useful coverage."
+- "Ban comments unless the code is unusual for very good reason."
 - "If a test fails, fix the cause rather than the test. If the test itself is wrong, say why."
 - "Follow the same layout as [reference file]. Match the closest existing pattern."
 - "One behavior per test; name tests 'does X when Y'."
@@ -224,6 +229,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Check every acceptance criterion: PASS / FAIL / UNTESTED, with evidence."
 - "Report the scan as: how many found, how many need a decision, how many have specific bugs, how many are sound."
 - "Ship decision: Ready, or Needs fixes with an ordered fix list."
+- "Don't modify any code. List the states, allowed transitions, and conflicting combinations, with line numbers."
 - "Please provide the complete working and updated program by making your suggested modifications."
 - "Do a multi-agent audit of that PR."
 - "Time matters here: do not spend time that can be avoided, and the earlier a correct result is obtained, the better."
@@ -231,6 +237,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 ## Review & PR
 
 - "Read-only review: check intent, callers, data, security, and tests. Rank findings by severity."
+- "Inspect the full PR diff, not individual commits."
 - "Summarize the PR as the smallest visual that makes the change clear, with before/after evidence and a merge-danger call."
 
 ## Agent hygiene
