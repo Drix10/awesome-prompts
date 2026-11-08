@@ -289,6 +289,11 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "When fixing mistakes or bugs, redesign the system to prevent that class of issue from recurring or ensure it is automatically detected by existing systems."
 - "Every rule added to CLAUDE.md competes with the forty already there."
 - "A failing test or a lint check catches the same mistake every single time."
+- "Markdown as an output format is banned for this session."
+- "It's easily verifiable and you can define the expectations beforehand."
+- "Start with separating citations and inference."
+- "Generate outputs that can be controlled, tested, and deterministically iterated on."
+- "Structured output lets a schema or a test decide whether the agent's claim holds, instead of me reading it."
 - "Simplify this overcomplicated code."
 - "Remove all useless tests."
 - "Remove dependencies to improve security."
@@ -490,6 +495,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
+- Valid JSON doesn't mean the idea was any good.
 - The playbook is just what you write down once you decide the 3am version is not the goal.
 - A focused bot kitchen beats a noisy swarm every time.
 - With agents, over-process is the new micromanagement.
