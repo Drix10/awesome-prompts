@@ -2,9 +2,9 @@
 
 # ⚡ god-tier-mini-prompts
 
-**170 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**172 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-170-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-172-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 170 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 172 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -125,6 +125,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@adityavg13](https://x.com/adityavg13) | Internalize metaphors (allegory of the cave) |
 | [@impervium888](https://x.com/impervium888) | Explain it as a story |
 | [@codeby_ABI](https://x.com/codeby_ABI) | Recursive prompt booster |
+| [@0xRajat](https://x.com/0xRajat) | One-liners over elaborate skills |
+| [@ZazenCodes](https://x.com/ZazenCodes) | Doing things wrong vs doing the wrong things |
 
 **The god-tier thread** ([@KingBootoshi](https://x.com/KingBootoshi/status/2118803776387928228), Nov 2026; the collection call)
 

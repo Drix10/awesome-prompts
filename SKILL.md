@@ -28,6 +28,8 @@ Narrow it per phase: "...pick the 3 best for *planning* / *review* /
 Prompt-craft rule behind every entry: name the destination, name the path,
 skip the prohibitions.
 
+- "Prefer one-liners over elaborate skills."
+
 ## Architecture & abstractions
 
 - "What higher-level abstraction would make this entire problem disappear?"
@@ -94,6 +96,7 @@ skip the prohibitions.
 - "Find all the implicit obligations in this contract."
 - "Find the dumb requirements." (most expensive bugs are requirements bugs, not code bugs)
 - "Pushing determinism down." (push side effects and nondeterminism to the edges)
+- "Show me (A) if we're doing things wrong, and (B) if we're doing the wrong things."
 
 ## Debugging & root cause
 
