@@ -47,6 +47,10 @@ skip the prohibitions.
 - "Do not feel constrained by what already exists, or what you have in your memory. Think from first principles."
 - "Make this an order of magnitude better."
 - "Put a lot of behaviour behind a small interface."
+- "Collapse speculative over-engineered layers."
+- "Align modules tightly to domain boundaries."
+- "Prefer composition over inheritance for clearer ownership."
+- "Localize side effects to system boundaries."
 - "Survey this codebase for deepening opportunities and hand me the candidates."
 - "Map this codebase for the next owner: an architecture doc, an onboarding guide, and a top-10 risk list. Every arrow and every risk cites file:line. Read-only: change nothing."
 - "Make this system maximally agent-intuitive, agent-ergonomic, and agent-accretive: imagine YOU are the agent driving it — what would let you do the best job? Then update the plans accordingly."
@@ -244,6 +248,22 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Write the failing test first."
 - "Work in red-green-refactor: one vertical slice at a time. A bug fix starts with a failing regression test."
 - "Grill me on these changes and don't make a PR until I pass your test."
+
+### Security sweep
+
+- "Audit every input path for injection, XSS, path traversal."
+- "Locate race conditions and missing locks."
+- "Identify unhandled errors and silent failures."
+- "Flag hardcoded secrets and weak crypto."
+- "Check dependency vulns and dead code."
+- "Verify resource cleanup and timeout handling."
+
+### Hidden gems
+
+- "Flatten deep nesting via early returns or polymorphism."
+- "Strip unnecessary intermediate state and mutability."
+- "Extract pure functions from side-effect code."
+- "Normalize inconsistent patterns and naming across similar components."
 - "Knowing everything you know now, scrap this and implement the elegant solution."
 - "Smallest diff that satisfies the step. No drive-by refactors, renames, or formatting churn."
 - "The right 300 tokens beat 100k noisy ones."
