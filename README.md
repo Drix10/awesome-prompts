@@ -19,6 +19,28 @@
 
 ---
 
+## 📦 Install
+
+Copy the whole folder - `SKILL.md` plus `references/` - into your agent's skills directory. That's the whole install.
+
+**Claude Code**: `~/.claude/skills/awesome-prompts/`
+
+```bash
+git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.claude/skills/awesome-prompts
+```
+
+**OpenAI Codex**: `~/.codex/skills/awesome-prompts/`
+
+```bash
+git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.codex/skills/awesome-prompts
+```
+
+**Cursor:** reference it from `.cursor/rules/` or paste prompts straight into Agent mode.
+
+Then invoke by matching a task to a prompt, or run the meta-prompt and let the agent pick.
+
+---
+
 ## Why this exists
 
 A single sentence of vectors so juicy each verb, noun, and adjective acts like a flavor bomb. A simple prompt that ends up being VERY impactful. Short prompts also get a fresh context window's full attention, so delegate the real hunting to subagents and keep the main thread narrow.
@@ -59,26 +81,6 @@ improve my idea/input/software the most, and apply them.
 ```
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
-
-## 📦 Install
-
-Copy the whole folder - `SKILL.md` plus `references/` - into your agent's skills directory. That's the whole install.
-
-**Claude Code**: `~/.claude/skills/awesome-prompts/`
-
-```bash
-git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.claude/skills/awesome-prompts
-```
-
-**OpenAI Codex**: `~/.codex/skills/awesome-prompts/`
-
-```bash
-git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.codex/skills/awesome-prompts
-```
-
-**Cursor:** reference it from `.cursor/rules/` or paste prompts straight into Agent mode.
-
-Then invoke by matching a task to a prompt, or run the meta-prompt and let the agent pick.
 
 ## 🙏 Sources & credits
 
