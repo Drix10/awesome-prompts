@@ -474,6 +474,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If a field is missing, say it wasn't recorded."
 - "Keep CLAUDE.md under 200 lines."
 - "Turn CLAUDE.md into a short map and move everything else into files Claude opens only when it needs them."
+- "CLAUDE.md should stay a pointer, not a dump."
 - "If it isn't written down, say so."
 - "A ring of plain text files looping around one map."
 - "Lessons and decisions get written back to the middle, so the next session knows more."
