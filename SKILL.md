@@ -97,6 +97,10 @@ skip the prohibitions.
 - "Find the dumb requirements." (most expensive bugs are requirements bugs, not code bugs)
 - "Pushing determinism down." (push side effects and nondeterminism to the edges)
 - "Show me (A) if we're doing things wrong, and (B) if we're doing the wrong things."
+- "Document them in a living HTML file; keep it open and updated until every one is explicit or gone."
+- "Synchronize state enumeration across the app so it doesn't keep 10 copies of the same strings."
+- "Make sure every communications interface pair shares the same timeout contract on both sides."
+- "Check cross-interface settings: they go hyper-local, which is why state transitions get spread out."
 
 ## Debugging & root cause
 
