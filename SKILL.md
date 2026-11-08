@@ -409,6 +409,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Narrow beats smart."
 - "Hints make it worse."
 - "Give the reviewer the original acceptance criteria before the author's summary."
+- "If acceptance criteria aren't set, a more expensive model won't help."
 - "Make it show you the file."
 - "For every number or claim, quote the file and line. If you can't, delete it."
 - "IMO having structure (like a state machine) really helps because you have places to point to for observing & improving the workflow rather than hand-waving prompt paragraphs."
