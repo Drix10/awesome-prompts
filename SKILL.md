@@ -171,6 +171,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Identify the red herrings in your code."
 - "Examine the implicit state machine connecting active/recently fixed bugs."
 - "Label inferred transitions separately from observed ones, then propose tests for missing or invalid transitions."
+- "Define it, use max subagents to spider through all the scripts massively in parallel, then evaluate their findings and decide what requires further thought."
 - "Find useEffect calls and evaluate their place by following the 'You Might Not Need an Effect' article."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
