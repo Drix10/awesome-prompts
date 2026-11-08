@@ -385,6 +385,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Narrow beats smart."
 - "Hints make it worse."
 - "Give the reviewer the original acceptance criteria before the author's summary."
+- "IMO having structure (like a state machine) really helps because you have places to point to for observing & improving the workflow rather than hand-waving prompt paragraphs."
 - "Add a small test for when each workaround can be removed."
 - "Prompts, skills and project instructions are requests; hard boundaries need hooks, deny rules or managed settings."
 - "The check has to be an interaction, not a picture."
@@ -473,6 +474,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - You scale agents by needing to monitor less, not by monitoring more.
 - The model was never the broken part.
 - Green tests are just the agent grading its own homework.
+- The alternative is called "code" (and decision models for the nondeterministic parts).
 - The engineers who get the most out of agents aren't necessarily the best at prompting.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
