@@ -25,23 +25,27 @@ A single sentence of vectors so juicy each verb, noun, and adjective acts like a
 
 This repo is a living collection of those sentences: harvested reply-by-reply from the [state-machine thread](https://x.com/steveruizok/status/2116552016218710389) (136 replies, 193 quotes, plus the replies on the quotes that invited them), the threads it spawned, Prompt Snacks, Notchbird's Banger Prompts, Anthropic's official patterns, and the best engineering threads on X.
 
-**The skill stays lean on purpose**: [`SKILL.md`](SKILL.md) is prompts only, no credits, so agent context isn't bloated. Every author credit lives in this README.
+**The skill stays lean on purpose**: [`SKILL.md`](SKILL.md) is a 50-line router (meta-prompt + index), and the 434 prompts live in twelve `references/` files that the agent opens only when the task matches. Credits live in this README, never in agent context. Progressive disclosure, per the [skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices).
 
 ## 🗂 The collection
 
-| Category | Count | What it steers |
-|---|---|---|
-| 🧠 [Meta](SKILL.md#meta-let-the-agent-pick) | 1 + rule | Let the agent pick its own prompts |
-| 🏛 [Architecture & abstractions](SKILL.md#architecture--abstractions) | 18 | Abstraction-hunting, system framing |
-| 🔍 [State-machine audit kit](SKILL.md#state-machine-audit-kit) | 36 + full texts | The complete implicit-state-machine playbook |
-| 🐛 [Debugging & root cause](SKILL.md#debugging--root-cause) | 29 | Symptoms vs roots, failure modes, hunts |
-| 📐 [Planning & alignment](SKILL.md#planning--alignment) | 30 | Specs, grilling, handoffs, autonomy |
-| ✨ [Code quality & refactor](SKILL.md#code-quality--refactor) | 19 | Smaller diffs, TDD, elegant rewrites |
-| ✅ [Verification & proof](SKILL.md#verification--proof) | 8 | Evidence, holdouts, ship decisions |
-| 👀 [Review & PR](SKILL.md#review--pr) | 2 | Two-axis reviews, PR shape |
-| 🧹 [Agent hygiene](SKILL.md#agent-hygiene) | 3 | Transcripts, AGENTS.md, usage audits |
-| 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
+Twelve parts, each a standalone file the agent reads on demand. Match the task, open one file, use what fits.
+
+| Part | Count | What it steers |
+|---|---|---:|
+| 🧠 [Meta](SKILL.md#meta-let-the-agent-pick) | 3 + rule | Let the agent pick its own prompts |
+| 🏛 [Architecture](references/architecture.md) | 22 | Abstraction-hunting, system framing |
+| 🔍 [State-machine audits](references/state-machines.md) | 63 | The complete implicit-state-machine playbook |
+| 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
+| 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
+| 📐 [Planning](references/planning.md) | 48 | Specs, grilling, handoffs, autonomy |
+| ✨ [Quality & repair](references/quality.md) | 67 | Smaller diffs, TDD, repair sets, security sweep |
+| ✅ [Verification](references/verification.md) | 35 | Evidence, holdouts, PROVE set, ship decisions |
+| 👀 [Review](references/review.md) | 23 | Two-axis reviews, PR shape |
+| 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
+| 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
+| 🎛 [Steering](references/steering.md) | 70 | Morale, BOSS coda, updates, skills |
+| 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
 **Total: 434 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
@@ -58,22 +62,18 @@ Narrow it per phase: *"…pick the 3 best for planning / review / debugging this
 
 ## 📦 Install
 
-Drop [`SKILL.md`](SKILL.md) into your agent's skills folder. That's the whole install.
+Copy the whole folder - `SKILL.md` plus `references/` - into your agent's skills directory. That's the whole install.
 
-**Claude Code**: `~/.claude/skills/awesome-prompts/SKILL.md`
+**Claude Code**: `~/.claude/skills/awesome-prompts/`
 
 ```bash
-mkdir -p ~/.claude/skills/awesome-prompts
-curl -sL https://raw.githubusercontent.com/Drix10/awesome-prompts/main/SKILL.md \
-  -o ~/.claude/skills/awesome-prompts/SKILL.md
+git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.claude/skills/awesome-prompts
 ```
 
-**OpenAI Codex**: `~/.codex/skills/awesome-prompts/SKILL.md`
+**OpenAI Codex**: `~/.codex/skills/awesome-prompts/`
 
 ```bash
-mkdir -p ~/.codex/skills/awesome-prompts
-curl -sL https://raw.githubusercontent.com/Drix10/awesome-prompts/main/SKILL.md \
-  -o ~/.codex/skills/awesome-prompts/SKILL.md
+git clone --depth 1 https://github.com/Drix10/awesome-prompts.git ~/.codex/skills/awesome-prompts
 ```
 
 **Cursor:** reference it from `.cursor/rules/` or paste prompts straight into Agent mode.

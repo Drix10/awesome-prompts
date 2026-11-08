@@ -1,0 +1,47 @@
+## Notes
+
+- One-liners have a shelf life (~until the next model tier), but their impact grows with model power. Recheck quarterly; keep what still bites.
+- Call these whatever you want: vectors, spells, incantations, power phrases. The collection is the point, not the word.
+- Context rules everything: the model guesses whatever the prompt doesn't specify.
+- Demand concrete evidence and deduplicate overlapping findings before authorizing any repair.
+- Walk the unhappy paths: retries and concurrency are where invalid states hide; a happy-path walkthrough never shows them.
+- The agent's laundry list is usually issues it created itself.
+- Every flag added to fix one bug quietly becomes a state.
+- Rename and merge are where it always breaks: the scary bugs only surface after either.
+- State machines you never designed are design debt, not a tooling win.
+- Adding a risk score makes the reviewer stop chasing ghosts.
+- You can't motivate an agent, only constrain it.
+- Approving code you don't understand isn't code review. It's code ratification.
+- Scaling agents creates an orchestration tax: past the first few, each extra agent demands more attention than the last.
+- Capital letters aren't access control.
+- Then the AI's answer quietly becomes yours.
+- Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
+- Orchestration tax hits harder than token cost.
+- Loop engineering is replacing yourself as the person who prompts the agent.
+- Notes alone go stale fast.
+- A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
+- Plain text files outliving every fancy memory app ever made.
+- The number that matters isn't price per million tokens, it's cost per solved task.
+- 56K input tokens billed before the question: MCP servers charge you before you ask.
+- A wrong note promoted into every new session can poison the next run.
+- A wiki can grow larger than the documents it describes, which helps nobody.
+- The teams that scale next year will not add headcount. They will wire up the feedback loop.
+- Taste on the last mile, file-based machinery on everything before it.
+- Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
+- Valid JSON doesn't mean the idea was any good.
+- The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
+- The playbook is just what you write down once you decide the 3am version is not the goal.
+- A focused bot kitchen beats a noisy swarm every time.
+- With agents, over-process is the new micromanagement.
+- Agents don't have experience, just a notebook.
+- Starting work got cheap. Review and verification didn't.
+- You scale agents by needing to monitor less, not by monitoring more.
+- The model was never the broken part.
+- Green tests are just the agent grading its own homework.
+- The alternative is called "code" (and decision models for the nondeterministic parts).
+- The engineers who get the most out of agents aren't necessarily the best at prompting.
+- Migrating machines are the real release note; the PR count is just the receipt.
+- This prompt finds the bug that human review normalizes.
+- The assumptions that only exist in your head are easy to miss in review.
+- A passing test is only meaningful if it tests the right contract.
+- Discover what the code implies. Prove where those implications fail. Repair the underlying system.
