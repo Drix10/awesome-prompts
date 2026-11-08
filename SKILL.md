@@ -168,6 +168,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "The implicit state machine is usually retries plus flags."
 - "With implicit ones the only spec is whatever order the handlers happen to run in."
 - "Most agent failures are not model failures. They are state I forgot I was keeping."
+- "Identify the red herrings in your code."
+- "Find useEffect calls and evaluate their place by following the 'You Might Not Need an Effect' article."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
 - "Red Team Engineer my code adversarially."
