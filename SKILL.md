@@ -489,6 +489,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Every time Claude does something wrong, it goes in the file so it never happens twice."
 - "Never invent a stat, always cite the source."
 - "Give Claude a way to verify its work."
+- "Anyone can prompt Claude, almost nobody builds the team that does the work for them."
 - "One topic per file, named after what's inside."
 - "Keep direct quotes separate from the agent's summary in each note."
 - "Rules written in chat are lost after compact; important rules must be saved to files."
