@@ -170,6 +170,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Most agent failures are not model failures. They are state I forgot I was keeping."
 - "Identify the red herrings in your code."
 - "Examine the implicit state machine connecting active/recently fixed bugs."
+- "Label inferred transitions separately from observed ones, then propose tests for missing or invalid transitions."
 - "Find useEffect calls and evaluate their place by following the 'You Might Not Need an Effect' article."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
