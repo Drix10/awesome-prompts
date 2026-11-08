@@ -158,6 +158,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Apply the scientific method to this bug."
 - "Build a feedback loop that goes red on this bug before you attempt a fix."
 - "Research and understand the code related to this bug first, read the logs, report findings — then hunt the root cause."
+- "What's the root cause? Anything to fix or fixed?"
 - "If you were my worst enemy, how would you take me down?"
 - "There's 3 critical bugs in this codebase, find them."
 - "Deeply critique everything: find issues, flaws, edge cases and fix everything after verifying."
@@ -217,6 +218,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Ask me clarifying questions until you have complete clarity on the goals."
 - "Interview me relentlessly about every aspect of this plan until we reach a shared understanding. For each question, provide your recommended answer."
 - "Before you build, is this the best and most futureproof solution without taking any easy ways out?"
+- "What do I need to supply to you, what are you not sure about, or need to confirm, for you to proceed? List them here."
 - "Come up with a few archetypes of decisionmakers, and what would they do in this situation. I will pick which archetype I am."
 - "What is the current state vs the ideal state?"
 - "What is a better version of what I'm trying to say?"
@@ -353,6 +355,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Read-only review: check intent, callers, data, security, and tests. Rank findings by severity."
 - "Inspect the full PR diff, not individual commits."
 - "Summarize the PR as the smallest visual that makes the change clear, with before/after evidence and a merge-danger call."
+- "Simplify file to essence for me to check."
+- "Give me mock before/after for frontend changes."
+- "What is this title/body we are reviewing for? Where is it going to be used?"
 
 ## Agent hygiene
 
@@ -367,6 +372,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Re-explain in simple terms."
 - "Draw me a simple diagram of the system we built so far, boxes-and-arrows."
 - "Explain it as an HTML page with a diagram, then open it in my browser."
+- "Elaborate, simply."
 - "Write this document strictly in ASD-STE100 standard english."
 - "Explain it as a story."
 - "Give it metaphors and tell it to internalize them."
