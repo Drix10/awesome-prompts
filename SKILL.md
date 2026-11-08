@@ -479,6 +479,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If it isn't written down, say so."
 - "A ring of plain text files looping around one map."
 - "Good memory is a prediction of what the next session will need, not a dump of every log line."
+- "Agent memory = transcripts + notes + dreaming + wikis + retrieval."
+- "Keep MEMORY.md an index and put detail in topic files."
 - "Lessons and decisions get written back to the middle, so the next session knows more."
 - "One topic per file, named after what's inside."
 - "Rules written in chat are lost after compact; important rules must be saved to files."
