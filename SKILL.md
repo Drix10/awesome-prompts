@@ -442,6 +442,9 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Make corrections compound."
 - "Repeated workflows become skills."
 - "Delegate the task, never the judgment."
+- "Delegate fully where being wrong is cheap, and keep the reasoning where others live with the result."
+- "Before adding more agents, write down what counts as high risk for your project."
+- "The gap between what your agents make and what you'd actually put your name on."
 - "So I count what I can review, not agents."
 - "Set up a system in which you do not need to read the code."
 - "Do 10 iterations of code review before you make the PR."
@@ -468,6 +471,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Approving code you don't understand isn't code review. It's code ratification.
 - Scaling agents creates an orchestration tax: past the first few, each extra agent demands more attention than the last.
 - Capital letters aren't access control.
+- Then the AI's answer quietly becomes yours.
+- Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
 - With agents, over-process is the new micromanagement.
 - Agents don't have experience, just a notebook.
 - Starting work got cheap. Review and verification didn't.
