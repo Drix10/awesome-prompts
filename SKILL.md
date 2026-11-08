@@ -30,6 +30,7 @@ skip the prohibitions.
 
 - "Prefer one-liners over elaborate skills."
 - "Mine text and code for operators, then combine them into prompts nobody could invent."
+- "Take the prompts, generalize, and run a sweep of candidate cross-cutting defects: launch independent agents and assess."
 
 ## Architecture & abstractions
 
@@ -181,6 +182,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Find useEffect calls and evaluate their place by following the 'You Might Not Need an Effect' article."
 - "What moves it on if nothing happens: a timeout, a sweeper, a retry?"
 - "Find money out of step with the stage."
+- "Find every object in this codebase that's referenced without a stable, canonical ID."
 - "Look over everything again for any obvious oversights, omissions, mistakes, or conceptual errors."
 - "Get [a second model] to critique this until they converge."
 - "Red Team Engineer my code adversarially."
