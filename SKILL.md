@@ -1,6 +1,6 @@
 ---
 name: awesome-prompts
-description: "362 one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
+description: "413 one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
 ---
 
 # Awesome Prompts
@@ -479,10 +479,15 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "If it isn't written down, say so."
 - "A ring of plain text files looping around one map."
 - "Good memory is a prediction of what the next session will need, not a dump of every log line."
+- "Dreaming is the piece people will skip, and it's the one that fixes old mistakes."
+- "Storing everything is easy; knowing what's worth remembering is the hard part."
+- "Remember my corrections so I don't repeat myself."
+- "Teach it a fact, correct it next session, then ask again after compaction."
 - "Agent memory = transcripts + notes + dreaming + wikis + retrieval."
 - "Keep MEMORY.md an index and put detail in topic files."
 - "Lessons and decisions get written back to the middle, so the next session knows more."
 - "One topic per file, named after what's inside."
+- "Keep direct quotes separate from the agent's summary in each note."
 - "Rules written in chat are lost after compact; important rules must be saved to files."
 - "Rejected angles only work if someone prunes them."
 - "Map every screen, measure how the app works, and write the spec to rebuild it as your own."
@@ -515,6 +520,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Comprehension debt: the code looks clean, the tests pass, and nobody understands it anymore.
 - Orchestration tax hits harder than token cost.
 - Loop engineering is replacing yourself as the person who prompts the agent.
+- Notes alone go stale fast.
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Plain text files outliving every fancy memory app ever made.
 - Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
