@@ -443,6 +443,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Delegate the task, never the judgment."
 - "So I count what I can review, not agents."
 - "Set up a system in which you do not need to read the code."
+- "Do 10 iterations of code review before you make the PR."
+- "Some code isn't meant to be read, it's meant to be verified."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
 - "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
