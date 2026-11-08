@@ -1,6 +1,6 @@
 ---
 name: awesome-prompts
-description: "309 one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
+description: "362 one-line power prompts for coding agents. Use when the user wants a short, high-density prompt to steer Claude Code, Codex, Cursor, or any coding agent - architecture, state-machine audits, debugging, planning, review, verification, learning, or steering. No full skill needed. Match the task to a prompt below, or run the meta-prompt to auto-pick."
 ---
 
 # Awesome Prompts
@@ -442,6 +442,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Repeated workflows become skills."
 - "Delegate the task, never the judgment."
 - "So I count what I can review, not agents."
+- "Set up a system in which you do not need to read the code."
 - "Do (x). Do atomic commits."
 - "Use your best judgement and best practices."
 - "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
