@@ -113,6 +113,7 @@ skip the prohibitions.
 - "Find all of the implicit state machines in my database and convert them to actors."
 - "Make all implicit state machines explicit, tested, and documented."
 - "Find all tautologies."
+- "Find all non-terminal states in my state machine as a service."
 - "Find all the implicit obligations in this contract."
 - "Find the dumb requirements." (most expensive bugs are requirements bugs, not code bugs)
 - "Pushing determinism down." (push side effects and nondeterminism to the edges)
