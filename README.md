@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**350 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**361 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-350-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-361-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -43,7 +43,7 @@ This repo is a living collection of those sentences: harvested reply-by-reply fr
 | 📚 [Learning & understanding](SKILL.md#learning--understanding) | 14 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering, autonomy & status](SKILL.md#steering-autonomy--status) | 16 | Morale, BOSS coda, updates, skills |
 
-**Total: 350 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 361 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 ## 🪄 The meta-prompt
 
@@ -192,6 +192,17 @@ Every prompt in the skill came from a human. Full credit table:
 | [@RAHULKESHR31818](https://x.com/RAHULKESHR31818) | React booleans pretending; the underrated ask |
 | [@lionkormich](https://x.com/lionkormich) | Count what you can review |
 | [@unclejoe_666](https://x.com/unclejoe_666) | Looks-done; context-not-control; compound; delegate |
+| [@0xwhrrari](https://x.com/0xwhrrari) | Loop owns retries, harness caps |
+| [@bighead_datou](https://x.com/bighead_datou) | Prompt isn't the bug |
+| [@harden_369741](https://x.com/harden_369741) | Rewrite the rule for done |
+| [@ranjodh2512](https://x.com/ranjodh2512) | Harness or loop? |
+| [@naveendas96](https://x.com/naveendas96) | Separate test/fix loops? |
+| [@dwkim601](https://x.com/dwkim601) | Change the done rule |
+| [@gotimestamp](https://x.com/gotimestamp) | Fix harness/loop first |
+| [@Moriarty_tech](https://x.com/Moriarty_tech) | Same-agent tests pass by design |
+| [@bckth34d](https://x.com/bckth34d) | Fail-before-change check |
+| [@AgentArena42](https://x.com/AgentArena42) | Loop problem, not prompt |
+| [@polity_hq](https://x.com/polity_hq) | Bug nobody asked about |
 | [@diodo_e](https://x.com/diodo_e) | State I forgot I was keeping |
 | [@_mattstuddert](https://x.com/_mattstuddert) | Rules drift; name the source of truth |
 | [@bpisbuilding](https://x.com/bpisbuilding) | Written where, read where, how they disagree |

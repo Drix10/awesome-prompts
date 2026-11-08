@@ -65,6 +65,15 @@ skip the prohibitions.
 - "Which of these explain the bugs I've been calling flaky?"
 - "Produce a concrete event sequence for each state it finds — distinguish states the code permits from states a user can actually reach."
 - "Cite the handlers and conditions behind each transition, and mark proposed changes separately."
+- "The loop owns retries; the harness just caps them."
+- "Prompt isn't the bug. Own tools and retries in the harness."
+- "I stopped rewriting the prompt and started rewriting the rule for done."
+- "How do you tell whether the issue is the harness or the feedback loop when the tests pass but the task isn't done?"
+- "Green tests and an open issue means the agent followed the done rule it was given. Change that rule."
+- "If every test passed and the issue is still open, fix the harness or the loop first, not the prompt."
+- "Does the new test fail on the commit before the change?"
+- "Rewriting the prompt for a loop problem is the classic mistake."
+- "Passing tests only means it did what you asked. The bug was something nobody asked about."
 - "Ask the agent to visualize the state flow."
 - "Ask for their correctness to be verified in Quint."
 - "Find all of the implicit state machines in the build and assess whether they are worth fixing. Use subagents. If this search is valuable, propose the best way to build it into future reviews and workflows."
@@ -335,6 +344,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Turn each one into an explicit status enum with an allowed-transitions table, and add a test that fails on any transition not in the table."
 - "For bug fixes, ask for one extra artifact: the new regression test failing on the old code, then passing on the fix."
 - "'Looks done' is not done."
+- "Do you keep the test-writing and the fixing in separate loops, or one agent with a checker after?"
+- "Tests the same agent wrote will pass by design."
 
 ### The unicorn PROVE set (run after any DISCOVER)
 
@@ -457,6 +468,8 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Agents don't have experience, just a notebook.
 - Starting work got cheap. Review and verification didn't.
 - You scale agents by needing to monitor less, not by monitoring more.
+- The model was never the broken part.
+- Green tests are just the agent grading its own homework.
 - The engineers who get the most out of agents aren't necessarily the best at prompting.
 - Migrating machines are the real release note; the PR count is just the receipt.
 - This prompt finds the bug that human review normalizes.
