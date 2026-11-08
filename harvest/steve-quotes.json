@@ -586,5 +586,87 @@
    "2119045853134622888",
    "2119045853134622888"
   ]
+ },
+ {
+  "t": "Ilya Kruchinin @kr4chinin Â· Nov 6 I really liked what this prompt found, so I packed it into a more deterministic skill. It runs the audit the same way every time and draws a state diagram for each finding (if applicable), so you can see what's broken before you fix it. Enjoy! Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 1 74",
+  "u": [
+   "2118650924428304652",
+   "2118650924428304652",
+   "2118650924428304652"
+  ]
+ },
+ {
+  "t": "Yoda Keisuke @kei_output_1104 Â· 21h domain models Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 59",
+  "u": [
+   "2119033825787621408",
+   "2119033825787621408",
+   "2119033825787621408"
+  ]
+ },
+ {
+  "t": "Jay @Jaydearcadian Â· 2h brothers & sisters, run this. it is impressive how much it actually catches. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 159",
+  "u": [
+   "2119317813877772629",
+   "2119317813877772629"
+  ]
+ },
+ {
+  "t": "Adil Patel @TheRealAdilP Â· Nov 7 Amazing prompt Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 47",
+  "u": [
+   "2118809739857629261",
+   "2118809739857629261",
+   "2118809739857629261"
+  ]
+ },
+ {
+  "t": "Zi @ziyzhu Â· Nov 7 Works like a charm. Without knowing this earlier, I already had the habit of using â€œstate machineâ€? in some prompts but â€œimplicitâ€? is an important key word that I missed. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 2 72",
+  "u": [
+   "2118983527576535278",
+   "2118983527576535278"
+  ]
+ },
+ {
+  "t": "Matt Studdert @_mattstuddert Â· 10h This has sent me down a rabbit hole. Here's another prompt that found some useful issues to sort: \"Find business rules, validation, and domain concepts implemented in more than one place. Flag where copies have drifted, and name the single source of truth each should come from.\" Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 98",
+  "u": [
+   "2119195402197139905",
+   "2119195402197139905"
+  ]
+ },
+ {
+  "t": "Reilly @reillyjodonnell Â· Nov 7 great idea! Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 115",
+  "u": [
+   "2118774780832690258",
+   "2118774780832690258",
+   "2118774780832690258"
+  ]
+ },
+ {
+  "t": "Beep @bpisbuilding Â· Nov 3 another excellent one is \"Find every piece of state or data that has more than one source of truth and could drift out of sync. For each, show where itâ€™s written, where itâ€™s read, and how they could disagree.\" Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 55",
+  "u": [
+   "2117568980655525930",
+   "2117568980655525930"
+  ]
+ },
+ {
+  "t": "ð?—®ð?˜‡ð?—µð?—¿ î¨€ @wan_azhar Â· 4h this has triggered at least 5 cybersecurity risks alerts in my trials btw. smh codex. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 26",
+  "u": [
+   "2119283760793571577",
+   "2119283760793571577"
+  ]
+ },
+ {
+  "t": "Harmoniq Punk @harmoniqpunk Â· Nov 6 this is very effective and I use it constantly not only for bugs but to build everything as state machine. If you're embedded guy, probably you use it a lot. Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 66",
+  "u": [
+   "2118720360723914924",
+   "2118720360723914924"
+  ]
+ },
+ {
+  "t": "Osuji @c__osuji Â· Nov 7 I been doing this apparently https:// x.com/c__osuji/statu s/2116148338701558247?a=zjC2xxqObbDSjxv9LIg&s=20 â€¦ Quote Steve Ruiz @steveruizok Â· Oct 31 good prompt \"find all of the implicit state machines in my app\" 1 118",
+  "u": [
+   "2118923363405971859",
+   "2116148338701558247",
+   "2118923363405971859"
+  ]
  }
 ]
