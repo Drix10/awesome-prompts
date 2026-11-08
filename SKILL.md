@@ -513,6 +513,7 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Loop engineering is replacing yourself as the person who prompts the agent.
 - A brainstorm shouldn't become next session's instructions just because Claude saved it in a file.
 - Plain text files outliving every fancy memory app ever made.
+- Trimming bloated configuration files down to lean maps dramatically improves AI agent adherence.
 - Valid JSON doesn't mean the idea was any good.
 - The author agent is usually too sycophantic and accepts all feedback without really thinking about whether it makes sense.
 - The playbook is just what you write down once you decide the 3am version is not the goal.
