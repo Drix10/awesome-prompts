@@ -237,6 +237,25 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Knowing everything you know now, scrap this and implement the elegant solution."
 - "Smallest diff that satisfies the step. No drive-by refactors, renames, or formatting churn."
 - "The right 300 tokens beat 100k noisy ones."
+
+### The unicorn REPAIR set (run after PROVE)
+
+- "Enforce each invariant at its authoritative boundary and add regression tests."
+- "Make each operation atomic or recoverable and test interrupted execution."
+- "Establish an authoritative source of truth and test consistency across consumers."
+- "Prevent invalid states structurally and test that they remain unreachable."
+- "Formalize the protocol's contract and test valid and invalid interactions."
+- "Eliminate the temporal dependency or enforce synchronization, then test competing executions."
+- "Make retries safe through idempotency or deduplication and test concurrent execution."
+- "Consolidate the rule at its authoritative boundary and test every entry point."
+- "Enforce the necessary preconditions and postconditions and test both."
+- "Enforce authorization at the point of use and add adversarial regression tests."
+- "Introduce recovery, timeout, or termination paths and test eventual resolution."
+- "Repair its commit and side-effect boundaries and test failure recovery."
+- "Enforce invalidation, synchronization, or recomputation and test freshness."
+- "Establish one decision authority and test every consumer against it."
+- "Consolidate responsibility behind stable boundaries and verify preserved behavior."
+- "Encode that contract as executable tests and fix any demonstrated violations."
 - "Hunt over-engineering, unnecessary text, unnecessary abstractions, implicit state machines, duplication, and tests with no useful coverage."
 - "Ban comments unless the code is unusual for very good reason."
 - "If a test fails, fix the cause rather than the test. If the test itself is wrong, say why."
@@ -257,6 +276,25 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Report the scan as: how many found, how many need a decision, how many have specific bugs, how many are sound."
 - "Order findings Confirmed, then Likely, then Smell; report how many candidates you dropped."
 - "Turn each one into an explicit status enum with an allowed-transitions table, and add a test that fails on any transition not in the table."
+
+### The unicorn PROVE set (run after any DISCOVER)
+
+- "Demonstrate a reachable counterexample for each unenforced invariant."
+- "Demonstrate how each multi-step operation can partially complete."
+- "Demonstrate a reachable contradiction between representations of the same information."
+- "Construct each invalid state through a reachable execution path."
+- "Demonstrate an execution sequence that violates each assumed protocol."
+- "Reproduce a harmful interleaving, race condition, or execution order."
+- "Demonstrate duplicate or conflicting side effects under replay."
+- "Demonstrate divergent outcomes for identical inputs across entry points."
+- "Construct a reachable caller or input that violates each assumed contract."
+- "Demonstrate a reachable unauthorized action or data exposure."
+- "Demonstrate a reachable state with no viable path to completion or recovery."
+- "Reproduce an operation that reports success while leaving inconsistent state."
+- "Demonstrate a derived value becoming stale after its source changes."
+- "Demonstrate behavioral divergence or duplicated policy that can independently change."
+- "Demonstrate the coupling through a concrete, representative change."
+- "Derive the intended observable contract from actual code and established requirements."
 - "Read the so-called bugs before letting it fix anything; half of them are not real bugs."
 - "Ship decision: Ready, or Needs fixes with an ordered fix list."
 - "Don't modify any code. List the states, allowed transitions, and conflicting combinations, with line numbers."
@@ -320,3 +358,5 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - Demand concrete evidence and deduplicate overlapping findings before authorizing any repair.
 - Walk the unhappy paths: retries and concurrency are where invalid states hide; a happy-path walkthrough never shows them.
 - The agent's laundry list is usually issues it created itself.
+- A passing test is only meaningful if it tests the right contract.
+- Discover what the code implies. Prove where those implications fail. Repair the underlying system.
