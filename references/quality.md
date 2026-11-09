@@ -41,6 +41,8 @@
 - "Keep .claude/settings.local.json git-ignored and out of public repos."
 - "Rotate exposed keys first; git rm --cached leaves them in earlier commits."
 - "Give agent tool arguments plain names before you swap models."
+- "Vague nouns like 'format' collide with half a dozen meanings; a concrete 'kind' collapses that search space before another model swap."
+- "The model isn't guessing worse; your naming is giving it worse signal to guess from."
 
 ### Hidden gems
 

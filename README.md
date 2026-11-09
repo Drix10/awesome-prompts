@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**439 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**441 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-439-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-441-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -74,7 +74,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 48 | Specs, grilling, handoffs, autonomy |
-| ✨ [Quality & repair](references/quality.md) | 71 | Smaller diffs, TDD, repair sets, security sweep |
+| ✨ [Quality & repair](references/quality.md) | 73 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 35 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 23 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
@@ -82,7 +82,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🎛 [Steering](references/steering.md) | 71 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 439 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 441 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -238,6 +238,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@mkozloff](https://x.com/mkozloff) | Git-ignore local Claude settings |
 | [@h0ick](https://x.com/h0ick) | Rotate keys before rm-cached |
 | [@russano](https://x.com/russano) | Plain names for tool args |
+| [@eggbaby](https://x.com/eggbaby) | Vague nouns collide |
+| [@Manisha27493225](https://x.com/Manisha27493225) | Your naming gives worse signal |
 | [@Block4Roots](https://x.com/Block4Roots) | Quotes separate from summary |
 | [@jagu_builds](https://x.com/jagu_builds) | Boris habits: file it, cite source, verify loop |
 | [@0xneroun](https://x.com/0xneroun) | Build the team, not just prompts |

@@ -44,7 +44,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Unicorn hunts | DISCOVER hunts: invariants, transactions, trust, stuck work | `references/unicorn-hunts.md` | 19 |
 | Debugging | bugs, root cause, failure modes, unhappy paths | `references/debugging.md` | 66 |
 | Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 48 |
-| Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 71 |
+| Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 73 |
 | Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 35 |
 | Review | code review, PR review, review checklists | `references/review.md` | 23 |
 | Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 3 |
