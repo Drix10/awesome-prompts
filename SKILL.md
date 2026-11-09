@@ -47,7 +47,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 76 |
 | Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 55 |
 | Review | code review, PR review, review checklists | `references/review.md` | 26 |
-| Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 3 |
+| Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 5 |
 | Learning | explain, teach, learn, understand unfamiliar code | `references/learning.md` | 16 |
 | Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 87 |
 | Notes | field principles (short - read whole file with any part) | `references/notes.md` | 0 |
