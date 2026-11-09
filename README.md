@@ -247,6 +247,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@eggbaby](https://x.com/eggbaby) | Vague nouns collide |
 | [@Manisha27493225](https://x.com/Manisha27493225) | Your naming gives worse signal |
 | [@Block4Roots](https://x.com/Block4Roots) | Quotes separate from summary |
+| [@ajs6888](https://x.com/ajs6888) | No stale conclusions on update |
 | [@jagu_builds](https://x.com/jagu_builds) | Boris habits: file it, cite source, verify loop |
 | [@0xneroun](https://x.com/0xneroun) | Build the team, not just prompts |
 | [@replay_0x](https://x.com/replay_0x) | Make it show the file; quote must support claim |
