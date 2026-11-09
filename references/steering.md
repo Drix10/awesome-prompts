@@ -99,3 +99,4 @@
 - "Write your taste down."
 - "One bad write gets rolled back in seconds."
 - "One loop that doesn't stop until the app actually works."
+- "Writing moved to agents. Accountability didn't."
