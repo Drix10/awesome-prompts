@@ -70,3 +70,4 @@
 - "A separate evaluator refusing to grade its own homework."
 - "The independent evaluator is the key. But it only helps if the pass criteria reflect real user behavior."
 - "A skeptical agent with vague criteria can still approve a broken app."
+- "Judgment helps, but the final gate should be deterministic."

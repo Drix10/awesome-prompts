@@ -52,3 +52,4 @@
 - But an LLM is not a compiler; it’s a probability distribution over frozen weights.
 - Same model, same tasks, only the harness changed. The harness is the product itself.
 - Seeing usage tick down in the menu bar would make me a lot pickier with my prompts.
+- 20 agents 6 merges is the shift from prompting to graph engineering.
