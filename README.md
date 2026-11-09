@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**536 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**538 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-536-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-538-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -73,8 +73,8 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🔍 [State-machine audits](references/state-machines.md) | 68 | The complete implicit-state-machine playbook |
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 20 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 78 | Symptoms vs roots, failure modes, hunts |
-| 📐 [Planning](references/planning.md) | 52 | Specs, grilling, handoffs, autonomy |
-| ✨ [Quality & repair](references/quality.md) | 77 | Smaller diffs, TDD, repair sets, security sweep |
+| 📐 [Planning](references/planning.md) | 53 | Specs, grilling, handoffs, autonomy |
+| ✨ [Quality & repair](references/quality.md) | 78 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 67 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 29 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 5 | Transcripts, AGENTS.md, usage audits |
@@ -82,7 +82,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🎛 [Steering](references/steering.md) | 99 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 536 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 538 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -257,7 +257,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@heyyfernanda](https://x.com/heyyfernanda) | Transitions preserve the invariant |
 | [@qiweiiiy](https://x.com/qiweiiiy) | Pile of booleans; 16 combos; agent-written apps |
 | [@DegenYan9](https://x.com/DegenYan9) | Elevate UX, DX and AX |
-| [@LabubuNoBB](https://x.com/LabubuNoBB) | Errors are prompts; message is the bug |
+| [@LabubuNoBB](https://x.com/LabubuNoBB) | Errors are prompts; tickets need must-not-change; tree is context |
 | [@dkargatzis](https://x.com/dkargatzis) | Who owns what before start |
 | [@okpebenbela](https://x.com/okpebenbela) | Copy-paste text is the paradigm |
 | [@tingchang0420](https://x.com/tingchang0420) | No criteria, no model bump helps |
