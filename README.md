@@ -41,6 +41,19 @@ Then invoke by matching a task to a prompt, or run the meta-prompt and let the a
 
 ---
 
+## 🪄 The meta-prompt
+
+Don't browse, delegate. Paste this with your task, idea, or code:
+
+```
+Consider all the mini-prompts in this skill, pick the ones that would
+improve my idea/input/software the most, and apply them.
+```
+
+Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
+
+---
+
 ## Why this exists
 
 A single sentence of vectors so juicy each verb, noun, and adjective acts like a flavor bomb. A simple prompt that ends up being VERY impactful. Short prompts also get a fresh context window's full attention, so delegate the real hunting to subagents and keep the main thread narrow.
@@ -71,16 +84,9 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 
 **Total: 434 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
-## 🪄 The meta-prompt
-
-Don't browse, delegate. Paste this with your task, idea, or code:
-
-```
-Consider all the mini-prompts in this skill, pick the ones that would
-improve my idea/input/software the most, and apply them.
-```
-
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
+
+---
 
 ## 🙏 Sources & credits
 
