@@ -41,7 +41,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 |---|---|---|---:|
 | Architecture | design, abstractions, structure, naming, contracts | `references/architecture.md` | 22 |
 | State-machine | state-machine / invariant / transition-table audits | `references/state-machines.md` | 68 |
-| Unicorn hunts | DISCOVER hunts: invariants, transactions, trust, stuck work | `references/unicorn-hunts.md` | 19 |
+| Unicorn hunts | DISCOVER hunts: invariants, transactions, trust, stuck work | `references/unicorn-hunts.md` | 20 |
 | Debugging | bugs, root cause, failure modes, unhappy paths | `references/debugging.md` | 66 |
 | Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 51 |
 | Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 76 |

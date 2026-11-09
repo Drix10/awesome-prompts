@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**497 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**498 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-497-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-498-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -71,7 +71,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🧠 [Meta](SKILL.md#meta-let-the-agent-pick) | 3 + rule | Let the agent pick its own prompts |
 | 🏛 [Architecture](references/architecture.md) | 22 | Abstraction-hunting, system framing |
 | 🔍 [State-machine audits](references/state-machines.md) | 68 | The complete implicit-state-machine playbook |
-| 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
+| 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 20 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 51 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 76 | Smaller diffs, TDD, repair sets, security sweep |
@@ -82,7 +82,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🎛 [Steering](references/steering.md) | 90 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 497 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 498 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -166,6 +166,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@cryptoquick](https://x.com/cryptoquick) / [@GarrettPetersen](https://x.com/GarrettPetersen) | Explicit, tested, documented |
 | [@feddiwhip](https://x.com/feddiwhip) | The 16 unicorn hunts + PROVE/REPAIR sets + evidence prompt |
 | [@amronos](https://x.com/amronos) / sprocket | Cleanup sweep: over-engineering, dead text, duplication, coverageless tests |
+| [@snfyo1](https://x.com/snfyo1) | Find first, don't tack on fix-all |
 | [@GKev1n](https://x.com/GKev1n) | Read-only guardrail: states, transitions, conflicts + line numbers; wild boolean machines |
 | [@buchmanster](https://x.com/buchmanster) | Specs first, then tests from specs |
 | [@oderajoseph](https://x.com/oderajoseph) | Scope the first refactor |

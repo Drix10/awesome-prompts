@@ -21,3 +21,4 @@ One-line discovery prompts in the seed's image: each finds a class of hidden wro
 - "Find every change that requires modifying unrelated parts of the app."
 - "Find every important behavior that lacks an executable specification."
 - "Prove findings against actual code paths before repairing them. Preserve intended behavior, prefer the smallest systemic fix, and reject unverified assumptions."
+- "Keep the find prompt, but don't casually tack on 'fix them all.'"
