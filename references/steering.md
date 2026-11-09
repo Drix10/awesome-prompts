@@ -83,3 +83,7 @@
 - "I correct it, it nods, and next session it runs the same command like we never spoke."
 - "An agent that forgets is just a tool. An agent that remembers becomes a partner."
 - "Shouting in all-caps won't beat attention decay."
+- "A wrong note sends the agent walking over a one-way ledge forever."
+- "Bad notes hurt more than no notes."
+- "Does your agent still know what it was doing when the signature comes?"
+- "A log helps you resume. It doesn't make every action safe to repeat."
