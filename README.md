@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**511 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**523 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-511-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-523-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -75,14 +75,14 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 51 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 77 | Smaller diffs, TDD, repair sets, security sweep |
-| ✅ [Verification](references/verification.md) | 58 | Evidence, holdouts, PROVE set, ship decisions |
+| ✅ [Verification](references/verification.md) | 67 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 29 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 5 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 16 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 96 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 99 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 511 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 523 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -208,7 +208,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@Innora_sg](https://x.com/Innora_sg) | Secrets out by construction |
 | [@justelite](https://x.com/justelite) | Memory makes it a standing order |
 | [@0xCortexq](https://x.com/0xCortexq) | One topic per file |
-| [@TheEasySale1](https://x.com/TheEasySale1) | Chat rules die on compact |
+| [@TheEasySale1](https://x.com/TheEasySale1) | Chat rules die on compact; proof must cover business |
 | [@lateascent](https://x.com/lateascent) | Never stored beats invented |
 | [@0xKenny1st](https://x.com/0xKenny1st) | Name the source every answer |
 | [@Kuzoxbt](https://x.com/Kuzoxbt) | Plain text outlives memory apps |
@@ -306,9 +306,14 @@ Every prompt in the skill came from a human. Full credit table:
 | [@jacobtechtavern](https://x.com/jacobtechtavern) | 99% defensive slop, show 1-2 |
 | [@jalalash](https://x.com/jalalash) | Spend on builders, not reviewers |
 | [@unclejoe_666](https://x.com/unclejoe_666) | Looks-done; context-not-control; compound; delegate |
-| [@0xwhrrari](https://x.com/0xwhrrari) | Loop owns retries, harness caps |
+| [@0xwhrrari](https://x.com/0xwhrrari) | Loop owns retries, harness caps; passed tests, open issue |
 | [@bighead_datou](https://x.com/bighead_datou) | Prompt isn't the bug |
-| [@harden_369741](https://x.com/harden_369741) | Rewrite the rule for done |
+| [@harden_369741](https://x.com/harden_369741) | Rewrite the rule for done; separate evaluator, own homework |
+| [@ryouxbt](https://x.com/ryouxbt) | Proof not code; taste written down; version memory |
+| [@caatyee](https://x.com/caatyee) | Evals problem in demo costume |
+| [@one_dyor](https://x.com/one_dyor) | Mutants check the tests |
+| [@0xWhitemon](https://x.com/0xWhitemon) | Loop till it works; agent that says no |
+| [@Kotzamanis_G](https://x.com/Kotzamanis_G) | Criteria must reflect real behavior |
 | [@ranjodh2512](https://x.com/ranjodh2512) | Harness or loop? |
 | [@naveendas96](https://x.com/naveendas96) | Separate test/fix loops? |
 | [@dwkim601](https://x.com/dwkim601) | Change the done rule |
