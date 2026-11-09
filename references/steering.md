@@ -94,3 +94,5 @@
 - "Never record state you can read directly off the current screen."
 - "Don't teach a smart model how to remember; just tell it the memory folder exists."
 - "Never let parallel agents write to the same memory file."
+- "We don't write prompts anymore; we write loops."
+- "Every rewrite should have a diff, a source and a way to roll it back."

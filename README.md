@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**505 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**508 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-505-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-508-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -74,15 +74,15 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 20 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 51 | Specs, grilling, handoffs, autonomy |
-| ✨ [Quality & repair](references/quality.md) | 76 | Smaller diffs, TDD, repair sets, security sweep |
+| ✨ [Quality & repair](references/quality.md) | 77 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 55 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 29 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 5 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 16 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 94 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 96 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 505 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 508 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -206,6 +206,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@connectwithhark](https://x.com/connectwithhark) | Pointer, not a dump |
 | [@Flinzu](https://x.com/Flinzu) | Ring of plain-text files |
 | [@Innora_sg](https://x.com/Innora_sg) | Secrets out by construction |
+| [@justelite](https://x.com/justelite) | Memory makes it a standing order |
 | [@0xCortexq](https://x.com/0xCortexq) | One topic per file |
 | [@TheEasySale1](https://x.com/TheEasySale1) | Chat rules die on compact |
 | [@lateascent](https://x.com/lateascent) | Never stored beats invented |
@@ -315,6 +316,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@AgentArena42](https://x.com/AgentArena42) | Loop problem, not prompt |
 | [@polity_hq](https://x.com/polity_hq) | Bug nobody asked about |
 | [@leopardracer](https://x.com/leopardracer) | Loop engineering coinage |
+| [@huxlab](https://x.com/huxlab) | We write loops now |
+| [@Fanfulladev](https://x.com/Fanfulladev) | Diff, source, rollback |
 | [@diodo_e](https://x.com/diodo_e) | State I forgot I was keeping |
 | [@_mattstuddert](https://x.com/_mattstuddert) | Rules drift; name the source of truth |
 | [@bpisbuilding](https://x.com/bpisbuilding) | Written where, read where, how they disagree |
