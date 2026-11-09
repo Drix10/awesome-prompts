@@ -40,7 +40,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Part | Use when the task is about | File | Prompts |
 |---|---|---|---:|
 | Architecture | design, abstractions, structure, naming, contracts | `references/architecture.md` | 22 |
-| State-machine | state-machine / invariant / transition-table audits | `references/state-machines.md` | 63 |
+| State-machine | state-machine / invariant / transition-table audits | `references/state-machines.md` | 68 |
 | Unicorn hunts | DISCOVER hunts: invariants, transactions, trust, stuck work | `references/unicorn-hunts.md` | 19 |
 | Debugging | bugs, root cause, failure modes, unhappy paths | `references/debugging.md` | 66 |
 | Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 51 |

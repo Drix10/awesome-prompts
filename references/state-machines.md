@@ -74,3 +74,8 @@
 - "Synchronize state enumeration across the app so it doesn't keep 10 copies of the same strings."
 - "Make sure every communications interface pair shares the same timeout contract on both sides."
 - "Check cross-interface settings: they go hyper-local, which is why state transitions get spread out."
+- "An implicit state machine is the pile of booleans that together decide what the user sees."
+- "Four flags make 16 combinations and only a few are real states, so bugs hide in the rest, like loading and error both true at once."
+- "For the fix he says you don't need a library: one status field with a fixed set of values, a discriminated union in TypeScript."
+- "Good one to run on any app an agent wrote for you, since every bug fix tends to add one more flag."
+- "Plan to make the best decision that will elevate all three: the user experience (UX), developer experience (DX), and agent experience (AX) always, without breaking anything."
