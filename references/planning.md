@@ -53,3 +53,5 @@
 - "ask your agent, to ask you, the necessary questions, to build your software, just the way you imagine."
 - "Write down before the agent starts who owns the area, which checks must pass and what needs human sign-off."
 - "The most useful line in a ticket you hand to a coding agent is the one most tickets skip: what must not change."
+- "Looking at another company's answer is like cheating on your homework. It pollutes your own thinking."
+- "Solve it yourself first."
