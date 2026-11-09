@@ -90,3 +90,7 @@
 - "Memory wasn't the problem. Unchecked memory was."
 - "Long agent sessions forget what they already did."
 - "Anthropic's harness write-up uses a feature list file and a progress log, so each new session picks up where the last one stopped."
+- "Two weeks in, the memory folder is stuffed with stale errors and conflicting guesses, and the agent spins in place."
+- "Never record state you can read directly off the current screen."
+- "Don't teach a smart model how to remember; just tell it the memory folder exists."
+- "Never let parallel agents write to the same memory file."
