@@ -79,3 +79,6 @@
 - "Write the best possible prompt for getting an AI to write the absolute best possible prompt." (recursive booster)
 - "Write one small rule per failure, never a big rewrite."
 - "A rule stays only if it passes."
+- "I kept correcting my agent on sudo and next session it did it again, even with the rule in CLAUDE.md."
+- "I correct it, it nods, and next session it runs the same command like we never spoke."
+- "An agent that forgets is just a tool. An agent that remembers becomes a partner."

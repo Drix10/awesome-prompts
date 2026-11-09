@@ -82,3 +82,5 @@
 - "For large input spaces, add property-based or metamorphic tests."
 - "Add benchmark thresholds or monitoring hooks to prevent performance regressions."
 - "Review this diff on two axes: does it follow the repo's standards, and does it faithfully implement the spec?"
+- "I now treat anything in agent context as already public, and that rule has saved me twice."
+- "Scrub identity before the agent browses."

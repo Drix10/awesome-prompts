@@ -47,3 +47,4 @@
 - Discover what the code implies. Prove where those implications fail. Repair the underlying system.
 - Auto-writing pages is easy; the hard part is not leaving stale conclusions behind when sources update.
 - Your agent has its own bad habits.
+- The model isn't your bottleneck.

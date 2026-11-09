@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**454 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**461 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-454-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-461-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -74,15 +74,15 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 50 | Specs, grilling, handoffs, autonomy |
-| ✨ [Quality & repair](references/quality.md) | 73 | Smaller diffs, TDD, repair sets, security sweep |
-| ✅ [Verification](references/verification.md) | 35 | Evidence, holdouts, PROVE set, ship decisions |
+| ✨ [Quality & repair](references/quality.md) | 75 | Smaller diffs, TDD, repair sets, security sweep |
+| ✅ [Verification](references/verification.md) | 36 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 79 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 82 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 454 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 461 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -210,6 +210,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@0xKenny1st](https://x.com/0xKenny1st) | Name the source every answer |
 | [@Kuzoxbt](https://x.com/Kuzoxbt) | Plain text outlives memory apps |
 | [@0xTrackmind](https://x.com/0xTrackmind) | 2 agents 4 files 1 prompt; blame model, fix files |
+| [@larohndale](https://x.com/larohndale) | Model isn't the bottleneck |
 | [@le0xet](https://x.com/le0xet) | Self-harness: small rules, keep what passes |
 | [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
 | [@devladpopov](https://x.com/devladpopov) | Files beat clever prompts |
@@ -244,6 +245,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@CleanFix_Dev](https://x.com/CleanFix_Dev) | Plain-words tool descriptions |
 | [@mkozloff](https://x.com/mkozloff) | Git-ignore local Claude settings |
 | [@h0ick](https://x.com/h0ick) | Rotate keys before rm-cached |
+| [@BenjieMalinao](https://x.com/BenjieMalinao) | Scrub identity pre-browse |
 | [@russano](https://x.com/russano) | Plain names for tool args |
 | [@eggbaby](https://x.com/eggbaby) | Vague nouns collide |
 | [@Manisha27493225](https://x.com/Manisha27493225) | Your naming gives worse signal |
@@ -261,6 +263,10 @@ Every prompt in the skill came from a human. Full credit table:
 | [@0xbobaaa](https://x.com/0xbobaaa) | Dreaming fixes old mistakes |
 | [@QibazX](https://x.com/QibazX) | Knowing what's worth remembering |
 | [@pronaksai](https://x.com/pronaksai) | Remember corrections |
+| [@sunsetsyntax](https://x.com/sunsetsyntax) | CLAUDE.md rule didn't stick |
+| [@harden_369741](https://x.com/harden_369741) | Nods, then repeats; context is public |
+| [@shelanda_](https://x.com/shelanda_) | Forgets = tool, remembers = partner |
+| [@firenoaa](https://x.com/firenoaa) | Eval set beats model name |
 | [@johnroodepic](https://x.com/johnroodepic) | Fact-correct-compaction test |
 | [@MarMarLabs](https://x.com/MarMarLabs) | MEMORY.md as index |
 | [@esthor](https://x.com/esthor) | Ban markdown; structured outputs; citations vs inference |
