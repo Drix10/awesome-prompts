@@ -51,3 +51,4 @@
 - "The spec is the real value here. Once you have that, the rebuild is the easy part."
 - "Understanding an app is different from rebuilding it."
 - "ask your agent, to ask you, the necessary questions, to build your software, just the way you imagine."
+- "Write down before the agent starts who owns the area, which checks must pass and what needs human sign-off."
