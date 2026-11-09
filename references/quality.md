@@ -84,3 +84,4 @@
 - "Review this diff on two axes: does it follow the repo's standards, and does it faithfully implement the spec?"
 - "I now treat anything in agent context as already public, and that rule has saved me twice."
 - "Scrub identity before the agent browses."
+- "Secrets never go in the memory folder at all, so "never stored" is true by construction, not because the model remembered not to."
