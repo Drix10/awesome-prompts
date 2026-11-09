@@ -45,3 +45,4 @@
 - The assumptions that only exist in your head are easy to miss in review.
 - A passing test is only meaningful if it tests the right contract.
 - Discover what the code implies. Prove where those implications fail. Repair the underlying system.
+- Auto-writing pages is easy; the hard part is not leaving stale conclusions behind when sources update.
