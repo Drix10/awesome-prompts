@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**492 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**494 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-492-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-494-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -77,12 +77,12 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | ✨ [Quality & repair](references/quality.md) | 76 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 55 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
-| 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
+| 🧹 [Hygiene](references/hygiene.md) | 5 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 16 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering](references/steering.md) | 87 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 492 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 494 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -283,6 +283,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@QibazX](https://x.com/QibazX) | Knowing what's worth remembering |
 | [@pronaksai](https://x.com/pronaksai) | Remember corrections |
 | [@sunsetsyntax](https://x.com/sunsetsyntax) | CLAUDE.md rule didn't stick |
+| [@iamdeepoo](https://x.com/iamdeepoo) | Add one line per repeated mistake |
+| [@AlirezaDavid](https://x.com/AlirezaDavid) | Long jobs get their own pane |
 | [@harden_369741](https://x.com/harden_369741) | Nods, then repeats; context is public |
 | [@shelanda_](https://x.com/shelanda_) | Forgets = tool, remembers = partner |
 | [@firenoaa](https://x.com/firenoaa) | Eval set beats model name |
