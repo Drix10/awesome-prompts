@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**539 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**541 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-539-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-541-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -73,7 +73,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🔍 [State-machine audits](references/state-machines.md) | 68 | The complete implicit-state-machine playbook |
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 20 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 78 | Symptoms vs roots, failure modes, hunts |
-| 📐 [Planning](references/planning.md) | 53 | Specs, grilling, handoffs, autonomy |
+| 📐 [Planning](references/planning.md) | 55 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 79 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 67 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 29 | Two-axis reviews, PR shape |
@@ -82,7 +82,7 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🎛 [Steering](references/steering.md) | 99 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 539 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 541 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -280,7 +280,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@replay_0x](https://x.com/replay_0x) | Make it show the file; quote must support claim |
 | [@OxPips](https://x.com/OxPips) | Knows which claims to delete |
 | [@nightraccai](https://x.com/nightraccai) | Show me where you got that number |
-| [@guilleflorvs](https://x.com/guilleflorvs) | Nobody reads pushed AI memos; humans write |
+| [@guilleflorvs](https://x.com/guilleflorvs) | Nobody reads pushed AI memos; solve it yourself first |
 | [@echinaceous](https://x.com/echinaceous) | Review hell is what-vs-how |
 | [@huhufor](https://x.com/huhufor) | Quote file+line or delete it |
 | [@Manojkumar2257](https://x.com/Manojkumar2257) | Memory predicts next session |

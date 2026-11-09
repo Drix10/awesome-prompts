@@ -43,7 +43,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | State-machine | state-machine / invariant / transition-table audits | `references/state-machines.md` | 68 |
 | Unicorn hunts | DISCOVER hunts: invariants, transactions, trust, stuck work | `references/unicorn-hunts.md` | 20 |
 | Debugging | bugs, root cause, failure modes, unhappy paths | `references/debugging.md` | 78 |
-| Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 53 |
+| Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 55 |
 | Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 79 |
 | Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 67 |
 | Review | code review, PR review, review checklists | `references/review.md` | 29 |
