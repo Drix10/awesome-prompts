@@ -256,6 +256,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@ajs6888](https://x.com/ajs6888) | No stale conclusions on update |
 | [@jagu_builds](https://x.com/jagu_builds) | Boris habits: file it, cite source, verify loop |
 | [@0xNikoFox](https://x.com/0xNikoFox) | Record prompts, mistakes, fixes |
+| [@NicoHao4s](https://x.com/NicoHao4s) | The harness is the product |
 | [@0xneroun](https://x.com/0xneroun) | Build the team, not just prompts |
 | [@replay_0x](https://x.com/replay_0x) | Make it show the file; quote must support claim |
 | [@OxPips](https://x.com/OxPips) | Knows which claims to delete |
