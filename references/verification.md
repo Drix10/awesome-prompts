@@ -54,3 +54,7 @@
 - "Reviewing what the agents ship is the job now."
 - "if something still escapes, it becomes a new regression test before the next run."
 - "Overnight fleets only work when approve is a real gate, not a polite prompt."
+- "An agent that grades its own work and sends bad work back until it passes."
+- "The grader has to be something the agent can't edit."
+- "Self grading only works if the judge is stricter than the worker."
+- "The real job is building a judge that can actually fail the work."
