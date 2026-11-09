@@ -46,7 +46,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 48 |
 | Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 73 |
 | Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 35 |
-| Review | code review, PR review, review checklists | `references/review.md` | 23 |
+| Review | code review, PR review, review checklists | `references/review.md` | 26 |
 | Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 3 |
 | Learning | explain, teach, learn, understand unfamiliar code | `references/learning.md` | 15 |
 | Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 71 |
