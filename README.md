@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**494 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**495 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-494-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-495-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -79,10 +79,10 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 5 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 16 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 87 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 88 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 494 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 495 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -278,6 +278,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@beamnxw](https://x.com/beamnxw) | Memory formula; dreaming vs chat log |
 | [@Skaly__Bull](https://x.com/Skaly__Bull) | Test dreaming first |
 | [@devpabs](https://x.com/devpabs) | Wrong-note ledge; bad notes hurt |
+| [@TheAgenticVoice](https://x.com/TheAgenticVoice) | Unchecked memory was the problem |
 | [@lkstimm](https://x.com/lkstimm) | Signature test; log resumes, not repeats |
 | [@0xbobaaa](https://x.com/0xbobaaa) | Dreaming fixes old mistakes |
 | [@QibazX](https://x.com/QibazX) | Knowing what's worth remembering |
