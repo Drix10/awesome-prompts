@@ -213,6 +213,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@larohndale](https://x.com/larohndale) | Model isn't the bottleneck |
 | [@MarcoGalloro](https://x.com/MarcoGalloro) | Reverse prompt: agent asks you |
 | [@PatchOnChain](https://x.com/PatchOnChain) | Compiler flags delusion; all-caps decay |
+| [@not_sacke](https://x.com/not_sacke) | Visible usage makes pickier prompts |
 | [@webtkdev](https://x.com/webtkdev) | Requirements beat guessed tests |
 | [@le0xet](https://x.com/le0xet) | Self-harness: small rules, keep what passes |
 | [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
