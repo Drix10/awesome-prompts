@@ -88,3 +88,5 @@
 - "Does your agent still know what it was doing when the signature comes?"
 - "A log helps you resume. It doesn't make every action safe to repeat."
 - "Memory wasn't the problem. Unchecked memory was."
+- "Long agent sessions forget what they already did."
+- "Anthropic's harness write-up uses a feature list file and a progress log, so each new session picks up where the last one stopped."

@@ -49,7 +49,7 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Review | code review, PR review, review checklists | `references/review.md` | 26 |
 | Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 5 |
 | Learning | explain, teach, learn, understand unfamiliar code | `references/learning.md` | 16 |
-| Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 88 |
+| Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 90 |
 | Notes | field principles (short - read whole file with any part) | `references/notes.md` | 0 |
 
 Sources and credits for every prompt live in `README.md`. Prompt wording is verbatim from contributors; do not reword quoted lines when reusing them.
