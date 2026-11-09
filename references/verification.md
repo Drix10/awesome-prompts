@@ -58,6 +58,6 @@
 - "The grader has to be something the agent can't edit."
 - "Self grading only works if the judge is stricter than the worker."
 - "The real job is building a judge that can actually fail the work."
-- "The one check I'd never fully hand the agent is authz on money-moving endpoints."
-- "\"Works\" and \"only the right account can call it\" are different tests."
+- "the one check i'd never fully hand the agent is authz on money-moving endpoints."
+- "but \"works\" and \"only the right account can call it\" are different tests."
 - "Ask it to explain the risky parts first. An explanation can guide the review, not replace it."
