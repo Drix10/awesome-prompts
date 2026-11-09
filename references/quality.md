@@ -88,3 +88,6 @@
 - "Injection no longer ends with the session. Memory makes it a standing order."
 - "Rule of thumb for coding agents: anything readable in the working tree should be treated as already in the context window."
 - "The hard part is a harness that keeps secrets out of the tool loop."
+- "The perfect codebase for agents is so locked down that humans hate writing code in it."
+- "Make it impossible in the code → Lint rule in CI → Skill → Human review last."
+- "Every workaround you leave, your agents copy like a virus."
