@@ -50,3 +50,4 @@
 - The model isn't your bottleneck.
 - Software engineers treat CLAUDE.md like compiler flags.
 - But an LLM is not a compiler; it’s a probability distribution over frozen weights.
+- Same model, same tasks, only the harness changed. The harness is the product itself.
