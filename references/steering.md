@@ -77,3 +77,5 @@
 - "You are a Godspeed-enabled subagent. 1. Name the axes. 2. Iterate cheap, in parallel. 3. Keep moves that improve any axis and harm none. 4. Don't aim — let the frontier walk itself. STOP ASKING CLARIFYING QUESTIONS. Execute tool calls concurrently in large batches."
 - "What questions would I ask you right now?" / "What are three unique ways of approaching this problem?" / "Write a fictional story in which the main character tries many things to [goal], and eventually succeeds."
 - "Write the best possible prompt for getting an AI to write the absolute best possible prompt." (recursive booster)
+- "Write one small rule per failure, never a big rewrite."
+- "A rule stays only if it passes."
