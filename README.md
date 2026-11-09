@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**474 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**487 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-474-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-487-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -75,14 +75,14 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 51 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 75 | Smaller diffs, TDD, repair sets, security sweep |
-| ✅ [Verification](references/verification.md) | 38 | Evidence, holdouts, PROVE set, ship decisions |
+| ✅ [Verification](references/verification.md) | 51 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 16 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering](references/steering.md) | 87 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 474 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 487 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -216,7 +216,12 @@ Every prompt in the skill came from a human. Full credit table:
 | [@not_sacke](https://x.com/not_sacke) | Visible usage makes pickier prompts |
 | [@webtkdev](https://x.com/webtkdev) | Requirements beat guessed tests |
 | [@le0xet](https://x.com/le0xet) | Self-harness: small rules, keep what passes |
-| [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
+| [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction; review queue is product |
+| [@0xarcos](https://x.com/0xarcos) | Graphs filter volume; rejection; gates |
+| [@mayanksaxenaai](https://x.com/mayanksaxenaai) | Two cooks agreeing in a corner |
+| [@Vlixsi](https://x.com/Vlixsi) | Skill is the 137 you said no to |
+| [@zkjays](https://x.com/zkjays) | Reviewing ships is the job |
+| [@shashwatj_](https://x.com/shashwatj_) | Approve is a real gate |
 | [@devladpopov](https://x.com/devladpopov) | Files beat clever prompts |
 | [@milhouscc](https://x.com/milhouscc) | E2E before feature |
 | [@andreysuperior](https://x.com/andreysuperior) | Prune rejected angles |
