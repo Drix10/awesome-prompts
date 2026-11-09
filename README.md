@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**441 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**444 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-441-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-444-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -76,13 +76,13 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 📐 [Planning](references/planning.md) | 48 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 73 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 35 | Evidence, holdouts, PROVE set, ship decisions |
-| 👀 [Review](references/review.md) | 23 | Two-axis reviews, PR shape |
+| 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
 | 🎛 [Steering](references/steering.md) | 71 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 441 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 444 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -243,7 +243,9 @@ Every prompt in the skill came from a human. Full credit table:
 | [@Block4Roots](https://x.com/Block4Roots) | Quotes separate from summary |
 | [@jagu_builds](https://x.com/jagu_builds) | Boris habits: file it, cite source, verify loop |
 | [@0xneroun](https://x.com/0xneroun) | Build the team, not just prompts |
-| [@replay_0x](https://x.com/replay_0x) | Make it show the file |
+| [@replay_0x](https://x.com/replay_0x) | Make it show the file; quote must support claim |
+| [@OxPips](https://x.com/OxPips) | Knows which claims to delete |
+| [@nightraccai](https://x.com/nightraccai) | Show me where you got that number |
 | [@huhufor](https://x.com/huhufor) | Quote file+line or delete it |
 | [@Manojkumar2257](https://x.com/Manojkumar2257) | Memory predicts next session |
 | [@beamnxw](https://x.com/beamnxw) | Memory = transcripts+notes+dreaming+wikis+retrieval |
