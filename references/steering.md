@@ -87,3 +87,4 @@
 - "Bad notes hurt more than no notes."
 - "Does your agent still know what it was doing when the signature comes?"
 - "A log helps you resume. It doesn't make every action safe to repeat."
+- "Memory wasn't the problem. Unchecked memory was."
