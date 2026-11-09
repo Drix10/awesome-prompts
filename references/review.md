@@ -26,3 +26,6 @@
 - "Assume that 99% of automated comments are defensive slop, and tell me the one or two actually worth handling."
 - "Time and tokens are better spent making builder agents better."
 - "Review every diff as if you'll get paged for it."
+- "Nobody should have to read something you generated and pushed onto them."
+- "The memo itself is written by a person, because clarity and precision take effort."
+- "The main reason for PRs sitting in code review hell ended up being people disagreeing on what to build rather than how to build it."
