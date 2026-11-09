@@ -87,3 +87,4 @@
 - "Secrets never go in the memory folder at all, so "never stored" is true by construction, not because the model remembered not to."
 - "Injection no longer ends with the session. Memory makes it a standing order."
 - "Rule of thumb for coding agents: anything readable in the working tree should be treated as already in the context window."
+- "The hard part is a harness that keeps secrets out of the tool loop."
