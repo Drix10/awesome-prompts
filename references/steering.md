@@ -33,6 +33,7 @@
 - "So I count what I can review, not agents."
 - "Ask Claude why you killed a feature. Make it show the file."
 - "If a field is missing, say it wasn't recorded."
+- "'Not recorded' is an answer I'd trust more than a plausible name."
 - "Keep CLAUDE.md under 200 lines."
 - "Turn CLAUDE.md into a short map and move everything else into files Claude opens only when it needs them."
 - "CLAUDE.md should stay a pointer, not a dump."

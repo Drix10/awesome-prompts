@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**444 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**445 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-444-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-445-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -79,10 +79,10 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 71 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 72 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 444 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 445 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -200,6 +200,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@RAHULKESHR31818](https://x.com/RAHULKESHR31818) | React booleans pretending; the underrated ask |
 | [@lionkormich](https://x.com/lionkormich) | Count what you can review |
 | [@0xkurt](https://x.com/0xkurt) | Decision log with citations |
+| [@RayCNTech](https://x.com/RayCNTech) | Not recorded beats plausible |
 | [@BercusNA](https://x.com/BercusNA) | CLAUDE.md as short map |
 | [@connectwithhark](https://x.com/connectwithhark) | Pointer, not a dump |
 | [@Flinzu](https://x.com/Flinzu) | Ring of plain-text files |
