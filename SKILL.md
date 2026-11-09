@@ -45,11 +45,11 @@ Each file below holds one family of one-liners. Match the task, open that file, 
 | Debugging | bugs, root cause, failure modes, unhappy paths | `references/debugging.md` | 66 |
 | Planning | planning, scope, alignment, subagents, estimation | `references/planning.md` | 51 |
 | Code quality | refactor, cleanup, repair sets, security sweep, hidden gems | `references/quality.md` | 77 |
-| Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 58 |
+| Verification | prove it: evidence, tests, PROVE set, regression gates | `references/verification.md` | 67 |
 | Review | code review, PR review, review checklists | `references/review.md` | 29 |
 | Agent hygiene | agent setup files, machine config, transcripts | `references/hygiene.md` | 5 |
 | Learning | explain, teach, learn, understand unfamiliar code | `references/learning.md` | 16 |
-| Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 96 |
+| Steering | autonomy, status updates, standing instructions to the agent | `references/steering.md` | 99 |
 | Notes | field principles (short - read whole file with any part) | `references/notes.md` | 0 |
 
 Sources and credits for every prompt live in `README.md`. Prompt wording is verbatim from contributors; do not reword quoted lines when reusing them.

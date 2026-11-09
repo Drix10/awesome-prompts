@@ -96,3 +96,6 @@
 - "Never let parallel agents write to the same memory file."
 - "We don't write prompts anymore; we write loops."
 - "Every rewrite should have a diff, a source and a way to roll it back."
+- "Write your taste down."
+- "One bad write gets rolled back in seconds."
+- "One loop that doesn't stop until the app actually works."
