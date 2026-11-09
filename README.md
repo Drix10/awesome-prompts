@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**460 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**465 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-460-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-465-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -73,16 +73,16 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🔍 [State-machine audits](references/state-machines.md) | 63 | The complete implicit-state-machine playbook |
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
-| 📐 [Planning](references/planning.md) | 50 | Specs, grilling, handoffs, autonomy |
+| 📐 [Planning](references/planning.md) | 51 | Specs, grilling, handoffs, autonomy |
 | ✨ [Quality & repair](references/quality.md) | 75 | Smaller diffs, TDD, repair sets, security sweep |
-| ✅ [Verification](references/verification.md) | 36 | Evidence, holdouts, PROVE set, ship decisions |
+| ✅ [Verification](references/verification.md) | 38 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 82 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 83 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 460 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 465 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -211,6 +211,9 @@ Every prompt in the skill came from a human. Full credit table:
 | [@Kuzoxbt](https://x.com/Kuzoxbt) | Plain text outlives memory apps |
 | [@0xTrackmind](https://x.com/0xTrackmind) | 2 agents 4 files 1 prompt; blame model, fix files |
 | [@larohndale](https://x.com/larohndale) | Model isn't the bottleneck |
+| [@MarcoGalloro](https://x.com/MarcoGalloro) | Reverse prompt: agent asks you |
+| [@PatchOnChain](https://x.com/PatchOnChain) | Compiler flags delusion; all-caps decay |
+| [@webtkdev](https://x.com/webtkdev) | Requirements beat guessed tests |
 | [@le0xet](https://x.com/le0xet) | Self-harness: small rules, keep what passes |
 | [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
 | [@devladpopov](https://x.com/devladpopov) | Files beat clever prompts |

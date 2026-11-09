@@ -39,3 +39,5 @@
 - "Do a multi-agent audit of that PR."
 - "Time matters here: do not spend time that can be avoided, and the earlier a correct result is obtained, the better."
 - "Tool access and a small eval set can matter more than the model name."
+- "Stated requirements beat guessed tests."
+- "Unsure? Ask."
