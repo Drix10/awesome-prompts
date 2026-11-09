@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**434 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**439 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-434-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-439-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -74,15 +74,15 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 🦄 [Unicorn hunts](references/unicorn-hunts.md) | 19 | DISCOVER hunts: invariants, transactions, trust |
 | 🐛 [Debugging](references/debugging.md) | 66 | Symptoms vs roots, failure modes, hunts |
 | 📐 [Planning](references/planning.md) | 48 | Specs, grilling, handoffs, autonomy |
-| ✨ [Quality & repair](references/quality.md) | 67 | Smaller diffs, TDD, repair sets, security sweep |
+| ✨ [Quality & repair](references/quality.md) | 71 | Smaller diffs, TDD, repair sets, security sweep |
 | ✅ [Verification](references/verification.md) | 35 | Evidence, holdouts, PROVE set, ship decisions |
 | 👀 [Review](references/review.md) | 23 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 70 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 71 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 434 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 439 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -208,6 +208,7 @@ Every prompt in the skill came from a human. Full credit table:
 | [@0xTrackmind](https://x.com/0xTrackmind) | 2 agents 4 files 1 prompt; blame model, fix files |
 | [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
 | [@devladpopov](https://x.com/devladpopov) | Files beat clever prompts |
+| [@milhouscc](https://x.com/milhouscc) | E2E before feature |
 | [@andreysuperior](https://x.com/andreysuperior) | Prune rejected angles |
 | [@zodchiii](https://x.com/zodchiii) | Map screens, spec the rebuild |
 | [@kentcdodds](https://x.com/kentcdodds) | System where you don't read code |

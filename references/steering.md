@@ -53,6 +53,7 @@
 - "Everyone blames the model when their agent gives up after 20 minutes, while the fix is a json file and a text log."
 - "Memory on disk survives compaction; memory that only lives in the context window doesn't."
 - "Four files beats a clever prompt because files survive the context window."
+- "Run a basic end-to-end test of the existing app before adding a feature, so an inherited bug doesn't get buried under new code."
 - "Every time Claude does something wrong, it goes in the file so it never happens twice."
 - "Never invent a stat, always cite the source."
 - "Give Claude a way to verify its work."
