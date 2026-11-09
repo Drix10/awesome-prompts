@@ -48,3 +48,5 @@
 - "Use subagents: throw more compute at this and keep the main context clean."
 - "Route everything through a master agent."
 - "Run A/B before-and-after experiments with benchmarks."
+- "The spec is the real value here. Once you have that, the rebuild is the easy part."
+- "Understanding an app is different from rebuilding it."
