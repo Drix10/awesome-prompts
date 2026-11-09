@@ -2,9 +2,9 @@
 
 # ⚡ awesome-prompts
 
-**447 one-line power prompts for coding agents. Each sentence so dense every word does work.**
+**452 one-line power prompts for coding agents. Each sentence so dense every word does work.**
 
-[![prompts](https://img.shields.io/badge/prompts-447-blue?style=for-the-badge)](#-the-collection)
+[![prompts](https://img.shields.io/badge/prompts-452-blue?style=for-the-badge)](#-the-collection)
 [![skill](https://img.shields.io/badge/skill-SKILL.md-purple?style=for-the-badge)](#-install)
 [![claude-code](https://img.shields.io/badge/Claude%20Code-ready-orange?style=for-the-badge)](#-install)
 [![codex](https://img.shields.io/badge/Codex-ready-orange?style=for-the-badge)](#-install)
@@ -79,10 +79,10 @@ Twelve parts, each a standalone file the agent reads on demand. Match the task, 
 | 👀 [Review](references/review.md) | 26 | Two-axis reviews, PR shape |
 | 🧹 [Hygiene](references/hygiene.md) | 3 | Transcripts, AGENTS.md, usage audits |
 | 📚 [Learning](references/learning.md) | 15 | Mental models, diagrams, ELI5 |
-| 🎛 [Steering](references/steering.md) | 72 | Morale, BOSS coda, updates, skills |
+| 🎛 [Steering](references/steering.md) | 77 | Morale, BOSS coda, updates, skills |
 | 📝 [Notes](references/notes.md) | principles | Field principles - read alongside any part |
 
-**Total: 447 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
+**Total: 452 prompts**, plus 3 paste-ready expanded audits and [one full phased-audit text](https://pastebin.com/dznHsaQR).
 
 Narrow it per phase: *"…pick the 3 best for planning / review / debugging this."*
 
@@ -206,6 +206,9 @@ Every prompt in the skill came from a human. Full credit table:
 | [@Flinzu](https://x.com/Flinzu) | Ring of plain-text files |
 | [@0xCortexq](https://x.com/0xCortexq) | One topic per file |
 | [@TheEasySale1](https://x.com/TheEasySale1) | Chat rules die on compact |
+| [@lateascent](https://x.com/lateascent) | Never stored beats invented |
+| [@0xKenny1st](https://x.com/0xKenny1st) | Name the source every answer |
+| [@Kuzoxbt](https://x.com/Kuzoxbt) | Plain text outlives memory apps |
 | [@0xTrackmind](https://x.com/0xTrackmind) | 2 agents 4 files 1 prompt; blame model, fix files |
 | [@gaurav0bhowmick](https://x.com/gaurav0bhowmick) | Disk survives compaction |
 | [@devladpopov](https://x.com/devladpopov) | Files beat clever prompts |
@@ -251,7 +254,8 @@ Every prompt in the skill came from a human. Full credit table:
 | [@nightraccai](https://x.com/nightraccai) | Show me where you got that number |
 | [@huhufor](https://x.com/huhufor) | Quote file+line or delete it |
 | [@Manojkumar2257](https://x.com/Manojkumar2257) | Memory predicts next session |
-| [@beamnxw](https://x.com/beamnxw) | Memory = transcripts+notes+dreaming+wikis+retrieval |
+| [@beamnxw](https://x.com/beamnxw) | Memory formula; dreaming vs chat log |
+| [@Skaly__Bull](https://x.com/Skaly__Bull) | Test dreaming first |
 | [@0xbobaaa](https://x.com/0xbobaaa) | Dreaming fixes old mistakes |
 | [@QibazX](https://x.com/QibazX) | Knowing what's worth remembering |
 | [@pronaksai](https://x.com/pronaksai) | Remember corrections |
