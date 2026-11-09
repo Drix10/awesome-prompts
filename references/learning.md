@@ -15,3 +15,4 @@
 - "Write the migration, run it against the dev database, and confirm the schema matches." (task + self-check shape)
 - "Get the bundle size under 200KB and show me what you removed." (measurable-target shape)
 - "Why is the build failing? @build.log" (give it the artifact)
+- "I recorded every prompt, every mistake and every fix, then turned it into a playbook you can copy tonight."
